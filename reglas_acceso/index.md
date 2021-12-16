@@ -32,12 +32,12 @@
 
 ## Caso real
 
-  * Queremos saber si un usuario perteneciente a un grupo X tiene acceso a eliminar pedidos. Para ello, se van a comprobar todas las reglas para este grupo X por niveles:
+  * Queremos saber si un usuario perteneciente a un grupo X tiene acceso a crear presupuestos. Para ello, se van a comprobar todas las reglas para este grupo X por niveles:
 
-  * Nivel 1: Pedidos de cliente / Modificación. Si está permitido, podrá modificarlo, si está prohibido, no podrá. En caso de no estar informado, pasamos al nivel 2.
+  * Nivel 1: Presupuestos de cliente / Creación. Si está permitido, podrá crearlo, si está prohibido, no podrá. En caso de no estar informado, pasamos al nivel 2.
 
-  * Nivel 2: Pedidos de cliente. Si está permitido, podrá modificarlo, si está prohibido, no podrá. En caso de no estar informado, pasamos al nivel 3.
+  * Nivel 2: Presupuestos de cliente. Si está permitido, podrá crearlo, si está prohibido, no podrá. En caso de no estar informado, pasamos al nivel 3.
 
-  * Nivel 3: Acceso general del grupo. Si está permitido, podrá modificarlo, si está prohibido, no podrá. En caso de no estar informado, pasamos al nivel 4.
+  * Nivel 3: Acceso general del grupo. Si está permitido, podrá crearlo, si está prohibido, no podrá. En caso de no estar informado, pasamos al nivel 4.
 
-  * Nivel 4: Acceso global. Si está permitido, podrá modificarlo, si está prohibido, no podrá.
+  * Nivel 4: Acceso global. Si está permitido, podrá crearlo, si está prohibido, no podrá.

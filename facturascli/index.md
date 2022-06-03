@@ -13,4 +13,4 @@
 ### 1.3. Proceso
 
     Seleccionamos el cliente, se cargarán los valores predeterminados del cliente.
-    ![Facturascli1](./img/facturascli1.png)
+    ![Facturas de Venta](./img/facturascli1.png)

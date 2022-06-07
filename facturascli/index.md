@@ -1,18 +1,17 @@
 # Factura de Venta
 
-## 1. Creación de factura
+## 1. CreaciÃ³n de factura
 
 ### 1.1. Objetivo
 
     Generar una factura a un cliente
 
-### 1.2. Descripción
+### 1.2. DescripciÃ³n
 
-    El objetivo es la creación de una factura de cliente, ver como se crea el recibo y el asiento contable.
+    El objetivo es la creaci? de una factura de cliente, ver como se crea el recibo y el asiento contable.
 
 ### 1.3. Proceso
 
-    Seleccionamos el cliente, se cargarán los valores predeterminados del cliente.
+    Seleccionamos el cliente, se cargar? los valores predeterminados del cliente.
 
-    ![](./img/facturascli1.png)    
-
+![](./facturascli/img/facturascli1.png)

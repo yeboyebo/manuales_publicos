@@ -14,4 +14,4 @@
 
     Seleccionamos el cliente, se cargar? los valores predeterminados del cliente.
 
-![](./facturascli/img/facturascli1.png)
+![Facturas de ventas](./img/facturascli1.png)

@@ -41,7 +41,7 @@
 * Copiar con cantidad negativa
 * No copiar líneas
 
-![Facturas de ventass](./img/facturascli6.png)
+  ![Facturas de ventass](./img/facturascli6.png)
 
 5. En cualquiera de las 3 opciones se quedará asignada la factura que estamos realizando como que rectifica a la factura seleccionada.
 6. Si hemos seleccionado la opción 1 o la 2, se mostrará un formulario con las líneas de la factura original donde podemos desmarcar las líneas que no queremos que se copien o modificar la cantidad con la que queremos que se cree la línea.

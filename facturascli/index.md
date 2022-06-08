@@ -3,15 +3,10 @@
 ## 1. Creación de factura
 
 ### Objetivo
-
     Generar una factura a un cliente
-
 ### Descripción
-
     Creación de una factura de cliente, ver como se crea el recibo y el asiento contable de forma automática.
-
 ### Proceso
-
 1. Seleccionamos el *Cliente*, se cargarán los valores predeterminados del cliente.
 2. Creamos la/s líneas
 

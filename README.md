@@ -4,4 +4,4 @@
 ## Índice
 
   * [Reglas de acceso](./reglas_acceso/index.md)
-  * [Facturas de venta](/areafacturacion/facturacion/facturascli/facturascli.md)
+  * [Facturas de venta](./ERP/oficial/areafacturacion/facturacion/facturascli/facturascli.md)

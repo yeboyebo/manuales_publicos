@@ -1,5 +1,6 @@
-# Factura de Venta
-### [Creación de factura](/areafacturacion/facturacion/facturascli/creacion_facturascli.md)
+# [Factura de venta](./areafacturacion/facturacion/facturascli/creacion_facturascli.md) 
     Creación de una factura de cliente, ver como se crea el recibo y el asiento contable de forma automática.
-## [Factura rectificativa](/areafacturacion/facturacion/facturascli/rectifica_facturascli.md)
+
+# [Factura rectificativa](./areafacturacion/facturacion/facturascli/rectificativa_facturascli.md)
     Creación de una factura rectificativa de un cliente a partir de otra factura creada previamente.
+

@@ -1,32 +1,7 @@
-# Factura de Venta
-
-## 1. Creación de factura
-
-### Objetivo
-    Generar una factura a un cliente
-### Descripción
-    Creación de una factura de cliente, ver como se crea el recibo y el asiento contable de forma automática.
-### Proceso
-1. Seleccionamos el *Cliente*, se cargarán los valores predeterminados del cliente.
-2. Creamos la/s líneas
-
-![Facturas de ventas](./img/facturascli.png)
-
-3. Guardamos y se generará automáticamente los recibos correspondientes (3) y el asiento contable (4)
-
-![Facturas de ventass](./img/facturascli2.png)
-
-![Facturas de ventass](./img/facturascli3.png)
-    
-## 2. Factura rectificativa
+# Factura rectificativa
 ### Objetivo
 
     Generar una factura que rectifica otra factura de un cliente
-
-### Descripción
-
-    Creación de una factura rectificativa de un cliente a partir de otra factura creada previamente.
-
 ### Proceso
 
 1. Seleccionamos el *Cliente*, se cargarán los valores predeterminados del cliente.

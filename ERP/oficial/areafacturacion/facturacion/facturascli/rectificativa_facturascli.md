@@ -12,9 +12,10 @@
 ![Facturas de ventass](./img/facturascli5.png)
 
 4. Seleccionaremos una factura y al aceptar nos preguntará el sistema si queremos: 
-  ![Facturas de ventass](./img/facturascli6.png)
+![Facturas de ventass](./img/facturascli6.png)
 
 5. En cualquiera de las 3 opciones se quedará asignada la factura que estamos realizando como que rectifica a la factura seleccionada.
+
 6. Si hemos seleccionado la opción 1 o la 2, se mostrará un formulario con las líneas de la factura original donde podemos desmarcar las líneas que no queremos que se copien o modificar la cantidad con la que queremos que se cree la línea.
 ![Facturas de ventass](./img/facturascli7.png)
 

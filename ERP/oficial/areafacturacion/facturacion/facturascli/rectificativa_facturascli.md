@@ -11,7 +11,7 @@
 3. Pulsamos sobre el botón de lupa y se nos mostrarán todas las facturas del cliente seleccionado.
 ![Facturas de ventass](./img/facturascli5.png)
 
-4. Seleccionaremos una factura y al aceptar nos preguntará el sistema si queremos: 
+4. Seleccionaremos una factura y al aceptar nos preguntará el sistema si quremos copiar las líneas de la factura a rectificar. 
 ![Facturas de ventass](./img/facturascli6.png)
 
 5. En cualquiera de las 3 opciones se quedará asignada la factura que estamos realizando como que rectifica a la factura seleccionada.

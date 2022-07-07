@@ -9,6 +9,10 @@
 
 3. Guardamos y se generará automáticamente los recibos correspondientes (3) y el asiento contable (4)
 
-![Facturas de ventass](./img/facturascli2.png)
+![Facturas de ventas](./img/facturascli2.png)
 
-![Facturas de ventass](./img/facturascli3.png)    
+![Facturas de ventas](./img/facturascli3.png)   
+
+### Más
+
+  * [Volver al Índice](./facturascli.md)

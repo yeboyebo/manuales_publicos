@@ -7,6 +7,7 @@
   * [Colaboraciones](./uni_colaboraciones/uni_colaboraciones.md)
   * [Gestión Pluses](./uni_gestionpluses/uni_gestionpluses.md)
   * [Notas de Gasto](./uni_tablanotasgasto/uni_tablanotasgasto.md)
+  * [Firma de Gastos](./uni_firmasgruponotas/uni_firmasgruponotas.md)
 ### Más
 
   * [Volver al índice ](../recursoshumanos.md)

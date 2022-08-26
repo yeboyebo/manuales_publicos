@@ -8,6 +8,7 @@
   * [Gestión Pluses](./uni_gestionpluses/uni_gestionpluses.md)
   * [Notas de Gasto](./uni_tablanotasgasto/uni_tablanotasgasto.md)
   * [Firma de Gastos](./uni_firmasgruponotas/uni_firmasgruponotas.md)
+  * [Asignación salarios](./uni_asignasalarios/uni_asignasalarios.md)
 ### Más
 
   * [Volver al índice ](../recursoshumanos.md)

@@ -24,7 +24,7 @@
 
 * Este proceso durará unos segundos y nos cambiará el estado de una factura. Si la factura se firma correctamente pasará a estado *Firmado*. 
 
-![Diálogo firma satisfactoria](./img/dialogo_firma_satifactoria.png)
+![Diálogo firma satisfactoria](./img/dialogo_firma.png)
 
 ![Estado firmado](./img/estado_firmado.png)
 

@@ -66,7 +66,7 @@
 
 * Mientras la factura esté en modo borrador, podremos realizar cambios en la **pestaña Ticket BAI**.
 
-![Pestaña facturascli ticketbai](./img/pestaña_facturascli_ticketbai.png)
+![Pestaña facturascli ticketbai](./img/ventana_facturascli_ticketbai.png)
 
 
 ## ¿Como puedo ver si una factura está firmada?

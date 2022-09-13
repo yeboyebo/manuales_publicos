@@ -1,4 +1,4 @@
-# Manual Gestión de riesgo
+# Gestión de riesgo
 
 ## Configuraciones previas
 

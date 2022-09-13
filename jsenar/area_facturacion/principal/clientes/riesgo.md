@@ -1,4 +1,4 @@
-# Manual Gestión de riesgo
+# Gestión de riesgo
 
 ## ¿Cómo consulto los datos de riesgo de un cliente?
 

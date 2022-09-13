@@ -4,4 +4,4 @@
 ## Índice
 
   * [Principal](./principal/index.md)
-  * [Facturacion](./facturacion/index.md)
+  * [Facturación](./facturacion/index.md)

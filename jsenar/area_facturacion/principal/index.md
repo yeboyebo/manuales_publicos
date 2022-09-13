@@ -4,4 +4,4 @@
 ## Índice
 
   * [Clientes](./clientes/index.md)
-  * [Configuración](./facturacion/index.md)
+  * [Configuración](./configuracion/index.md)

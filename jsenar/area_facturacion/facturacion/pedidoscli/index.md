@@ -1,5 +1,5 @@
 # Pedidos de cliente
 ----------------------
 
-## Gestión del riesgo
-Cálculo de informe de [riesgo...](./riesgo.md)
+## Informe de riesgo
+Desde este formulario podemos obtener el informe de [riesgo...](./riesgo.md) de forma atomática o manual

@@ -1,6 +1,6 @@
 # Configuración
 ----------------------
 
-## Gestión del riesgo
-Podemos indicar los parámetros de [riesgo...](./riesgo.md)
+## Configuración de riesgo
+En este formulario podemos ver los parámetros de configuración de la gestión de [riesgo...](./riesgo.md)
 

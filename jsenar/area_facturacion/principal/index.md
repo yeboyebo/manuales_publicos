@@ -3,5 +3,4 @@
 
 ## Índice
 
-  * [Clientes](./clientes/index.md)
-  * [Configuración](./configuracion/index.md)
+  * [Riesgo](./riesgo/riesgo.md)

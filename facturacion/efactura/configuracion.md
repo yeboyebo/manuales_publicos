@@ -1,36 +1,33 @@
-# Factura Electrónica / Configiración
+# Factura Electrónica / Configuración
 
-Vamos a explicar los pasos a configurar Eneboo antes de usar la funcionalidad de Factura Electrónica
+Para el correcto funcionamiento de la generación y la firma de la factura electrónica debemos de configurar varios apartados dentro de Eneboo así como tener en el equipo guardado el certificado digital y la librería EnebooSignature.
 
-## Informar los campos en la tabla países
-Tenemos que informar los campos Código ISO, Código ISO Alpha 2 Y Código ISO Alpha 3 en la tabla países para el país España.
+## Formulario países
+En el formulario **Países** tenemos que informar los campos *Código I.S.O.*, *Código I.S.O. Alpha 2* y *Código I.S.O. Alpha 3* para el país España tal como se muestra en la imagen.
+El formulario países los podemos encontrar en **Área de Facturación -> Principal -> Países**
 
 ![Configuración países](./img/form_paises.png)
 
-## Informar Formas de Pago
-Para que podemos usar la factura electrónica correctamente debemos de informar el campo 'Pago factura-e' en las formas de pago. Solo se van a crear facturas electrónicas para las facturas de venta que tiene en su forma de pago informado este campo.
-Vamos a Área de Facturación -> Principal -> Formas de Pago
+## Formulario Formas de Pago
+En el formulario de **Formas de Pago** debemos de informar el campo *'Pago factura-e'* a aquellas formas de pago en las cuales se vaya a utilizar el formato Factura eléctronica.
+El formulario países los podemos encontrar en **Área de Facturación -> Principal -> Formas de Pago**
 
-![Configuración países](./img/form_formaspago.png)
+![Configuración formas de pago](./img/form_formaspago.png)
 
-## Configuración Empresa
-Tambien necesitamos configurar el formulario de empresa. 
-Desde Área de Facturación -> Principal -> Empresa
+## Formulario de Empresa
+En el formulario de **Empresa** ( **Área de Facturación -> Principal -> Empresa**), en la pestaña **Valores por defecto** informaremos la cuenta bancaria que se utilizará en la factura electónica.
 
-Primero informamos la cuenta bancaría de la empresa en el campo 'Cuenta para factura electrónica.
-![Configuración países](./img/form_empresa_cuenta.png)
+![Configuración cuenta](./img/form_empresa_cuenta.png)
 
-En el siguiente paso informamos la ruta de la librería EnebooSignature.
-Esta librería se proporciona gratuito del equipo Eneboo.
-Y tambien hay que seleccionar el certificado digital de la empresa la que va a presentar las facturas electrónicas.
-![Configuración países](./img/form_empresa_efactura.png)
+Dentro de la pestaña **Configuración local** está la pestaña **Factura electrónica** en la cual informaremos la ruta a la librería *EnebooSignature* y la ruta al *certificado digital*, ambos ficheros deben de haberse guardado previamente en el equipo.
+
+![Configuración local](./img/form_empresa_efactura.png)
 
 ## Configuración de ficha de cliente.
-El siguiente paso es configurar las clientes con los que vamos a usar la factura de electrónica.
-Desde Área de Facturación -> Principal -> Clientes selecionamos el(los) cliente(s) que tenemos que configurar.
-En la pestaña Factura-e, creamos registros en la tabla  y tambien informamos los campos que están marcados en rojo tal y como se ven en la captura.
+Para aquellos clientes a los cuales se vaya a vender con factura electrónica, en el formulario de **Clientes**, dentro de la pestaña **Factura-e** hay que informar los *Centros administrativos de cliente* en los cuales hay que introducir como mínimo los roles de *01-Fiscal*, *02-Receptor* y *03-Pagador*.
+Dentro de la misma pestaña informaremos los campos *Extensión de factura-e* (xml por defecto), *Esquema facturae* y marcaremos el check de *Informar Albarán en factura-e* si queremos que se informe el albarán en el fichero.
 
-![Configuración países](./img/form_clientes_efactura.png)
+![Centros administrativos](./img/form_clientes_efactura.png)
 
 ### Más
 

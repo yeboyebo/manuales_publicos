@@ -3,7 +3,7 @@
 
 ## Índice
 
-  * [Configiración](./configuracion.md)
+  * [Configuración](./configuracion.md)
   * [Funcionamiento](./funcionamiento.md)
 
 ### Más

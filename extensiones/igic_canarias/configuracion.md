@@ -3,9 +3,9 @@
 Para el correcto funcionamiento del IGIC Canarias debemos de realizar una serie de configuraciones
 
 ## Configuración de almacenes
-Debemos de marcar aquellos almacenes donce queremos que se aplique el IGIC. 
+Debemos de marcar aquellos almacenes donde queremos que se aplique el IGIC. 
 
-En el formulario **Almacenes** tenemos el check *Aplicar IGIC Canarias* el cual marcaremos para aquellos almacenes en el que queremos que se aplique IGIC en vez de IVA.
+En el formulario **Almacenes** tenemos el check *Aplicar IGIC Canarias* el cual marcaremos para aquellos almacenes en los que queremos que se aplique IGIC en vez de IVA.
 
 En el mismo formulario tenemos un campo para poder informar si es necesario la Referencia IGIC importación (sólamente aplicable con la extensión de varios duas la cual permite incluir mas de un DUA en una misma factura de transitario).
 

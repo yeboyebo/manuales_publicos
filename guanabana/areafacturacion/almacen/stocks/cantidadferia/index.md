@@ -1,11 +1,11 @@
-# Cantidades Feria/Showroom y En Almacen
+# Cantidades Feria/Showroom y En Almacén
 
 ### Objetivo
 
 * Poder informar la cantidad de un stock que está en Showroom o Ferias. 
 
 ### Funcionamiento
-* En el formulario de **Stocks** podemos ver 2 nuevos campos, *Feria/Showroom* el cual es un campo que se informa manualmente y se utiliza para informar que cantidad del artículo que está en Showroom o Ferias y el campo *En Almacen* el cual se calcula automáticamente como la resta del campo *Cantidad* de stock y del campo *Feria/Showroom*.
+* En el formulario de **Stocks** podemos ver 2 nuevos campos, *Feria/Showroom* el cual es un campo que se informa manualmente y se utiliza para informar que cantidad del artículo que está en Showroom o Ferias y el campo *En almacén* el cual se calcula automáticamente como la resta del campo *Cantidad* de stock y del campo *Feria/Showroom*.
 
 ![Stocks](./img/form_stocks_guanabana.png)
 

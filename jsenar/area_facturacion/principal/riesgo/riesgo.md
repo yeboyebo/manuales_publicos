@@ -36,3 +36,13 @@
 ![Datos importados](./img/riesgoclientes.png)
 
 * En la parte inferior derecha podemos ver los datos de riesgo calculados desde la api, así como las fechas de última consulta y último informe.
+
+
+## Desbloquear un pedido con Estado pago Bloqueado Riesgo
+
+Para desbloquear manualmente un pedido con **Bloqueado Riesgo** debemos seguir los siguientes pasos:
+
+* Seleccionamos el pedido
+* Pulsamos el botón **Cambiar Riesgo** en la parte superior derecha del formulario principal de pedidos
+* En el formulario que se abre, pulsamos el botón **Desbloquear**
+* Pulsamos el botón Aceptar

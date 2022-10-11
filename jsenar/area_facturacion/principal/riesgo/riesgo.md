@@ -2,7 +2,7 @@
 
 ## Configuraciones previas
 
-* Abrimos el formulario de **Configuración** en **Area de Facturación -> Principal -> Configuración**. Y nos vamos a la pestaña **Riesgo**. 
+* Abrimos el formulario de **Configuración** en **Area de Facturación -> Principal -> Configuración** y vamos a la pestaña **Riesgo**. 
 
 ![Configuración riesgo](./img/configuracionriesgo.png)
 
@@ -17,7 +17,7 @@
 * Informaremos el campo *Riesgo mínimo* con el valor que se asignará al cliente en el caso de que consultemos con la API el riesgo y no nos devuelva nada porque el cliente no está dado de alta en la base de datos que consulta la API.
 
 ## Campos en formulario de clientes
-* En la pestaña **Comercial** del formulario de **Clientes** que podemos encontrar en **Área de facturación -> Facturación -> Clientes** tenemos 5 nuevos campos los cuales se calculan automáticamente pudiéndose modificar manuelamente:
+* En la pestaña **Comercial** del formulario de **Clientes** que podemos encontrar en **Área de facturación -> Facturación -> Clientes** tenemos 5 nuevos campos los cuales se calculan automáticamente pudiéndose modificar manualmente:
 
 ![Campos en clientes](./img/formclientes_riesgo.png)
 
@@ -27,15 +27,21 @@
 
 *Rating*: Este campo se informa automáticamente con el valor Rating que nos devuleve la API.  
 
-*Fecha último informe*: Este cmapo se informa automáticamente con la fecha devulta por la API como fecha de último informe.
+*Fecha último informe*: Este campo se informa automáticamente con la fecha devulta por la API como fecha de último informe.
 
-*Fecha última consulta*: Este campo se informa con la última fecha en la que se ha llamado a la API. 
+*Fecha última consulta*: Este campo se informa con la última fecha en la que se ha llamado a la API.
+
+### Significado de los campos de riesgo
 
 a. Riesgo máximo autorizado con valor 0 y campo de fecha de última consulta vacía implica que no se le ha asignado riesgo.
 
 b. Riesgo máximo autorizado con valor 0 y fecha de última consulta informada implica que el cliente solo puede pagar por anticipado.
 
-c. Riesgo máximo autorizado con valor en cualquier otro valor y fecha de última consulta rellenada, implica que el cliente tiene este riesgo. El riesgo se calculará cada x tiempo desde la fecha de última consulta del riesgo a través de la API. Si han pasado más días de los configurados en el campo *Periodo de renovación de riesgo (días)* del formulario de **Configuración** entre la fecha informada en el campo *Fecha última consulta* del formulario de **Clientes** y la fecha de hoy, se realizará llamada a la API cuando se guarde el cliente en su ficha o se le realice un pedido.
+c. Riesgo máximo autorizado con valor distinto de cero y fecha de última consulta informada, implica que el cliente tiene este riesgo.
+
+El riesgo se calculará cada x tiempo desde la fecha de última consulta del riesgo a través de la API. 
+
+Si han pasado más días de los configurados en el campo *Periodo de renovación de riesgo (días)* del formulario de **Configuración** entre la fecha informada en el campo *Fecha última consulta* del formulario de **Clientes** y la fecha de hoy, se realizará llamada a la API cuando se guarde el cliente en su ficha o se le realice un pedido.
 
 d. Cuando realizamos un pedido, se avisará al usuario y se bloqueará el pedido (campo *Estado pago* de pedidos tendrá el valor **Bloqueado Riesgo**) en los siguientes supuestos:
 
@@ -55,7 +61,7 @@ e. Los desbloqueos de los pedidos los hará administración al igual que las pro
 5. Se cerrará el formulario y el pedido quedará desbloqueado por riesgo
 ![Riesgo en pedidos 4](./img/formmasterpedidos_riesgo4.png)
 
-## Funcionamiento
+## Funcionamiento del cálculo del riesgo automático
 
 El cálculo del riesgo se realizará de la siguiente forma:
 
@@ -69,7 +75,7 @@ b. Si el cliente no tiene riesgo asignado, se realiza una llamada a la API autom
 
 ## ¿Cómo obtener el informe de riesgo de un cliente manualmente?
 
-* Abrimos el formulario de **Pedidos de cliente** en **Area de Facturación/Facturación/Pedidos de Cliente**.
+* Abrimos el formulario de **Pedidos de cliente** en **Area de Facturación -> Facturación -> Pedidos de Cliente**.
 
 * Seleccionamos cualquier pedido del cliente para el que queramos obtener el informe de riesgo y pulsamos el botón **Cambiar riesgo** de la parte superior derecha del formulario
 

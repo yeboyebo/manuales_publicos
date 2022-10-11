@@ -10,7 +10,7 @@ Las previsiones por agente permiten establecer unos objetivos de venta por cada 
 
 * Indicamos el objetivo de ventas y rellenamos las pestañas de comisiones, bonificaciones, familias y subfamilias.
 
-* Pulsamos el botón *Calcular datos*. Esto asociará las facturas del agente a la previsión y calculará los datos de la cabecera del formulario.
+* Pulsamos el botón *Calcular datos*. Esto asociará las facturas del agente a la previsión y calculará los datos de la cabecera y tablas del formulario.
 
 ![Datos importados](./img/configuracionriesgo.png)
 ## Datos de cabecera
@@ -97,5 +97,32 @@ El orden de aplicación de bonificaciones (el tipo de bonificación que se aplic
 * Bonificación por subfamilia
 * Bonificación por familia
 
+### Grupos de compra
+Esta tabla tiene la misma estructura que la de *Bonificaciones*, y se aplica únicamente a clientes asociados a un grupo de compras.
 
-[...]
+Columnas:
+* **Ventas** es la suma del campo *PVP Total* de las líneas de las facturas asociadas al grupo de compras y a la previsión
+* **% Bonificación** es el campo *% Bonificación* del grupo de compras
+* **Bonificación** se calcula como el producto de las columnas *Ventas* x *% Bonificación*
+
+### Subfamilias
+Esta tabla permite indicar manualmente las subfamilias que tendrán una bonificación especial.
+
+Cuando se realiza el cálculo de la previsión, la tabla informa sus columnas:
+* **Cantidad facturada**: es la suma del campo *PVP Total* de las líneas de las facturas asociadas a la subfamilia y a la previsión que:
+    * No pertenecen a clientes en grupo de compras
+* **% Comisión**: es el porcentaje de comisión que corresponde aplicar según la tabla de *Objetivos por subfamilia* que puede editarse en cada registro de la tabla *Subfamilias*
+* **% Comisión**: calculado como el producto de *Cantidad facturada* x *% Comisión*
+
+### Subfamilias
+Esta tabla permite indicar manualmente las familias que tendrán una bonificación especial.
+
+### Comisiones especiales
+Esta tabla muestra las comisiones especiales por cliente. Las principales columnas son:
+* **Total ventas**: es la suma del campo *PVP Total* de las líneas de las facturas asociadas al cliente y a la previsión, que:
+    * Pertenezcan a familias familias con el check *Incluir en previsiones* activado
+    * No pertenezcan a clientes en grupo de compras
+    * Pertenezcan a clientes con el check *Comisión especial* activado
+* **% Comisión**: Campo *% Comisión* de la ficha de cliente
+* **Total comisión**: Producto de *Total ventas* x *% Comisión*
+* **Es comisionable**: Campo *Incluir en ventas comisionables* del cliente

@@ -31,7 +31,7 @@
 
 *Fecha última consulta*: Este campo se informa con la última fecha en la que se ha llamado a la API.
 
-### Significado de los campos de riesgo
+### Valores de los campos de riesgo
 
 a. Riesgo máximo autorizado con valor 0 y campo de fecha de última consulta vacía implica que no se le ha asignado riesgo.
 

@@ -15,4 +15,5 @@ Añadiremos a la pantalla los siguietnes controles:
 Para hacer x:
 * Vamos a ...
 
+## Notas de desarrollo
 

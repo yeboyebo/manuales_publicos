@@ -11,7 +11,7 @@ Generar contratos de forma automática basados en plantillas.
 
 | ETIQUETA               | DESCRIPCION                      |
 |------------------------|----------------------------------|
-| {{TRAT}}               | Don o Dña                        |
+| TRAT                   | Don o Dña                        |
 | {{COL}}                | El colaborador o La colaboradora |
 | {{DIA_ACTUAL}}         | Día actual                       |
 | {{MES_ACTUAL}}         | Mes actual                       |

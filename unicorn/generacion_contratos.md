@@ -8,11 +8,11 @@ Generar contratos de forma automática basados en plantillas.
 * 
 
 ## Posibles etiquetas a usar
-
+```
 | ETIQUETA               | DESCRIPCION                      |
 |------------------------|----------------------------------|
 | TRAT                   | Don o Dña                        |
-| '{{COL}}'              | El colaborador o La colaboradora |
+| {{COL}}                | El colaborador o La colaboradora |
 | {{DIA_ACTUAL}}         | Día actual                       |
 | {{MES_ACTUAL}}         | Mes actual                       |
 | {{NOMBRE}}             | Nombre del empleado              |
@@ -63,4 +63,4 @@ Generar contratos de forma automática basados en plantillas.
 | {{TUTOREMPRESA}}       | Tutor empresa                    |
 | {{TUTORUNIVERSIDAD}}   | Tutor universidad                |
 | {{UNIVERSIDAD}}        | Universidad                      |
-
+```

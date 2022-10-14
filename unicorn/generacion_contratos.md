@@ -11,7 +11,9 @@ Generar contratos de forma automática basados en plantillas.
 
 Las etiquetas en la plantilla del documento deberán indicarse siempre como en los siguientes ejemplos:
 
-``` {{TRAT}} {{PROVINCIA}} ```
+```txt
+{{TRAT}} {{PROVINCIA}}
+```
 
 | ETIQUETA               | DESCRIPCION                      |
 |------------------------|----------------------------------|

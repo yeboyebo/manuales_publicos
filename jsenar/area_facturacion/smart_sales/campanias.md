@@ -29,7 +29,7 @@
 ### Gráfico de seguimiento
 Consiste en un gráfico en cascada que compara las ventas de los artículos considerados, en el periodo de medición de impacto y en el mismo periodo de años anteriores. Además diferenciarán ventas totales y ventas por tienda online de (serie W).
 
-## Subtabla de Artículos por campaña
+### Subtabla de Artículos por campaña
 Permite la asociación manual de artículos a una campaña
 
 Los tres tipos de campaña tienen asociada una *Lista de artículos* cuyas ventas vamos a promocionar y analizar.

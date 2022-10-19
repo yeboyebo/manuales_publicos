@@ -12,7 +12,6 @@ Las previsiones por agente permiten establecer unos objetivos de venta por cada 
 
 * Pulsamos el botón *Calcular datos*. Esto asociará las facturas del agente a la previsión y calculará los datos de la cabecera y tablas del formulario.
 
-![Datos importados](./img/configuracionriesgo.png)
 ## Datos de cabecera
 
 ### Ventas comisionables
@@ -82,8 +81,25 @@ Registros de bonificación automáticos para los artículos que pertenecen a una
 * En las líneas de la factura no se ha activado el check *Excluir de bonificaciones*
 * Su cliente no está en un grupo de compras
 * Su cliente *NO* tenga marcado el check *Comisión especial*
+* El *% Descuento equivalente* de la factura a la que pertenece la línea es inferior al *% Umbral de descuento* de la subfamilia.
+    * El *% Descuento equivalente* se define como el resultado de:
 
-El porcentaje de bonificación aplicado será el indicado en la familia.
+        100 - (100 * NetoFactura / NetoTeorico)
+        
+        donde:
+        * *NetoFactura* es el Neto de la factura
+        * *NetoTeorico* es la suma de los productos de *Cantidad* de la línea x *PVP* de la ficha de artículo de cada una de las líneas de la factura.
+
+        Ejemplo: NetoFactura = 194, NetoTeorico = 200
+
+        % Descuento equivalente = 100 - (100 * 194 / 200) = 3 (3%)
+
+        Hay que notar que al obtenerse el neto teórico del valor **actual** del campo *PVP* de la lista de artículos, la ejecución del cálculo en distintos momentos, con distintos precios de ciertos artículos, puede dar lugar a distintos cálculos de bonificación aún sin modificar las condiciones de la previsión.
+
+    * Si el umbral es nulo, se entiende que no hay umbral y que todas las líneas entran en la bonificación.
+
+
+El porcentaje de bonificación aplicado será el indicado en la subfamilia.
 
 **Bonificaciones por familia**
 
@@ -113,6 +129,7 @@ Cuando se realiza el cálculo de la previsión, la tabla informa sus columnas:
     * No pertenecen a clientes en grupo de compras
 * **% Comisión**: es el porcentaje de comisión que corresponde aplicar según la tabla de *Objetivos por subfamilia* que puede editarse en cada registro de la tabla *Subfamilias*
 * **% Comisión**: calculado como el producto de *Cantidad facturada* x *% Comisión*
+* **% Umbral de descuento**: D(2, 2). Indica el descuento equivalente máximo para que la factura entre en la bonificación.
 
 ### Subfamilias
 Esta tabla permite indicar manualmente las familias que tendrán una bonificación especial.

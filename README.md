@@ -4,6 +4,7 @@
 ## Índice
 
   * [Reglas de acceso](./reglas_acceso/index.md)
+  * [Tienda online](./tienda_online/index.md)
   * [TicketBAI](./facturacion/ticketbai/index.md)
   * [Factura electrónica](./facturacion/efactura/index.md)
   * [Guanabana](./guanabana/index.md)

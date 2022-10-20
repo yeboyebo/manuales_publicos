@@ -3,5 +3,10 @@
 
 ## Índice
 
-  * [Cómo crear artículo componente](./almacen/articulocomponente.md)
+  * [Tallas](./tallas.md)
+  * [Colores](./colores.md)
+  * [Series](./series.md)
+  * [Modelos](./modelos.md)
+  * [Artículos](./articulos.md)
+
 

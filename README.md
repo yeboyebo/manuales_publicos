@@ -14,4 +14,4 @@
   * [DTS Oabe](./dtsoabe/index.md)
   * [Unicorn TV](./unicorn/index.md)
   * [Extensiones](./extensiones/index.md)
-  * [Oficial](./modulos/area_facturacion/index.md)
+  * [Oficial](./modulos/index.md)

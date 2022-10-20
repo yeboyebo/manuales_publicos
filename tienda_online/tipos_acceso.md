@@ -20,7 +20,7 @@ Los clientes se validan contra el email y password de la tabla de clientes.
 ## Acceso como administrador
 Nos da acceso a la tienda como administrador.
 
-Debemos entrar en la URL */admin*
+Debemos entrar en la URL */admin*, habiendo entrado a la tienda antes como usuario *guest*.
 
 Los usuarios se validan contra el usuario y password de la tabla de usuarios, solo se permite acceder a aquellos que son administradores.
 

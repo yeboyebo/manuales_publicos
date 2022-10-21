@@ -8,6 +8,8 @@ El objetivo de este proyecto es...
 Añadiremos a la pantalla los siguietnes controles:
 * **Campo / etc**: Descripción.
 
+## Precondiciones
+
 ## Dinámica
 
 ### Hacer X

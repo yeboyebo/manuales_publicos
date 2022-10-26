@@ -45,7 +45,7 @@ Existe la posibilidad de indicar en el escandallo que el componente indicado só
 
 ![Componentes](./img/formarticulos15_almacen.png)
 
-En el campo [Tarea](/lillotex/areacolaboracion/Procesos/index.md) indicaremos en que tare del proceso de producción se van a consumir los componentes.
+En el campo [Tarea](../../areacolaboracion/Procesos/index.md) indicaremos en que tare del proceso de producción se van a consumir los componentes.
 
 ![Componentes](./img/formarticulos16_almacen.png)
 

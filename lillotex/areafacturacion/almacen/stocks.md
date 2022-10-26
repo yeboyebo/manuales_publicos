@@ -16,13 +16,13 @@ En el listado que aparece podemos ver para cada referencia o referencia/talla/co
 
 ## Edición de registo de Stock
 ### Campos de stock
-- *Cantidad* --> En este campo se muestra la cantidad física que hay en el almacén para la referencia/talla/color seleccionada.
-- *Disponible* --> En este campo se muestra la cantidad disponible que hay en el almacén para la referencia/talla/color seleccionada. Este campo se calcula como *Cantidad - Reservada*.
-- *Reservada* --> En este campo se muestra la cantidad reservada de la cantidad física para la referencia/talla/color seleccionada. Este campo se calcula como la suma de las cantidades de los pedidos de clientes que están sin servir + la suma de las cantidades que se reservan al generar las órdenes de producción.
-- *Pte. Recibir* --> En este campo se muestra la cantidad que está por llegar al stock pero todavía no ha llegado, es la cantidad que está en pedidos de proveedor que están sin servir + la suma de las cantidades de producto terminado que están en órdenes de producir sin terminar.
-- *Disponible P.R.* --> En este campo se muestra de la cantidad pendiente de recibir aquella que no está reservada. Este campo se calcula como *Pendiente de Recibir - Reservada Pendiente de Recibir*.
-- *Reservada P.R.* --> En el campo Reservada pendiente de recibir se muestra la cantidad que se ha reservado al hacer un pedido de venta de la cantidad que está por llegar al stock y que todavía no ha llegado (cantidad que está en pedidos de compra sin albaranar o cantidades de componentes en órdenes de producción sin terminar).
-- *A Faltas* --> En este campo se  muestra la cantidad que hay que fabricar o comprar en el almacén para la referencia/talla/color seleccionada para poder servir la cantidad demandada.
+- *Cantidad* --> En este campo se muestra la cantidad física que hay en el almacén para el stock seleccionado.
+- *Disponible* --> En este campo se muestra la cantidad disponible que hay en el almacén para para el stock seleccionado. Este campo se calcula como *Cantidad - Reservada*.
+- *Reservada* --> En este campo se muestra la cantidad reservada de la cantidad física para el stock seleccionado. Este campo se calcula como la suma de las cantidades de los pedidos de clientes que están sin servir + la suma de las cantidades que se reservan al generar las órdenes de producción.
+- *Pte. Recibir* --> En este campo se muestra la cantidad que está por llegar al stock seleccionado pero todavía no ha llegado, es la cantidad que está en pedidos de proveedor que están sin servir + la suma de las cantidades de producto terminado que están en órdenes de producir sin terminar.
+- *Disponible P.R.* --> En este campo se muestra de la cantidad pendiente de recibir del stock seleccionado aquella que no está reservada. Este campo se calcula como *Pendiente de Recibir - Reservada Pendiente de Recibir*.
+- *Reservada P.R.* --> En el campo Reservada pendiente de recibir se muestra para el stock seleccionado la cantidad que se ha reservado al hacer un pedido de venta de la cantidad que está por llegar al stock y que todavía no ha llegado (cantidad que está en pedidos de compra sin albaranar o cantidades de componentes en órdenes de producción sin terminar).
+- *A Faltas* --> En este campo se  muestra la cantidad que hay que fabricar o comprar en el almacén para el stock seleccionado para poder servir la cantidad demandada.
 - *Última regularización* --> En los campos *Fecha* y *Hora* de última regularización se muestran los datos de cuando fue la última regularización, desde la cual el stock inicial será el que se muestra en el campo *C.Reg*.
 - *Stock Mínimo* y *Stock Máximo* --> Son los stocks mínimos y máximos permitidos para el artículo en el almacén seleccionado.
 

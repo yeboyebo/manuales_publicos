@@ -14,7 +14,7 @@ El campo *Referencia* debe de ser único por lo que no habrá dos prendas con el
 
 Este tipo de artículos lo normal es que se fabrique por lo que informaremos los datos de la pestaña de Composición:
 - Marcaremos el check de *Se fabrica*.
-- Informaremos el [Proceso de producción](/lillotex/areacolaboracion/Procesos/index.md)
+- Informaremos el [proceso de producción](../../areacolaboracion/Procesos/index.md)
 - Informaremos el escandallo con los componentes necesarios para la fabricación de la prenda
 
 ![Prendas](./img/formarticulos25_almacen.png)

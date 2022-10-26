@@ -13,20 +13,20 @@ En el formulario de artículos podemos ver distintas pestañas:
 En esta pestaña tenemos los campos generales del artículo, aquí informaremos el *Tipo*, el *Modelo*, la *Serie*, el *Color*, la *Temporada* y el *Año*. 
 Podemos ver dentro de esta pestaña los siguiente checks:
 
-*Sin Stock* --> Si marcamos este check indicamos que no queremos controlar el stock del artículo y la pestaña de **Stocks**, por defecto está desmarcado al crear una nueva referencia.
+*Sin Stock* --> Si marcamos este check indicamos que no queremos controlar el stock del artículo y la pestaña de **Stocks** estará deshabilitada, por defecto está desmarcado al crear una nueva referencia.
 
 *Se compra* --> Si marcamos este check indicamos que la referencia se puede comprar y estará habilitada la pestaña de **Compra**, por defecto está marcado al crear una nueva referencia.
 
 *Se vende* --> Si marcamos este check indicamos que la referencia se vende y estará habilitada la pestaña ded **Venta**, por defecto está marcado al crear una nueva referencia.
 
 ## Pestaña Composición
-Esta pestaña se utilizará para informar el escandaño y para indicar si el artículo se fabrica y cual es su proceso de fabricación.
+Esta pestaña se utilizará para informar el escandallo y para indicar si el artículo se fabrica y cual es su proceso de fabricación.
 
 Esta pestaña la informaremos para aquellas referencias que sean *Prendas*.
 
 ![Tipo de Artículos](./img/formarticulos12_almacen.png)
 
-Check de *Se Fabrica* --> Si marcamos este check indicamos que la referencia hay que fabricarla y hay que asignarle un proceso de fabricación en el campo [Proceso](/lillotex/areacolaboracion/Procesos/index.md). 
+Check de *Se Fabrica* --> Si marcamos este check indicamos que la referencia hay que fabricarla y hay que asignarle un proceso de fabricación en el campo [Proceso](../../areacolaboracion/Procesos/index.md). 
 
 ### Sub-pestaña Escandallo
 En la pestaña de Escandallo asignaremos los componentes por los que está compuesto la prenda, para ello pulsaremos el botón de nuevo registro. 

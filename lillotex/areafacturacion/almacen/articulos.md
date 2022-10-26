@@ -9,7 +9,8 @@ Crearemos cualquier tipo de artículo pulsando en el botón de *Insertar registr
 
 En el formulario de artículos podemos ver distintas pestañas:
 
-**Pestaña General** --> En esta pestaña tenemos los campos generales del artículo, aquí informaremos el *Tipo*, el *Modelo*, la *Serie*, el *Color*, la *Temporada* y el *Año*. 
+## Pestaña General
+En esta pestaña tenemos los campos generales del artículo, aquí informaremos el *Tipo*, el *Modelo*, la *Serie*, el *Color*, la *Temporada* y el *Año*. 
 Podemos ver dentro de esta pestaña los siguiente checks:
 
 *Sin Stock* --> Si marcamos este check indicamos que no queremos controlar el stock del artículo y la pestaña de **Stocks**, por defecto está desmarcado al crear una nueva referencia.
@@ -18,7 +19,8 @@ Podemos ver dentro de esta pestaña los siguiente checks:
 
 *Se vende* --> Si marcamos este check indicamos que la referencia se vende y estará habilitada la pestaña ded **Venta**, por defecto está marcado al crear una nueva referencia.
 
-**Pestaña Composición** --> Esta pestaña se utilizará para informar el escandaño y para indicar si el artículo se fabrica y cual es su proceso de fabricación.
+## Pestaña Composición
+Esta pestaña se utilizará para informar el escandaño y para indicar si el artículo se fabrica y cual es su proceso de fabricación.
 
 Esta pestaña la informaremos para aquellas referencias que sean *Prendas*.
 
@@ -26,7 +28,8 @@ Esta pestaña la informaremos para aquellas referencias que sean *Prendas*.
 
 Check de *Se Fabrica* --> Si marcamos este check indicamos que la referencia hay que fabricarla y hay que asignarle un proceso de fabricación en el campo [Proceso](/lillotex/areacolaboracion/Procesos/index.md). 
 
-En la pestaña de **Escandallo** asignaremos los componentes por los que está compuesto la prenda, para ello pulsaremos el botón de nuevo registro. 
+### Sub-pestaña Escandallo
+En la pestaña de Escandallo asignaremos los componentes por los que está compuesto la prenda, para ello pulsaremos el botón de nuevo registro. 
 
 ![Escandallo](./img/formarticulos13_almacen.png)
 
@@ -46,7 +49,13 @@ En el campo [Tarea](/lillotex/areacolaboracion/Procesos/index.md) indicaremos en
 
 ![Componentes](./img/formarticulos16_almacen.png)
 
-**Pestaña Venta** --> En esta pestaña informaremos el *Precio de Venta* y el *Tipo de I.V.A.* que se aplicará en la venta.
+### Sub-pestaña Compuestos
+En la pestaña de Compuestos podemos ver a que compuestos está asignada la referencia en caso de ser un componente.
+
+![Componentes](./img/formarticulos26_almacen.png)
+
+## Pestaña Venta
+En esta pestaña informaremos el *Precio de Venta* y el *Tipo de I.V.A.* que se aplicará en la venta.
 
 ![Pestaña ventas](./img/formarticulos4_almacen.png)
 
@@ -54,7 +63,8 @@ Vemos que hay una tabla para informar las tarifas en las cuales está incluido u
 
 ![Pestaña ventas](./img/formarticulos5_almacen.png)
 
-**Pestaña Compra** --> En esta pestaña informaremos los distintos proveedores a los que le podemos comprar el artículo así como el precio al que le compramos a cada proveedor, referencia del proveedor etc.
+## Pestaña Compra
+En esta pestaña informaremos los distintos proveedores a los que le podemos comprar el artículo así como el precio al que le compramos a cada proveedor, referencia del proveedor etc.
 
 ![Pestaña compras](./img/formarticulos6_almacen.png)
 
@@ -62,7 +72,8 @@ Marcaremos el proveedor por defecto con el botón de la estrella.
 
 ![Pestaña compras](./img/formarticulos7_almacen.png)
 
-**Pestaña Tallas y Colores** --> En esta pestaña indicaremos las tallas y colores que tiene nuestra referencia asignándole un *barcode*. 
+## Pestaña Tallas y Colores
+En esta pestaña indicaremos las tallas y colores que tiene nuestra referencia asignándole un *barcode*. 
 
 Esta pestaña la informaremos para las referencias que sean *Prendas*.
 
@@ -91,7 +102,8 @@ El formato del barcode será el que hayamos configurado en **Área de facturaci�
 
 En el ejemplo utilizamos la configuración de **Referencia+Talla+Color** con  **-**  como separador.
 
-**Pestaña Stocks** --> En esta pestaña podemos ver la cantidad de stock que tenemos de la referencia (y de sus tallas) en cada almacén de un vistazo.
+## Pestaña Stocks
+En esta pestaña podemos ver la cantidad de stock que tenemos de la referencia (y de sus tallas) en cada almacén de un vistazo.
 
 ![Pestaña Stocks](./img/formarticulos17_almacen.png)
 
@@ -120,29 +132,18 @@ Las pestañas de **Stock Mínimo** y **Stock Máximo** permiten cambiar las cant
 
 9. Se muestra en modo tabla cada barcode (referencia-talla-color) con su registro de [Stock](./stocks.md).
 
-**Pestaña Agentes** --> En esta pestaña podemos añadir las comisiones que tiene cada agente por la venta de esta referencia, pudiendo ser la comisión porcentual o lineal.
+## Pestaña Agentes
+En esta pestaña podemos añadir las comisiones que tiene cada agente por la venta de esta referencia, pudiendo ser la comisión porcentual o lineal.
 
 ![Agentes](./img/formarticulos19_almacen.png)
 
-**Contabilidad** --> En esta pestaña informaremos las subcuentas de compras y de IRPF del artículo.
+## Pestaña Contabilidad 
+En esta pestaña informaremos las subcuentas de compras y de IRPF del artículo.
 
 ![Contabilidad](./img/formarticulos20_almacen.png)
 
-**Histórico** --> En esta pestaña podemos ver el histórico de ventas y compras que ha tenido la referencia mostrándose sus albaranes y facturas.
+## Pestaña Histórico
+En esta pestaña podemos ver el histórico de ventas y compras que ha tenido la referencia mostrándose sus albaranes y facturas.
 
 ![Histórico](./img/formarticulos21_almacen.png)
-
-
-## Artículos tejido
-Los artículos tejido los crearemos desde el formulario de artículos seleccionando en el campo *Tipo* el valor *Material*.
-Para este tipo de artículos, los campos *Serie* y *Color* serán obligatorios
-El campo *Rerencia* se informará automáticamente con el código de la *Serie* seguido de un punto y seguido de código del *Color*.
-El campo *Descripción* se informará automáticamente con la descripción de la *Serie* seguido de un espacio y seguido de la descripción del *Color *
-Para 
-El campo *Referencia* debe de ser único por lo que no habrá dos artículos con la misma serie y el mismo color
-
-
-![Artículos](./img/formarticulos3_almacen.png)
-
-
 

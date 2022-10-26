@@ -44,8 +44,8 @@ En la parte de abajo del formulario de edición podemos ver la pestaña de movim
 Según los checks que marquemos veremos unos movimientos u otros.
 - *Existencias* --> Con este check marcado, los movimientos que se muestran son los movimientos que están en estado "HECHO", es decir,movimientos de albaranes o facturas tanto de ventas como de compras y movimientos de producto fabricado generados por Órdenes de producción terminadas.
 - *Desde Última Regularización* --> Con este check marcado se muestran los movimientos generados después de la última regularización, si se desmarca se mostrarán todos los movimientos sin filtrar por fecha de última regularización.
-- *Reservada* --> Con este check marcado se muestran los movimientos en estado "PTE* que restan al stock pero que aún no están en firme, es decir, movimientos de pedidos de venta no albaranados y movimientos de consumo generados por órdenes de producción no terminadas.
-- *Pte. Recibir* --> Con este check marcado se muestran los movimientos en estado "PTE* que suman al stock pero que aún no están en firme, es decir, movimientos de pedidos de compra no albaranados y movimientos de producto terminado generados por órdenes de producción no terminadas.
+- *Reservada* --> Con este check marcado se muestran los movimientos en estado "PTE" que restan al stock pero que aún no están en firme, es decir, movimientos de pedidos de venta no albaranados y movimientos de consumo generados por órdenes de producción no terminadas.
+- *Pte. Recibir* --> Con este check marcado se muestran los movimientos en estado "PTE" que suman al stock pero que aún no están en firme, es decir, movimientos de pedidos de compra no albaranados y movimientos de producto terminado generados por órdenes de producción no terminadas.
 
 ![Stocks](./img/formstocks4_almacen.png)
 

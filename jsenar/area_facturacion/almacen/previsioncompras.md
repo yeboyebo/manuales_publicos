@@ -15,11 +15,16 @@ Las columnas de la tabla son las siguientes:
 * Actual. Cantidad física del artículo (stock) para el almacén indicado.
 * Por servir. Cantidad reservada del artículo (stock) para el almacén indicado.
 * Por recibir. Cantidad pendiente de recibir del artículo (stock) para el almacén indicado.
-* Días. Campo *Plazo* de la tabla *Artículos por proveedor*. Si está vacío, se toma el campo *Plazo* de la ficha del proveedor.
+* Días. El órden de cálculo es:
+    * Campo *Días de servicio* de la cabecera del formulario de previsión de compras.
+    * Campo *Plazo* de la tabla *Artículos por proveedor*.
+    * Campo *Plazo* de la ficha del proveedor. 
 * Fecha Pte. Recibir. Fecha y cantidad del siguiente pedido de compras a recibir. La fecha se calcula como la fecha del pedido más los *Días* de la fila.
 * Stock Mín. Valor de stock mínimo en la tabla de stocks para el artículo y almacén indicados.
 * Stock Máx. Valor de stock máximo en la tabla de stocks para el artículo y almacén indicados.
-* Seg. Stock de seguridad. Calculado en base a fórmulas.
+* Seg. Stock de seguridad. Orden de cálculo:
+    * Campo *Factor de seguridad* del formulario de previsión de compras.
+    * Calculado en base a fórmulas.
 * A Pedir. Cantidad a pedir. Calculado en base a fórmulas.
 * Coste. Campo *Coste* de la tabla *Artículos por proveedor*.
 * %Dto. Campo *Descuento* de la tabla *Artículos por proveedor*.
@@ -29,40 +34,41 @@ Las columnas de la tabla son las siguientes:
     
     En el caso de que el importe no llega al mínimo, se itera un número fijo de veces para aumentar los días de servicio (columna *Días*) con objeto de llegar al mínimo.
 
-XXXX
+* V. Min. Volumen mínimo de la ficha del proveedor (debe tener activado el check *Exige pedido mínimo* y la opción *Pedido mínimo por* debe estar asignada a *Volumen*).
+* FCC. Id del registro de fórmula de *Cantidad a comprar* si hay una fórmula específica para el producto y el proveedor seleccionados (valor 0 si no la hay).
+* FSS. Id del registro de fórmula de *Stock de seguridad* si hay una fórmula específica para el producto y el proveedor seleccionados (valor 0 si no la hay).
+* Personalizado. Indica si el artículo tiene activo el campo *Personalizado* en su ficha.
+* Cons.Mensual. Valor del campo *Consumo mensual* en la ficha del artículo.
+* Última Cant. Entregada. Valor del campo *cantidad* en la última línea de albarán de compra registrada.
+* Producto Sustitutivo. Valor del campo *Producto sustitutivo* en la ficha del artículo.
+* En sustitución. Valor del campo *En sustitución* en la ficha del artículo.
+* Sustitutorio. Indica si el producto de la línea actúa como artículo sustitutorio de un artículo en sustitución.
+* Sustituye A. Para un artículos sustitutorio, indica a que artículo en sustitución sustituye.
 
-### Prioridades de las fórmulas
-Hay dos tipos de fórmulas:
-* Stock de seguridad. Calcula el valor de la columna *Seg.* de la tabla.
-* Cantidad a pedir. Calcula el valor de la columna *A Pedir* de la tabla.
+### Prioridad de las fórmulas
+Tanto para *Stock de seguridad* como para *Cantidad a comprar*, se busca de la fórmula más concreta a la más general:
+* En la tabla de *Artículos por proveedor*.
+* En la ficha del proveedor.
+* En la fórmula genérica de cada tipo.
 
-El orden de cálculo es el siguiente
+## Generar una previsión de compras
+* Vamos a *Facturación > Almacén > Más > Previsión de compras > Previsión*.
 
-1. En el caso del *Stock de seguridad*, si se ha establecido un valor en el campo *Factor de seguridad*, se toma dicho valor ignorando las fórmulas.
+* Seleccionamos (opcionalmente) el proveedor.
 
-1. Si el artículo está marcado en su ficha como *Personalizado*, la fórmula que se usa es la que hay establecida en el formulario de *Configuración* del módulo de *Almacén*, pestaña *A. Personalizados*.
+* Seleccionamos (opcionalmente) las fechas desde - hasta.
 
-1. Si existe una fórmula definida para el artículo y proveedor (tabla *Artículos por proveedor*), se usa dicha fórmula.
+* Indicampos (opcionalmente) los valores de *Días de Servicio* y *Factor de seguridad*.
 
-1. Si existe una tabla en la ficha del proveedor, se usa dicha fórmula.
+* Pulsamos el botón *Buscar*.
 
-### Proceso de cálculo
+    * La tabla de líneas de productos a pedir se informa
 
+* Deseleccionamos (opcionalmente) las líneas que no queramos pedir (columna *Inc*).
 
-## Crear una nueva previsión
+* Modificamos (opcionalmente) las cantidades de la columna *A Pedir*.
 
-* Abrimos el formulario de **Previsiones de compra** en *Area de Facturación/Almacén/Más/Prev. Compras/Previsión*.
+* Pulsamos el botón *Generar pedidos*.
 
-* Seleccionamos (opcionalmente) un proveedor.
-
-* Si el almacén sobre el que vamos a aprovisionarnos nos es el almacén principal, lo modificamos.
-
-* Indicamos las fechas *Desde* y *Hasta* si no queremos usar el año anterior como base de los cálculos.
-
-* Pulsamos el botón de búsqueda (prismáticos)
-    * La tabla se muestra con las siguientes columnas
-
-* Indicamos el objetivo de ventas y rellenamos las pestañas de comisiones, bonificaciones, familias y subfamilias.
-
-* Pulsamos el botón *Calcular datos*. Esto asociará las facturas del agente a la previsión y calculará los datos de la cabecera y tablas del formulario.
+    * Se genera un pedido por cada proveedor que tenga al menos una línea incluida en la lista con cantidad *A pedir* positiva.
 

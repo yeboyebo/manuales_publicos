@@ -2,6 +2,42 @@
 
 Las previsiones de compra nos permiten adelantar las neesidades de los productos de uno o más proveedores en base a fórmulas y estimaciones, y realizar los correspondientes pedidos de abastecimiento.
 
+## Configuración
+[NUEVO>]
+
+### Parámetros de almacén
+
+En Facturación - Almacén - Configuración, podemos editar la fórmula de previsión de inteligencia artifucual, en la pestaña *Previsión IA*.
+
+Los parámetros de entrada de la fórmula son:
+```js
+/* Parmetros del objeto o que pueden ser usados en la formula:
+ * o.DS_IA: Dias de servicio según IA
+ * o.CM_IA: Consumo mensual según IA
+ * o.FS: Factor de seguridad
+ * o.RS: Stock reservado
+ * o.PR: Stock pendiente de recibir
+ * o.SA: Stock actual
+*/
+o = arguments[0]; /// NO BORRES ESTAS LINEAS
+for (d in o) 
+  o[d] = parseFloat(o[d]);
+
+// Fórmula por defecto:
+return parseFloat(o.RS) - parseFloat(o.PR) - parseFloat(o.SA) + parseFloat(o.CM_IA) * (o.DS_IA/30) * parseFloat(o.FS)
+//////////////////////////////////////////////////
+```
+### Artículos por proveedor
+* Factor de seguridad. D(3, 2).
+
+XXX
+* Comprobar carga en memoria de jsenar_cargaDatosIA
+* Cambiar la carga de las dos columnas a una función que busque en el diccionario y devuelva 0 si no está
+
+### Proveedores
+* Factor de seguridad. D(3, 2).
+[<NUEVO]
+
 ## Estructura de la tabla de previsiones
 Las columnas de la tabla son las siguientes:
 * Inc. Indica si la fila se incluirá en el pedido a proveedor.
@@ -26,6 +62,14 @@ Las columnas de la tabla son las siguientes:
     * Campo *Factor de seguridad* del formulario de previsión de compras.
     * Calculado en base a fórmulas.
 * A Pedir. Cantidad a pedir. Calculado en base a fórmulas.
+* [NUEVO] ! C.M. Consumo mensual. Valor estimado para cada artículo según AI.
+* [NUEVO] ! D.S. Días de servicio. Valor estimado para cada artículo según AI.
+* [NUEVO] ! F.S. Factor de seguridad. Calculado en este orden:
+    * Campo *Factor de seguridad* de la tabla de *Artículos por proveedor*.
+    * Campo *Factor de seguridad* de la ficha de proveedor.
+    * Valor 1.
+* [NUEVO] ! A Pedir. Cantidad a pedir según fórmula de IA
+
 * Coste. Campo *Coste* de la tabla *Artículos por proveedor*.
 * %Dto. Campo *Descuento* de la tabla *Artículos por proveedor*.
 * Vol.Art. Campo *Volumen* en la ficha del artículo.

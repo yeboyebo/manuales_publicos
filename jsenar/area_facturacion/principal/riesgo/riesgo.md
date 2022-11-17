@@ -63,6 +63,8 @@ e. Los desbloqueos de los pedidos los hará administración al igual que las pro
 
 ## Funcionamiento del cálculo del riesgo automático
 
+Se excluyen del cálculo de riesgo automático a los clientes particulares que serán aquellos en los que el cif empieza por número y son españoles (H3526).
+
 El cálculo del riesgo se realizará de la siguiente forma:
 
 a. Introducimos un pedido, se comprueba si el cliente tiene ya un riesgo asignado, si el cliente tiene riesgo asignado en un periodo inferior al periodo de renovación de riesgos (dias transcurridos desde la fecha de última consulta hasta la fecha actual es menor al número de días informados en el campo *Periodo de renovación de riesgo (días)* que hemos configuardo en la configuración) se procede con normalidad y no se realiza ninguna llamada a la API.

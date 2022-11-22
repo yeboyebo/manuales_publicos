@@ -15,13 +15,15 @@
   * [Factura electrónica](./facturacion/efactura/index.md)
   
 ### Clientes
+  * [Euromoda](./euromoda/area_facturacion/index.md)
   * [DTS Oabe](./dtsoabe/index.md)
   * [Guanabana](./guanabana/index.md)
+  * [Ielec](./ielec/area_facturacion/index.md)
   * [Lillotex](./lillotex/index.md)
   * [Mayton](./mayton/index.md)
   * [Nadia](./nadia/index.md)
   * [Sanhigia](./jsenar/area_facturacion/index.md)
-  * [Studio17](./studio17/area_contabilidad/modelos/bancos_347/index.md)
+  * [Studio17](./studio17/index.md)
   * [Vbarba](./vbarba/APPS/firmar_albaranes/index.md)
   * [Unicorn TV](./unicorn/index.md)
   

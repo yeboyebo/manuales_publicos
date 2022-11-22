@@ -15,8 +15,10 @@
   * [Factura electrónica](./facturacion/efactura/index.md)
   
 ### Clientes
+  * [Euromoda](./euromoda/area_facturacion/index.md)
   * [DTS Oabe](./dtsoabe/index.md)
   * [Guanabana](./guanabana/index.md)
+  * [Ielec](./ielec/area_facturacion/index.md)
   * [Lillotex](./lillotex/index.md)
   * [Mayton](./mayton/index.md)
   * [Nadia](./nadia/index.md)

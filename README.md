@@ -21,6 +21,7 @@
   * [Ielec](./ielec/area_facturacion/index.md)
   * [Lillotex](./lillotex/index.md)
   * [Mayton](./mayton/index.md)
+  * [Monterelax](./monterelax/area_colaboracion/gestion_documental/index.md)
   * [Nadia](./nadia/index.md)
   * [Sanhigia](./jsenar/area_facturacion/index.md)
   * [Studio17](./studio17/index.md)

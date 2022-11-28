@@ -116,3 +116,4 @@ Tanto para *Stock de seguridad* como para *Cantidad a comprar*, se busca de la f
 
     * Se genera un pedido por cada proveedor que tenga al menos una línea incluida en la lista con cantidad *A pedir* positiva.
 
+[Volver al Índice](../index.md)

@@ -14,5 +14,5 @@
   * [Importación Facturas GESDEN](./facturacion/importaciongesden/importacionfacturas.md)
   * [Adjuntar documento a factura bloqueada](./facturacion/gestiondocumental/index.md)
 
-  ### Smart sales
+### Smart sales
   * [Campañas Smart Sales](./smart_sales/campanias.md)

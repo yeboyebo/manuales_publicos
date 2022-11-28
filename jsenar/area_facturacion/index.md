@@ -1,4 +1,4 @@
-# Área de facturación
+# Sanhigia
 ----------------------
 ## [Glosario](./glosario.md)
 

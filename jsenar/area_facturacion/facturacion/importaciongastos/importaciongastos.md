@@ -16,3 +16,5 @@ Para realizar la importación seguimos los pasos indicados en [Importación CSV]
 * Los registros importados pueden ser de dos tipos: Factura o Tiquet. Para los registros de tipo factura se genera una factura de proveedor. Si no existe el proveedor en la base de datos creará uno nuevo con el nif del fichero csv. Para los registros de tipo tiquet se genera un asiento contable.
 
 * Podemos ver los documentos generados seleccionando el registro correspondiente y pulsando el botón **Ver Documento** en la parte superior derecha del formulario. Al hacer esto se abrirá el formulario de facturas de proveedor o el de asientos contables según el tipo.
+
+[Volver al Índice](../../index.md)

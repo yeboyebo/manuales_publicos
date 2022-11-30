@@ -80,3 +80,5 @@ Productos asimilables, tenerlos en cuenta para nuestras campañas de captación 
 ¿Crear una tabla de selección con idproducto, refpadre, referencia, asimilable?
 
 API de Active campaign. Se deberá definir la importación inicial de contactos desde Smartsales a Active y viceversa, así como la dinámica de creación de contactos en uno y otro canal.
+
+[Volver al Índice](../index.md)

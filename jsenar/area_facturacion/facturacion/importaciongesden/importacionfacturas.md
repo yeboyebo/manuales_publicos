@@ -23,3 +23,5 @@
 
 
 * Podemos ver las facturas generados seleccionando el registro correspondiente y pulsando el botón **Ver Documento** en la parte superior derecha del formulario. Al hacer esto se abrirá el formulario de facturas de cliente.
+
+[Volver al Índice](../../index.md)

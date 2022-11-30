@@ -144,4 +144,4 @@ Esta tabla muestra las comisiones especiales por cliente. Las principales column
 * **Total comisión**: Producto de *Total ventas* x *% Comisión*
 * **Es comisionable**: Campo *Incluir en ventas comisionables* del cliente
 
-[Volver al Índice](../../index.md)
+[Volver al Índice](../../../index.md)

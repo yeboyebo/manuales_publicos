@@ -19,4 +19,4 @@ Cuando queremos adjuntar un documento a una factura de proveedor que está no ed
 
 - Una vez que hemos realizado los cambios aceptamos el formulario.
 
-[Volver al Índice](../../index.md)
+[Volver al Índice](../../../index.md)

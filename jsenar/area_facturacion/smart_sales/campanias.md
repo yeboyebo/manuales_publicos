@@ -81,4 +81,4 @@ Productos asimilables, tenerlos en cuenta para nuestras campañas de captación 
 
 API de Active campaign. Se deberá definir la importación inicial de contactos desde Smartsales a Active y viceversa, así como la dinámica de creación de contactos en uno y otro canal.
 
-[Volver al Índice](../index.md)
+[Volver al Índice](../../index.md)

@@ -93,4 +93,4 @@ b. Si el cliente no tiene riesgo asignado, se realiza una llamada a la API autom
 
 * En la parte inferior derecha podemos ver los datos de riesgo calculados desde la api, así como las fechas de última consulta y último informe.
 
-[Volver al Índice](../../index.md)
+[Volver al Índice](../../../index.md)

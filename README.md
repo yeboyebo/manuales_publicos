@@ -23,7 +23,7 @@
   * [Mayton](./mayton/index.md)
   * [Monterelax](./monterelax/index.md)
   * [Nadia](./nadia/index.md)
-  * [Sanhigia](./jsenar/area_facturacion/index.md)
+  * [Sanhigia](./jsenar/index.md)
   * [Studio17](./studio17/index.md)
   * [Vbarba](./vbarba/APPS/firmar_albaranes/index.md)
   * [Unicorn TV](./unicorn/index.md)

@@ -18,4 +18,4 @@ Para realizar la importación seguimos los pasos indicados en [Importación CSV]
 
 * Podemos ver los documentos generados seleccionando el registro correspondiente y pulsando el botón **Ver Documento** en la parte superior derecha del formulario. Esto abrirá el formulario de facturas de proveedor
 
-[Volver al Índice](../../index.md)
+[Volver al Índice](../../../index.md)

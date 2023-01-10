@@ -8,6 +8,7 @@
   * [Riesgo](./area_facturacion/principal/riesgo/riesgo.md)
   * [Previsiones por agente](./area_facturacion/principal/sh_previsiones/sh_previsiones.md)
   * [Previsión de compras](./area_facturacion/almacen/previsioncompras.md)
+  * [Inventarios desde csv](./area_facturacion/almacen/importacioninventarioscsv.md)
   * [Importación Gastos](./area_facturacion/facturacion/importaciongastos/importaciongastos.md)
   * [Recuperaqcion de IVA](./area_facturacion/facturacion/importaciongastos/recuperacioniva.md)
   * [Importación Clientes GESDEN](./area_facturacion/facturacion/importaciongesden/importacionclientes.md)

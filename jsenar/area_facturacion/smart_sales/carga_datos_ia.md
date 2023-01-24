@@ -20,4 +20,4 @@ Los scripts a ejecutar son los siguientes:
 
 Todos los debugs devueltos por estos scripts se guardan en _/home/usuario/Documentos/RScripts/cron.log_, junto con la hora y el script que causó el log.
 
-[Volver al Índice](../../index.md)
+[Volver al Índice](../index.md)

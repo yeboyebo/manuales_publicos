@@ -4,9 +4,9 @@
 
 ## Tareas
 
-Se ejecutan 5 scripts configurados desde crontab del usuario. Los scripts se encuentran ubicados en _/home/usuario/Documentos/RScripts/_
+En el servidor secundario de Sanhigia se ejecutan 5 scripts configurados desde crontab del usuario. Los scripts se encuentran ubicados en _/home/usuario/Documentos/RScripts/_
 
-- **NOTA**: Para ver posbiles errores de CRON con _cat /var/mail/usuario_
+- **NOTA**: Los datos de conexión estan en la entrada del servidor secundario Sanhigia, en el passmanager. Para ver posbiles errores de CRON con _cat /var/mail/usuario_
 
 ### Scripts
 

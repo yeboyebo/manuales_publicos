@@ -8,4 +8,5 @@
   * [Ticket BAI](./ticketbai/index.md)
   * [Régimen IGIC Canarias (igic_canarias)](./igic_canarias/index.md)
   * [Régimen IVA En dirección de cliente](./regiva_dircliente/index.md)
-  
+  * [Norma 43](./casacion_banco/index.md)
+  * [Anticipos de facturas](./anticipos_facturas/index.md)  

@@ -1,4 +1,4 @@
-# ¿Cómo generar movimiento salida / entrada de un arque?
+# ¿Cómo generar movimiento salida / entrada de un arqueo?
 
 ![Formulario arque](./img/formularioarqueo.png)
 

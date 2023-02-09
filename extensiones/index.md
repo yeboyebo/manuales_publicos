@@ -10,3 +10,4 @@
   * [Régimen IVA En dirección de cliente](./regiva_dircliente/index.md)
   * [Norma 43](./casacion_banco/index.md)
   * [Anticipos de facturas](./anticipos_facturas/index.md)  
+  * [Varios DUAS](./varios_duas/index.md) 

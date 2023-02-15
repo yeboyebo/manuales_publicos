@@ -1,4 +1,4 @@
-# #GUA #H2903 Sincronización de clientes mayoristas
+# Sincronización de clientes mayoristas
 
 El objetivo de este proyecto es crear un botón desde el formulario de clientes para crear los clientes de forma automática en la tienda privada.
 

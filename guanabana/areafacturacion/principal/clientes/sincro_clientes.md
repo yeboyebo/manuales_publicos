@@ -5,7 +5,6 @@ El objetivo de este proyecto es crear un botón desde el formulario de clientes 
 ### Creación automática de clientes en la tienda online
 Los pasos son:
 * Vamos a *Facturación - Principal - Clientes* y seleccionamos el cliente a crear.
-![botón Crear cliente en tienda online](./img/clientes.png)
 * Pulsamos el botón *Crear cliente en tienda online*.
     * Si el cliente ya está creado (tiene informado el campo *Id. Magento*), el botón esta deshabilitado.
 * Aparece un mensaje en el que se nos pregunta en qué Store view queremos crear el cliente, las opciones serán:
@@ -20,7 +19,6 @@ Los pasos son:
         * *CIF / VAT*
         * *Direcciones*
         * *Contraseña*: Por defecto será siempre el 'cs_' mas CIF del cliente, luego podemos entrar en Magento y cambiarla de forma manual, o pedir al cliente que lo haga.
-    * Guardamos el formulario del cliente.
     * El programa ejecuta automaticamente los registros de las sincronizaciónes cada 5 minutos.
     * Cuando se ha creado el cliente en la tienda online, se guarda el Id del cliente creado en el nuevo campo *Id. Magento*.
 

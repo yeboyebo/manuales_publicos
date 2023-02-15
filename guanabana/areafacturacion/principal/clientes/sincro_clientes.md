@@ -19,7 +19,6 @@ Los pasos son:
         * *CIF / VAT*
         * *Direcciones*
         * *Contraseña*: Por defecto será siempre el 'cs_' mas CIF del cliente, luego podemos entrar en Magento y cambiarla de forma manual, o pedir al cliente que lo haga.
-    * Guardamos el formulario del cliente.
     * El programa ejecuta automaticamente los registros de las sincronizaciónes cada 5 minutos.
     * Cuando se ha creado el cliente en la tienda online, se guarda el Id del cliente creado en el nuevo campo *Id. Magento*.
 

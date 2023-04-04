@@ -11,8 +11,8 @@
 ![Planes de precios](./img/mg_planesprecios2.png)
 
 1. *Descripción* del plan de precios, indicaremos una descripción para el plan de precios.
-2. *Fecha Inicio* del plan de precios, a partir de que día se aplicaran los precios a las referencias que se indiquen en las líneas.
-3. *Fecha Fin* del plan de precios, hasta que día se aplicaran los precios a las referencias que se indiquen en las líneas.
+2. *Fecha Inicio* del plan de precios, a partir de que día se aplicarán los precios a las referencias que se indiquen en las líneas.
+3. *Fecha Fin* del plan de precios, hasta que día se aplicarán los precios a las referencias que se indiquen en las líneas.
 4. WebSite al que va destinado el plan de precios.
 5. Check de *Activo*, al marcarlo, todas las líneas creadas se pondrán como activas y se sincronizarán a la web el precio indicado desde la fecha inicio hasta la fech fin.
 
@@ -34,13 +34,13 @@
 
     **A. Importar CSV.** 
     - Pulsaremos el botón *Importar CSV* y se mostrará un diálogo en el cual informaremos:
-        1. El caracter separador del csv (por defecto **|**)
+        1. El caracter separador del csv.
         2. Check de ignorar primera línea, lo marcaremos si tenemos que ignorar la primera línea porque tiene título y no la marcaremos si no lo tiene.
         3. Número de líneas adicionales a ignorar. Informaremos el número de líneas adicionales a parte del título queremos que se ignoren porque hay subtítulos...
 
     ![Planes de precios](./img/mg_planesprecios5.png)
 
-    - Al aceptar seleccionaremos un fichero csv el cual contendrá unicamente 2 columnas, referencia y precio.
+    - Al aceptar seleccionaremos un fichero csv el cual contendrá únicamente 2 columnas, referencia y precio.
     - Se informará en la tabla las líneas que contiene el fichero, si no hay errores (que alguna referencia no exista etc...) podremos aceptar
 
     ![Planes de precios](./img/mg_planesprecios6.png)
@@ -59,7 +59,7 @@
 
     ![Planes de precios](./img/mg_planesprecios9.png)
 
-    - Al aceptar ee informará en la tabla las líneas que contiene el fichero, si no hay errores (que alguna referencia no exista etc...) podremos aceptar
+    - Al aceptar se informará en la tabla las líneas que contiene el fichero, si no hay errores (que alguna referencia no exista etc...) podremos aceptar
 
     ![Planes de precios](./img/mg_planesprecios6.png)
     
@@ -67,17 +67,18 @@
 ![Planes de precios](./img/mg_planesprecios7.png)
 
 ## Activar/desactivar plan de precios
-    - Podemos activar/desactivar un plan de precios o activar/desactivar una determinada referencia del plan de precios
+
+- Podemos activar/desactivar un plan de precios o activar/desactivar una determinada referencia del plan de precios
 
 ### Activar/desactivar plan de precios entero
 
-    - En el maestro de planes de precios tenemos un botón el cual nos permite activar o desactivar el plan de precios entero.
+- En el maestro de planes de precios tenemos un botón el cual nos permite activar o desactivar el plan de precios entero.
 
 ![Planes de precios](./img/mg_planesprecios10.png)
     
-    El funcionamiento es el siguiente:
+El funcionamiento es el siguiente:
 
-#### Deshabiliar plan Activo
+#### Desactivar plan Activo
 
     1. Tenemos el plan de precios seleccionado y en estado activo.
     
@@ -89,13 +90,13 @@
 
     3. Si pulsamos que no, no se realizará ningún cambio.
 
-    4. Si pulsamos que si, todas las líneas se pondrán como NO Activas y se sincronizará a la web quedando deshabilitados los precios en la WEB.
+    4. Si pulsamos que si, todas las líneas se pondrán como NO Activas y se sincronizará a la web quedando desactivados los precios en la WEB.
 
 
 ![Planes de precios](./img/mg_planesprecios13.png)
 
 
-#### Habilitar plan NO Activo
+#### Activar plan NO Activo
 
     1. Tenemos el plan de precios seleccionado y en estado NO activo.
     
@@ -107,7 +108,7 @@
 
     3. Si pulsamos que no, no se realizará ningún cambio.
 
-    4. Si pulsamos que si, todas las líneas se pondrán como Activas y se sincronizará a la web quedando habilitados los precios en la WEB.
+    4. Si pulsamos que si, todas las líneas se pondrán como Activas y se sincronizará a la web quedando activados los precios en la WEB.
 
 
 ![Planes de precios](./img/mg_planesprecios16.png)
@@ -117,19 +118,19 @@
 
 Podemos activar o desactivar una única referencia de un plan de precios.
 
-- Editamos el plan de precios en el cual queremos habilitar/deshabilitar la referencia
+- Editamos el plan de precios en el cual queremos activar/desactivar la referencia
 
 ![Planes de precios](./img/mg_planesprecios17.png)
 
-- Editamos la línea que queremos habilitar/deshabilitar
+- Editamos la línea que queremos activar/desactivar
 
 ![Planes de precios](./img/mg_planesprecios18.png)
 
-- Marcamos (habilitar) o desmarcarmos (deshabilitar) el check de activo según lo que queramos realizar
+- Marcamos (activar) o desmarcarmos (desactivar) el check de activo según lo que queramos realizar
 
 ![Planes de precios](./img/mg_planesprecios19.png)
 
-- Al aceptar podemos ver que la línea se ha habilitado o deshabilitado
+- Al aceptar podemos ver que la línea se ha activado o desactivado
 
 ![Planes de precios](./img/mg_planesprecios20.png)
 

@@ -80,17 +80,17 @@ El funcionamiento es el siguiente:
 
 #### Desactivar plan Activo
 
-1. Tenemos el plan de precios seleccionado y en estado activo.
+- Tenemos el plan de precios seleccionado y en estado activo.
     
 ![Planes de precios](./img/mg_planesprecios11.png)
 
-2. Pulsamos sobre el botón de activar/desactivar plan de precios, el sistema nos avisa de que se va a desactivar el plan de precios y se van a sincronizar con la web.
+- Pulsamos sobre el botón de activar/desactivar plan de precios, el sistema nos avisa de que se va a desactivar el plan de precios y se van a sincronizar con la web.
 
 ![Planes de precios](./img/mg_planesprecios12.png)
 
-3. Si pulsamos que no, no se realizará ningún cambio.
+- Si pulsamos que no, no se realizará ningún cambio.
 
-4. Si pulsamos que si, todas las líneas se pondrán como NO Activas y se sincronizará a la web quedando desactivados los precios en la WEB.
+- Si pulsamos que si, todas las líneas se pondrán como NO Activas y se sincronizará a la web quedando desactivados los precios en la WEB.
 
 
 ![Planes de precios](./img/mg_planesprecios13.png)
@@ -98,17 +98,17 @@ El funcionamiento es el siguiente:
 
 #### Activar plan NO Activo
 
-1. Tenemos el plan de precios seleccionado y en estado NO activo.
+- Tenemos el plan de precios seleccionado y en estado NO activo.
     
 ![Planes de precios](./img/mg_planesprecios14.png)
 
-2. Pulsamos sobre el botón de activar/desactivar plan de precios, el sistema nos avisa de que se va a activar el plan de precios y se van a sincronizar con la web.
+- Pulsamos sobre el botón de activar/desactivar plan de precios, el sistema nos avisa de que se va a activar el plan de precios y se van a sincronizar con la web.
 
 ![Planes de precios](./img/mg_planesprecios15.png)
 
-3. Si pulsamos que no, no se realizará ningún cambio.
+- Si pulsamos que no, no se realizará ningún cambio.
 
-4. Si pulsamos que si, todas las líneas se pondrán como Activas y se sincronizará a la web quedando activados los precios en la WEB.
+- Si pulsamos que si, todas las líneas se pondrán como Activas y se sincronizará a la web quedando activados los precios en la WEB.
 
 
 ![Planes de precios](./img/mg_planesprecios16.png)

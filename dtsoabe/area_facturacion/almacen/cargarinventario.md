@@ -1,0 +1,14 @@
+# Aviso de que algunos de los artículos a cargar en un inventario son por lotes
+
+El objetivo de este proyecto es mostrar un mensaje de aviso al cargar un inventario si alguno de los artículos es por lotes.
+
+## Dinámica
+En la ventana de _Facturación/Almacén/Inventarios_, cuando seleccionamos el fichero a cargar, antes de realizarse la carga:
+
+* Eneboo comprobará si alguno de las referencias del fichero corresponde a un artículo por lotes y si es así, mostrará un mensaje:
+```
+  Los siguientes artículos tienen stock por lotes y no se cargarán
+   (lista referencia - descripción de los artículos, hasta un máximo de 25)
+  ¿Está seguro?
+```
+* Si contestamos Sí, el inventario se cargará ignorando los artículos por lote que contenga el fichero.

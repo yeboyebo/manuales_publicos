@@ -1,0 +1,21 @@
+# Exclusión de documentos de compra asociados a proyectos del recuento de costes indirectos
+
+El objetivo de este proyecto es excluir los documentos de compra asociados a proyectos del recuento de costes indirectos
+
+## Estructura
+Crearemos los siguientes campos en líneas de factura de compra y línea de albarán de compra:
+* Excluir de costes indirectos (Sí / No). Valor por defecto No.
+
+Crearemos el siguiente campo en proyectos:
+* Costes no directos: Calculado como el total de costes de facturas / albaranes de compra que tienen marcado el nuevo check _Excluir de costes indirectos_.
+
+Modificaremos los cálculos de los totales de costes del proyecto de la siguiente forma:
+* Costes indirectos: Valor = [(costes material + costes mano obra + costes logística) - costos no directos] x porcentaje de costes indirectos (ahora 33,50%)
+* Los demás campos se calcularán como hasta ahora.
+
+En el informe de proyecto se incluye el nuevo total _Costes no directos_.
+
+
+## Dinámica
+Cuando se facture un albarán, el valor del campo _Excluir de costes indirectos_ se heredará a la factura.
+Cuando se cree, modifique o borre en albarán / factura de compra, los nuevos campos se calcularán automáticamente tal.

@@ -1,92 +1,95 @@
 # Campañas
 
----
+## Creación de la campaña
 
-## Estructura
+Primero vamos a la pantalla de campañas desde el menú principal
 
-### Nueva tabla Campañas:
+![icono](./img/icono.png)
 
-- **Código**
-- **Fecha de alta**
-- **Nombre**
-- **Enviar a todos los contactos (Sí / No)**
-- **Fecha de lanzamiento** de campaña
-- **Tipo**:
-  - _Repetición_
-  - _Captación_
-  - _Medición_
-- **Fecha desde de medición de impacto**
-- **Fecha hasta de medición de impacto**
-- **Subtipo captación**(solo para campañas de tipo _Captación_). Posibles valores:
-  - De leads
-  - De venta
-- **Umbral** (solo para campañas de tipo _Captación_)
-- **Número de días desde la última compra** (en días) (solo para campañas de tipo _Repetición_)
-- **Estado**. Posibles valores:
-  - _En diseño_ (valor por defecto)
-  - _En seguimiento_
-  - _Cerrada_
+Y posteriormente pulsamos sobre el icono "+" en la parte izquierda de la lista de campañas
 
-### Gráfico de seguimiento
+![acciones](./img/acciones.png)
 
-Consiste en un gráfico en cascada que compara las ventas de los artículos considerados, en el periodo de medición de impacto y en el mismo periodo de años anteriores. Además diferenciarán ventas totales y ventas por tienda online de (serie W).
+De esta manera accederemos al asistente de creación de campañas
 
-### Subtabla de Artículos por campaña
+## Datos generales
 
-Permite la asociación manual de artículos a una campaña
+![datosgenerales](./img/datosgenerales.png)
 
-Los tres tipos de campaña tienen asociada una _Lista de artículos_ cuyas ventas vamos a promocionar y analizar.
+Lo primero que debemos hacer es darle un nombre representativo de la campaña y elegir el tipo de campaña, así como decidir si vamos a generar la campaña por subfamilias o artículos concretos.
 
-### Acceso
+Entre los tipos de campaña podremos elegir entre Repetición, Captación y Medición.
 
-Los grupos con acceso a campañas serán _Marketing_ y _Dirección_.
+Al terminar, pulsaremos siguiente.
 
-## Dinámica
+## Parámetros de campañas de repetición
 
-### Crear una campaña de tipo _Repetición_
+En caso de que hayamos elegido una campaña de repetición, accederemos a la configuración de parámetros de repetición.
 
-1. Creamos una nueva campaña indicando _Nombre_ y _Tipo_.
-1. Indicamos el _Número de días desde la última compra_.
-1. Indicamos los artículos a incluir en la campaña
-1. Pulsamos el botón _Calcular_.
+![repeticion](./img/repeticion.png)
 
-   Se mostrará el total de clientes (contactos) que hayan comprado al menos uno de los artículos de la lista en una fecha posterior a la fecha calculada como:
+En este caso, tendremos que configurar los días desde la última compra. Este parámetro se utilizará para buscar los clientes que han comprado estos productos/subfamilias últimamente.
 
-   _Fecha de alta_ - _Número de días desde la última compra_.
+## Parámetros de campañas de captación
 
-1. Revisamos, si es necesario, los valores anteriores para obtener un número de contactos apropiado.
-1. Pulsamos el botón _Lanzar campaña_
-   - La campaña pasa a estado _En seguimiento_
-   - La campaña se sincroniza con Active Campaign
-   - Se muestra el _Gráfico de seguimiento_.
-1. Una vez finalizado el período de medición, podemos pasar la campaña a estado _Cerrada_.
+En caso de elegir la campaña de captación, accederemos a la configuración de parámetros de captación.
 
-### Crear una campaña de tipo _Captación_
+![captacion](./img/captacion.png)
 
-El funcionamiento es igual al de la campaña de _Repetición_, con las siguientes salvedades:
+Aquí deberemos configurar el tipo de captación (Leads o Venta Directa). Así como el umbral de recomendación (parámetro calculado por una Inteligencia Artificial que indica el nivel de recomendación, a más alto, más recomendado).
 
-- No es necesario especificar _Número de días desde la última compra_.
+## Subfamilia
 
-- Es necesario especificar el _Umbral de recomendación_ a usar.
+Si hemos elegido productos por subfamilia, ahora deberíamos indicar la subfamilia que queremos recomendar.
 
-- La lista de clientes (contactos) se conforma con los clientes a los que se asigna una recomendación superior al umbral en al menos uno de los artículos de la lista.
+![subfamilias](./img/subfamilias.png)
 
-### Crear una campaña de tipo _Seguimiento_
+Simplemente buscaremos por nombre la subfamilia y clicaremos sobre la deseada.
 
-El funcionamiento es igual al de la campaña de _Repetición_, con las siguientes salvedades:
+## Productos
 
-- No se muestra el botón _Calcular_, ni se le asocian contactos.
+En caso de elegir campaña por lista de productos, indicaremos los productos en el siguiente formulario.
 
-- Al pulsar el botón _Lanzar campaña_, no hay sincronización con Active Campaign, solo cambio de estado a _En seguimiento_
+![productos](./img/productos.png)
 
-## Notas de desarrollo
+Simplemente buscaremos el producto por nombre o referencia, clicaremos sobre los productos deseados y pasarán a listarse debajo del buscador.
 
-Productos padre??
+## Rango de medición del impacto
 
-Productos asimilables, tenerlos en cuenta para nuestras campañas de captación (usan la referencia asimilada si no han vendido más unidades que ella (refproductoasimilable)
+El último formulario que tendremos que rellenar es el del rango de medición del impacto, es decir, las fechas entre las que querremos hacer seguimiento del impacto de la campaña.
 
-¿Crear una tabla de selección con idproducto, refpadre, referencia, asimilable?
+![medicion](./img/medicion.png)
 
-API de Active campaign. Se deberá definir la importación inicial de contactos desde Smartsales a Active y viceversa, así como la dinámica de creación de contactos en uno y otro canal.
+## Resumen
+
+Por último, se mostrará un resumen de la configuración de la campaña y, posteriormente el botón de confirmación de "Crear campaña".
+
+![resumen](./img/resumen.png)
+
+Al pulsarlo deberíamos ver un mensaje de color verde en la parte inferior que indique "Campaña creada correctamente" y posteriormente debería aparecer en la lista de campañas
+
+![itemlista](./img/itemlista.png)
+
+Al pulsar sobre ella, podremos acceder al detalle de la campaña y podremos modificarla si fuese necesario
+
+![detalle](./img/detalle.png)
+
+## Lanzamiento de campaña
+
+Para lanzar la campaña, primero deberemos calcular los clientes a los que va a ir dirigida, para ello, pulsamos en el botón "Calcular clientes". En caso de que haya clientes que se correspondan con los parámetros indicados, se activará el botón de "Lanzar campaña para X clientes", indicando el número correspondiente.
+
+En caso de no tener el número adecuado de clientes, podemos modificar los parámetros y repetir la operación.
+
+Al pulsar en lanzar campaña, se creará una lista en ActiveCampaign con los emails de los clientes implicados.
+
+Esta lista no estará activa hasta que se cree una campaña asociada a la misma.
+
+## Medición de campaña
+
+Por último, tras lanzar la campaña (o con campañas de solo medición), podremos hacer una medición de la misma. Para esto, se sustituirán los botones de interacción por un gráfico de barras indicando las ventas de productos/subfamilias implicados en la campaña.
+
+![grafico](./img/grafico.png)
+
+Junto con el gráfico, aparecen dos campos de fecha para indicar el rango de comparación sobre el periodo de impacto.
 
 [Volver al Índice](../../index.md)

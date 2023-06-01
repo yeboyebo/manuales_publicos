@@ -1,4 +1,4 @@
-# Genrar pedidos con lector de codigo de barras
+# Generar pedidos con lector de codigo de barras
 
 ## Configuraciones previas
 

@@ -4,6 +4,8 @@
 
 * Entramos en la opción **Area de facturación -> Facturación -> Almacén -> Configuración** y en la pestaña **Datos generales** informamos el campo **Familia servicios**
 
+* Entramos en la opción **Area de facturación -> Facturación -> Almacén -> Configuración** y en la pestaña **Datos generales** informamos el campo **Serie servicios**
+
 * Entramos en la opción **Area de facturación -> Facturación -> Almacén -> Colores** y creamos tantos registros de colores como sean necesarios
 
 * Entramos en la opción **Area de facturación -> Facturación -> Almacén -> Materiales** y creamos tantos registros de materiales como sean necesarios
@@ -32,6 +34,7 @@
 
 * Una vez establecidos los datos se creará de forma automática un pedido donde:
   - El cliente será el cliente con numero de etiqueta del codigo de barras
+  - La serie del pedido será la serie establecida previamente en los datos de configuración del módulo de Almacén.
   - Y una línea para la prenda, con la configuración de color y material y artículo especificados
 
   Nota: Si ya existiése un pedido para el mismo cliente, con fecha de hoy y no servido, en lugar de crear un pedido nuevo, se creará una línea nueva en el pedido existente.
@@ -43,5 +46,6 @@
 * En el cuadro de texto en blanco de la parte superior leemos el código de barras de la prenda. Esa prenda ha debido de crearse anteriormente en un pedido. 
   - Si no existe esa prenda en ningún pedido aparecerá un mensaje de error.
   - Si existe generará un albarán para ese cliente y lo asociará al pedido generado, dejando el pedido como servido.
+  - La serie del albarán será la serie establecida previamente en los datos de configuración del módulo de Almacén.
   - Antes de generar la línea de albarán aparecerá la misma ventana que en pedidos informando de los datos de esa prenda (color, material y referencia)
   - Si ya existe un albarán para ese cliente, fecha de hoy y no facturado se creará una nueva línea en el albarán existente.

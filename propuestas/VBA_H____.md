@@ -1,7 +1,6 @@
 # #H____ Descripción del proyecto
 
-Los objetivos de este proyecto son:
-*
+El objetivo de este proyecto es...
 
 ## Estructura
 

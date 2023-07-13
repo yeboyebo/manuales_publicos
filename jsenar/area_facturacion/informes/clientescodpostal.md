@@ -39,3 +39,6 @@ El informe estará ordenado por código de agente, provincia, código postal, c�
 Los agentes y códigos postales para los que no haya clientes activos no aparecerán en el informe.
 
 El informe se creará en formato hoja de cálculo ODS (Open Document Sheet).
+
+
+[Volver al Índice](./index.md)

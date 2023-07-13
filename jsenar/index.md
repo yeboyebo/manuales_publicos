@@ -20,6 +20,10 @@
 - [Asignar lote desde lineas de pedidos de compra en la app web de preparaciones](./aqnext/sanhigia_pedidos/pedidosprov/asignarlote.md)
 - [Tratamiento contable de facturas de DUA importación Canarias](./area_facturacion/facturacion/facturas_dua_importacion/index.md)
 
+### Informes
+
+- [Clientes activos por código postal](./area_facturacion/informes/clientescodpostal.md)
+
 ### Smart sales
 
 - [Smart Sales](./area_facturacion/smart_sales/index.md)

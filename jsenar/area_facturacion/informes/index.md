@@ -3,4 +3,6 @@
 
 ## Índice
 
-* [Informe de clientes activos por código postal](./clientescodpostal.md)
+* [Clientes activos por código postal](./clientescodpostal.md)
+
+[Volver al Índice](../../index.md)

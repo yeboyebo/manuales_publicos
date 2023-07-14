@@ -14,7 +14,7 @@ Si el tipo de fabricacion es "Envasado", es necesario informar el campo "Código
 
 * Una vez informados los campos, pulsaremos el botón **Carga componentes del producto** ![Carga componentes del producto](./img/boton_carga.png) para crear las líneas de productos de la trazabilidad. Para cargar estas líneas deberemos tener informada la composición del producto en la ficha del artículo.
 
-* Cada línea por cada componente del producto, tendrá informado el campo **Cant Prevista** con la cantidad de componente que se ha de utilizar para fabricar una unidad del producto multiplicado por la cantidad de producto final a producir **Ejemplo. Si queremos 10 unidades de producto final y por cada unidad gastamos 5 del componente serán 10 * 5 = 50**.
+* Cada línea por cada componente del producto, tendrá informado el campo **Cant Prevista** con la cantidad de componente que se ha de utilizar para fabricar una unidad del producto multiplicado por la cantidad de producto final a producir. **Ejemplo. Si queremos 10 unidades de producto final y por cada unidad gastamos 5 del componente serán 10 * 5 = 50**.
 
 ### Edición de registro de fabricación
 * En la edición de un registros de fabricación nos podemos encontrar con dos casos:
@@ -49,5 +49,5 @@ Una vez eliminadas las líneas, podremos modificar los campos de la cabecera y v
     * Al cerrar el registro de fabricación se borrarán todos los registros de movimiento en estado **PTE**. Se informará el campo **Cant. producida** y se bloquearán los campos de la cabecera y líneas y no se podrán editar.
 
     ![Registro cerrado](./img/registro_cerrado.png)
-    
+
     * Si queremos volver a abrir el registro de fabricación, pulsaremos el mismo botón. Al abrir el registro de fabricación se desbloquearán los campos de la cabecera y líneas y se podrán editar y se volverán a crear los registros de movimiento en estado **PTE** en el caso de que quedara cantidad en alguna línea.

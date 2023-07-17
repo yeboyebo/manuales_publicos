@@ -1,13 +1,12 @@
 # #H____ Descripción del proyecto
 
-Los objetivos de este proyecto son:
-+ 
+El objetivo de este proyecto es...
 
 ## Estructura
 
 ### Pantalla / Zona 1
 Añadiremos a la pantalla los siguientes controles:
-+ Campo. Descripción.
+* Campo. Descripción.
 
 ## Precondiciones
 
@@ -16,10 +15,7 @@ Añadiremos a la pantalla los siguientes controles:
 ### Hacer X
 
 Para hacer x:
-+ Vamos a ...
+* Vamos a ...
 
 ## Notas de desarrollo
 No hay notas de desarrollo
-
-## Presupuesto
-### X€

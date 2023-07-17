@@ -21,6 +21,10 @@
 - [Tratamiento contable de facturas de DUA importación Canarias](./area_facturacion/facturacion/facturas_dua_importacion/index.md)
 - [Presupuestos de clientes](./area_facturacion/facturacion/presupuestoscli/presupuestoscli.md)
 
+### Informes
+
+- [Clientes activos por código postal](./area_facturacion/informes/clientescodpostal.md)
+
 ### Smart sales
 
 - [Smart Sales](./area_facturacion/smart_sales/index.md)

@@ -3,7 +3,7 @@
 
 ## ¿Qué es el evento relacionado con el pedido?
 
-* Consideramos el evento relacionado con el pedido, aquel evento de promoción, curso de formación, etc, que propicío que el cliente realizará el pedido que estamos creando. Podemos buscar el evento que queramos por el nombre del mismo teniendo en cuenta que solo se mostarán eventos cuya fecha de creación exista en el período de los últimos 2 meses.
+* Consideramos el evento relacionado con el pedido, aquel evento de promoción, curso de formación, etc, que propició que el cliente realizará el pedido que estamos creando. Podemos buscar el evento que queramos por el nombre del mismo teniendo en cuenta que solo se mostarán eventos cuya fecha de creación comprenda el período de los últimos 2 meses.
 
 ## ¿El pedido no está relacionado con un evento?
 

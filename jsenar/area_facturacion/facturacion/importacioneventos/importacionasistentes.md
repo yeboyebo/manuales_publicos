@@ -15,7 +15,7 @@ Para realizar la importación seguimos los pasos indicados en [Importación CSV]
 
 ![Contactos importados](./img/contactosimportados.png)
 
-* También podremos ver las asistencias a eventos o *interacciones* en el formulario de edición de un contacto en **Area de C.R.M./Principal/Contactos** clicando en la pestaña **Interacciones**. Veremos el código del contacto, el tipo de interacción, *Creación* si el contacto fue creado como consecuencia de la asistencia al evento, *Particpación* si el contacto ya existía en la base de datos, el código del evento al que el contacto asistío y la fecha de inicio del mismo.
+* También podremos ver las asistencias a eventos o *interacciones* en el formulario de edición de un contacto en **Area de C.R.M./Principal/Contactos** clicando en la pestaña **Interacciones**. Veremos el código del contacto, el tipo de interacción, *Creación* si el contacto fue creado como consecuencia de la asistencia al evento, *Particpación* si el contacto ya existía en la base de datos, el código del evento al que el contacto asistió y la fecha de inicio del mismo.
 
 * Además, podemos ver la fecha de la última interacción del contacto de forma rápida en el campo F. Última interacción.
 

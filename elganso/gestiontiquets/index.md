@@ -8,18 +8,29 @@ En los datos de login establecemos nuestro usuario y contraseña que se nos debe
 
 Al acceder la primera vez nos pedirá que cambiemos la contraseña
 
+![Cambio contraseña](./img/cambiocontrasena.png)
+
 ## Consulta de tickets
 
 Podemos ver los tickets creados en la pestaña **Tickets**->**El Ganso**
 
 Aparecerá un menú con varias opciones:
 
-- **Abiertas**. Incidencias que están en resolución
-- **Cerrados**. Incidencias que ha han sido resueltos
-- **Todos**. Todas las incidencias
+- **Abiertas**. Tiquets nuevos o en resolución
+- **Cerrados**. Tiquets que ha han sido resueltos
+- **Todos**. Todos los tiquets
 
-Si abrimos un tiquet nos apasrecerá 
+![Menu tiquets](./img/menutiquets.png)
 
+Si abrimos un tiquet nos apasrecerá toda la información referente a ese tiquet. El asunto, la descripción y todos los correos que se han ido enviado
+
+Podemos hacer una consulta filtrando por fecha, estado o el criterio que necesitemos desde la opción **Busqueda**->**Agregar búsqueda personal**
+
+![Menu buscar](./img/busqueda.png)
+
+![Ejemplo busqueda](./img/ejbusqueda.png)
+
+![Resultado busqueda](./img/resbusqueda.png)
 
 
 ## Creación tickets

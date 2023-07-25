@@ -4,6 +4,9 @@
 
 * Seleccionamos el registro y pulsamos sobre el botón **Importar** del formulario principal de **Area de Facturación/Facturación/Eventos**. Esto abrirá un formulario de importación.
 
+* La estructura de datos del contacto debe ser la siguiente: nombre del curso, nombre del agente, ciudad, email, teléfono, código postal. Por ejemplo:
+  * Evento de prueba | Ramón Sanchez | Getafe | ramget@gmail.com | 655555555 | 28901
+
 Para realizar la importación seguimos los pasos indicados en [Importación CSV](../../../../modulos/area_facturacion/facturacion/importacioncsv.md)
 
 

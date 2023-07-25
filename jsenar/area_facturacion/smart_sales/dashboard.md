@@ -6,7 +6,7 @@
 
 ### ¿Qué es un contacto reciente?
 
- Son aquellos contactos que están asociados a nuestro usuario por código postal y que han tenido una interacción o asistencia a un evento en los últimos _N_ días, siendo _N_ un valor parametrizable en el ERP.  [Parametrizar días](../facturacion/importacioneventos/periodobusqueda.md).
+ Son aquellos contactos que están asociados a nuestro usuario por código postal o contactos que no tienen asignado ningún código postal y que han tenido una interacción o asistencia a un evento en los últimos _N_ días, siendo _N_ un valor parametrizable en el ERP.  [Parametrizar días](../facturacion/importacioneventos/periodobusqueda.md).
 
 La caja de contactos recientes será visible siempre que tengamos al menos un contacto reciente. 
 
@@ -20,7 +20,7 @@ Si clicamos en la caja veremos la pantalla de *Contactos recientes* que contiene
 
 ### Datos del contacto
 
-Veremos los datos del contacto, incluyendo el apartado *Eventos(número de interacciones)* si existe actividad reciente o el texto *Sin participación en eventos* si no la hubiera.
+Si el contacto está asociado a nuestra lista como agente o a nuestros códigos postales, veremos los datos del contacto, incluyendo el apartado *Eventos(número de interacciones)* si existe actividad reciente o el texto *Sin participación en eventos* si no la hubiera.
 
 Si desplegamos el apartado veremos un listado de los eventos en los que el contacto participó, indicando el nombre del evento y la fecha de inicio del mismo. Al clicar sobre un evento accederemos los datos del evento.
 

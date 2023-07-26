@@ -5,3 +5,4 @@
 
   * [Configurar periodo de búsqueda](./periodobusqueda.md)
   * [Importación de asistentes a evento](./importacionasistentes.md)
+  * [Cerrar un evento](./cerrarevento.md)

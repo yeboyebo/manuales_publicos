@@ -2,4 +2,4 @@
 
 ## Índice
 
-  - [Gestión de tiquets](/gestiontiquets/index.md)
+  - [Gestión de tiquets](./gestiontiquets/index.md)

@@ -1,0 +1,210 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>PrepMaterial</class>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>PrepMaterial</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>578</width>
+            <height>351</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Cajas</string>
+    </property>
+    <widget class="QGroupBox">
+        <property name="name">
+            <cstring>gbxFormaPago</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>568</width>
+                <height>341</height>
+            </rect>
+        </property>
+        <property name="font">
+            <font>
+            </font>
+        </property>
+        <property name="title">
+            <string></string>
+        </property>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>textLabel1</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>5</x>
+                    <y>5</y>
+                    <width>558</width>
+                    <height>16</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>10</pointsize>
+                    <bold>1</bold>
+                </font>
+            </property>
+            <property name="text">
+                <string>Kit a fabricar: Kit K (1000 unidades) / Lote K1</string>
+            </property>
+        </widget>
+        <widget class="FLTable">
+            <property name="name">
+                <cstring>fLTable1</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>20</x>
+                    <y>120</y>
+                    <width>200</width>
+                    <height>190</height>
+                </rect>
+            </property>
+            <property name="numRows">
+                <number>0</number>
+            </property>
+            <property name="numCols">
+                <number>0</number>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>textLabel1_2</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>20</x>
+                    <y>100</y>
+                    <width>100</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Kits ya incluidos</string>
+            </property>
+        </widget>
+        <widget class="FLFieldDB">
+            <property name="name">
+                <cstring>fdbLote_3</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>20</x>
+                    <y>60</y>
+                    <width>190</width>
+                    <height>24</height>
+                </rect>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>1</hsizetype>
+                    <vsizetype>0</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="minimumSize">
+                <size>
+                    <width>30</width>
+                    <height>24</height>
+                </size>
+            </property>
+            <property name="font">
+                <font>
+                </font>
+            </property>
+            <property name="fieldName">
+                <string>Leer kit</string>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>textLabel1_2_3_2_2</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>200</x>
+                    <y>30</y>
+                    <width>200</width>
+                    <height>23</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>14</pointsize>
+                </font>
+            </property>
+            <property name="text">
+                <string>Caja C1 - Kits 0/10</string>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>pushButton1_2_2_2_2</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>370</x>
+                    <y>300</y>
+                    <width>150</width>
+                    <height>24</height>
+                </rect>
+            </property>
+            <property name="paletteBackgroundColor">
+                <color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>127</blue>
+                </color>
+            </property>
+            <property name="text">
+                <string>Chequear y cerrar caja</string>
+            </property>
+            <property name="whatsThis" stdset="0">
+                <string>Volvemos a leer el código de barras de la caja para comprobar que hemos metido los kits en la caja correcta. Una vez comprobado permite lanzar la nueva etiqueta de caja</string>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>pushButton1_2_2_2</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>20</x>
+                    <y>30</y>
+                    <width>150</width>
+                    <height>24</height>
+                </rect>
+            </property>
+            <property name="paletteBackgroundColor">
+                <color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>127</blue>
+                </color>
+            </property>
+            <property name="text">
+                <string>Lanzar etiqueta de caja</string>
+            </property>
+            <property name="whatsThis" stdset="0">
+                <string>Genera un nuevo código de caja (C1)</string>
+            </property>
+        </widget>
+    </widget>
+</widget>
+<tabstops>
+</tabstops>
+<layoutdefaults spacing="2" margin="5"/>
+<includehints>
+    <includehint>fltable.h</includehint>
+    <includehint>flfielddb.h</includehint>
+</includehints>
+</UI>

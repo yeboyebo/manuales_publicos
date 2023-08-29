@@ -1,0 +1,23 @@
+# #S17 #H3807 Modificaciones en listado de rentabilidad de proyectos
+
+Los objetivos de este proyecto son:
++ Conocer qué conceptos de gastos se han calificado como _Excluidos de costes indirectos_.
++ Incluir los posibles descuentos en el precio unitario de cada línea.
+
+## Estructura
+
+### Proyectos / Informe de proyecto
+Añadiremos al informe las siguientes modificaciones:
++ Columna _Descripción_. Incluirá el prefijo _(*)_ en los casos en los que la línea esté calificada como _Excluida de costes indirectos_.
++ Columna _Precio_. Su valor incluirá los posibles descuentos, de forma que siempre se cumpla que:
+    Cant x Precio = Importe
+
+## Notas de desarrollo
+No hay notas de desarrollo
+
+## Manual
+No es necesario manual
+
+## Presupuesto
+### Desarrollo 80€
+Enviar a Silvia

@@ -21,5 +21,11 @@ Para hacer x:
 ## Notas de desarrollo
 No hay notas de desarrollo
 
+## Manual
+El manual constará de...
+No es necesario manual
+
 ## Presupuesto
-### X€
+### Análisis X€
+### Desarrollo X€
+### Documentación X€

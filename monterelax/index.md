@@ -13,5 +13,6 @@
 - [Catálogo](./tienda_online/catalogo/index.md)
 - [Finalizar pedido](./tienda_online/checkout/index.md)
 - [Ver pedidos](./tienda_online/pedidos/index.md)
+- [Asignar contraseñas a clientes](./tienda_online/passwords/index.md)
 
 

@@ -8,6 +8,8 @@
 
 [Cómo generar pedidos de esqueletos](./area_produccion/principal/unidades_por_pedidos.md)
 
+[Aprobar/ validar pedido](./tienda_online/aprobarpedidos/index.md)
+
 # Tienda online
 
 - [Catálogo](./tienda_online/catalogo/index.md)

@@ -8,10 +8,13 @@
 
 [Cómo generar pedidos de esqueletos](./area_produccion/principal/unidades_por_pedidos.md)
 
+[Aprobar/ validar pedido](./tienda_online/aprobarpedidos/index.md)
+
 # Tienda online
 
 - [Catálogo](./tienda_online/catalogo/index.md)
 - [Finalizar pedido](./tienda_online/checkout/index.md)
 - [Ver pedidos](./tienda_online/pedidos/index.md)
+- [Asignar contraseñas a clientes](./tienda_online/passwords/index.md)
 
 

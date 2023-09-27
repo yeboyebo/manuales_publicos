@@ -36,3 +36,7 @@
 - [Pedidos](./area_facturacion/app_web/pedidos/index.md)
 - [Presupuestos](./area_facturacion/app_web/presupuestos/index.md)
 - [Preparaciones](./area_facturacion/app_web/sh_preparaciondepedidos/index.md)
+
+### Exportar tablas de Eneboo a hojas de calculo
+
+- [Exportar tablas a hojas de calculo](./area_facturacion/principal/permisos_exportar_hoja_de_calculo/permisos_exportar_hoja_de_calculo.md)

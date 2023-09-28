@@ -32,4 +32,17 @@ Empieza el proceso de cierre. Se revisan los saldos de los asientos. Tambien se 
 
 ![Ejercicio reabierto ](./img/proceso_fin_reabrir.png)
 
+## Funcionamiento de proceso de cierre de ejercicio
+
+#### Crear el asiento de regularización. 
+Es el primer asiento que se crea.
+El programa esta buscando todas las subcuentas del ejercicio que se cierra que tienen cuenta informada en la tabla Códigos de balance 2008 con código que empieza por 'PG' y con saldo diferente de 0. Para estas subcuentas se crean partidas en el asiento de regularización.
+Después el programa busca la subcuenta que tiene cuenta informada en la tabla Códigos de balance 2008 con código 'P-A-1-VII-' y crea partida para esta subcuenta en el asiento.
+
+#### Crear el asiento de cierre. 
+El programa esta buscando todas las subcuentas del ejercicio que se cierra que tienen cuenta informada en la tabla Códigos de balance 2008 con código que empieza por 'A-' o que empieza por 'P-' y con saldo diferente de 0. Para estas subcuentas se crean partidas en el asiento de cierre.
+
+#### Crear el asiento de apertura.
+Es un asiento que se crea para el siguiente ejercicio con todas las partidas del asiento de cierre creado anteriormente. 
+
  

@@ -6,7 +6,7 @@
 
 No hemos creado ningún trato con el contacto, por lo que no hay una asociación directa agente - contacto.
 
-Además, el contacto no tiene código postala asociado o su código postal no está asignado a nosotros.
+Además, el contacto no tiene código postal asociado o su código postal no está asignado a nosotros.
 
 
 [Volver al Índice](./index.md)

@@ -1,5 +1,21 @@
 # Manual TicketBAI
 
+## Configuraciones previas
+
+- Copiar certificado a la carpeta **Pineboo** (al mismo nivel que tempdata)
+
+- Configurar en el .env el directorio y contraseña del certificado
+```
+    ruta_certificado=/pineboo/pineboo/nombrecertificado
+    pass_certificado=... 
+```
+
+- Levantar el software garanate (pinebooapi)
+
+- En **Area de Facturación/Principal/Empresa/Configuración Local** establecer la ruta del fichero del certificado para la firma digital.
+- En **Area de Facturación/Principal/Empresa/Firma Digital** establecer la imagen de firma
+
+
 ## ¿Donde puedo configurar el garante TicketBAI?
 
 * El Garante TicketBAI se puede configurar el la pestaña **servidor** de **Area de Facturación/Principal/Configuración**. El servidor se encargaŕa de firmar digitalmente las facturas nuevas y anularlas, además de mantener la cadena garante.

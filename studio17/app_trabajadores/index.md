@@ -25,6 +25,8 @@
   * Subtítulo izquierdo: Fecha del parte
   * Título derecha: Horas y minutos en formato hh:mm
 
+![Partes](./img/partes.png)
+
 ## Crear un nuevo parte
 
 * Pulsamos el botón **+** del listado de partes
@@ -32,6 +34,8 @@
 * Modificamos la fecha si es necesario y pulsamos **Crear parte**
   * Si ya hay un parte para el trabajador conectado y la fecha, obtenemos el error _Ya existe un parte (num. parte) para el trabajador 'nombre trabajador' en la fecha 'fecha parte'_.
   * Si no hay un parte ya creado, se crea un parte y aparece en el listado de partes.
+
+![Nuevo parte](./img/nuevo_parte.png)
 
 ## Asignar horas a un parte
 * Seleccionamos el parte de la lista
@@ -50,6 +54,8 @@
 * Pulsamos **Guardar**.
   * La línea se guarda y aparece en el listado de líneas. Se recalcula el tiempo total ingresado en el parte.
 
+![Asignar horas](./img/asignar_horas.png)
+
 ## Listado de líneas
 Cada elemento línea consta de la siguiente información:
 * Avatar (círculo verde)
@@ -57,11 +63,15 @@ Cada elemento línea consta de la siguiente información:
 * Subtítulo izquierdo: Nombre y código del proyecto
 * Título derecha: Horas y minutos en formato hh:mm
 
+![Listado líneas](./img/listado_lineas.png)
+
 ## Editar una línea
 * Selecccionamos la línea a editar y pulsamos sobre ella
   * Se despliega el formulario de edición de línea
 * Editamos y guardamos los datos correspondientes
 * Pulsamos **Cerrar** para colapsar la línea
+
+![Editar Línea](./img/editar_linea.png)
 
 ## Borrar una línea
 * Pulsamos **Borrar**
@@ -75,3 +85,5 @@ Cada elemento línea consta de la siguiente información:
 * Cuando el total de tiempo ingresado en el parte se corresponda con el tiempo objetivo, el color del campo *horas ingresadas* cambiará a verde y el botón **Firmar parte** estará habilitado.
   * Se abre un dialogo de confirmación.
 
+
+![Firmar parte](./img/firmar_parte.png)

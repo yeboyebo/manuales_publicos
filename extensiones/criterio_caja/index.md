@@ -24,7 +24,7 @@ Ruta: **Área de Facturación -> Facturación -> Facturas de compra**
 
 ![Información del SII](./img/facturasii.png)
 
-Vamos a guardar algún recibo de pago asociado a la factura para visualizar cómo se verá en el informe.
+Vamos a guardar algún recibo de pago asociado a la factura para visualizar cómo se verá en el informe. El recibo debe de estar pagado para ser visualizado.
 
 Ruta: **Área de Facturación -> Tesorería -> Recibos de compra**
 

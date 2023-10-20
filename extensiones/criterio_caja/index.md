@@ -1,18 +1,17 @@
 # Criterio caja
 
-### Guía de uso paso a paso
+### Marcar proveedor acogido a criterio caja
 
-Vamos al formulario de proveedor, y en la pestaña de contabilidad marcamos el check para marcar que está acogido a criterio de caja.
+Vamos al **Área de Facturación -> Principal -> Proveedores** y en la pestaña de **Contabilidad** marcamos el check *Régimen Especial Criterio de Caja* para marcar que está acogido a criterio de caja.
 
-Ruta: **Área de Facturación -> Principal -> Proveedores**
 
 ![Formulario de proveedor](./img/formularioProveedor.png)
 
     Esto hará que todas las facturas de proveedor asociadas a este proveedor se generen acogidas a criterio de caja.
 
-Ahora generamos una factura asociada al proveedor. No importa si lo hacemos a partir de un albarán o la creamos manualmente.
+### Generar factura de proveedor acogido a criterio caja
 
-Ruta: **Área de Facturación -> Facturación -> Facturas de compra**
+Crearemos una factura directa o a partir de un albarán desde el **Área de Facturación -> Facturación -> Facturas de compra** 
 
 ![Seleccionando proveedor](./img/seleccionarProveedor.png)
 
@@ -24,14 +23,14 @@ Ruta: **Área de Facturación -> Facturación -> Facturas de compra**
 
 ![Información del SII](./img/facturasii.png)
 
-Vamos a guardar algún recibo de pago asociado a la factura para visualizar cómo se verá en el informe. El recibo debe de estar pagado para ser visualizado.
 
-Ruta: **Área de Facturación -> Tesorería -> Recibos de compra**
+### Pago de recibo de factura de proveedor acogido a criterio caja
 
-![Recibo pagado](./img/reciboPagado.png)
+No hay cambio a la hora de pagar un recibo acogido a criterio de caja pero estos recibos se mostrarán en el informe de facuras recibidas.
 
-    Al guardar el recibo, si visualizamos un informe de facturas recibidas en el que aparezca la factura, podremos visualizar todos sus recibos pagados como en el siguiente ejemplo.
+### Informe de facturas recibidas
 
-Ruta: **Área Financiera -> Informes -> Facturas recibidas**
+En el informe de facturas recibidas el cual podemos imprimir desde  **Área Financiera -> Informes -> Facturas recibidas** se mosrtarán los pagos realizados de facturas acogidas a criterio de caja y habrá una totalización aparte para estas facturas:
+
 
 ![Informe facturas recibidas](./img/informeFacturasRecibidas.png)

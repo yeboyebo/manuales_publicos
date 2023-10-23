@@ -4,7 +4,7 @@ Cuando necesitemos crear un evento con las mísmas características que un regis
 
 - Nos dirigimos al formulario de eventos. Ruta: **Área de facturación -> facturación -> eventos**
 
-- Seleccionamos el evento que queramos copiar y pulsamos en el botón _'Copiar'_ situado en la esquina superior derecha del formulario.
+- Seleccionamos el evento que queramos copiar y pulsamos en el botón _'Copiar registro'_ situado al final de la botonera de la esquina superior izquierda del formulario.
 
 - Se abrirá otro pequeño formulario en el que tendremos que seleccionar las fechas de inicio y fin correspondientes al nuevo evento. Las fechas tendrán que ser posteriores a la fecha de creacion del evento, y tampoco se podrá crear el evento con una fecha de inicio posterior a su fecha de fin.
 

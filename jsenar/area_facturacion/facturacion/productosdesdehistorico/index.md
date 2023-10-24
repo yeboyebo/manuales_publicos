@@ -4,12 +4,9 @@
 
 Queremos añadir líneas de un pedido seleccionando un artículo que ya hemos pedido en alguna otra ocasión.
 
-## Guía paso a paso
+## Añadir referencia en línea de pedido seleccionando desde histórico
 
-- Nos dirigimos al formulario de pedidos de cliente.
-  Ruta: **Área de facturación -> facturación -> pedidos de cliente**
-
-- Creamos un pedido nuevo o editamos un pedido que no esté servido.
+- Creamos o editamos un pedido de cliente desde **Área de facturación -> facturación -> pedidos de cliente**
 
 - Seleccionamos un cliente que ya haya realizado algún pedido.
 

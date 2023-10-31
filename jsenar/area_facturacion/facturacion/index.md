@@ -11,3 +11,4 @@
 - [Gestión Documental](./gestiondocumental/index.md)
 - [Añadir productos comprados anteriormente en un pedido a partir del histórico](./productosdesdehistorico/index.md)
 - [Tratamiento contable de facturas de DUA importación Canarias](./facturas_dua_importacion/index.md)
+- [Agrupaciones de pedidos a Canarias](./agrupacionesCanarias/index.md)

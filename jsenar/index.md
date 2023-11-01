@@ -25,6 +25,7 @@
 - [Presupuestos de clientes](./area_facturacion/facturacion/presupuestoscli/presupuestoscli.md)
 - [Parametrizar impresoras para envíos](./area_facturacion/principal/parametrizar_impresoras/impresoras.md)
 - [Seleccionar referencia en línea de pedido desde histórico](./area_facturacion/facturacion/productosdesdehistorico/index.md)
+- [Agrupaciones de pedidos a Canarias](./area_facturacion/facturacion/agrupacionesCanarias.md)
 
 ### Informes
 

@@ -16,3 +16,4 @@
 - [Comision Cliente](./comision_cliente/index.md)
 - [IVA NAV](./iva_nav/index.md)
 - [Criterio Caja](./criterio_caja/index.md)
+- [Criterio Caja con IVA_NAV](./criterio_caja_ivanav/index.md)

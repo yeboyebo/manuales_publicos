@@ -14,7 +14,7 @@ En los que se declararán los ingresos, gastos y facturas de las personas que re
 * ELABORACIÓN DE BORRADORES DE IVA, SOCIEDADES Y RENTA
 Con la información remitida en los modelos 140 y 240, la Hacienda Foral de Bizkaia elaborará a las personas jurídicas y a las personas físicas con actividad económica borradores de declaración de IVA y de Sociedades o Renta.
 
-# Acceso 
+# Acceso y configuración
 
 Podemos acceder al módulo Batuz en el Área Financiera.
 
@@ -32,14 +32,16 @@ En el formulario aparecerán 3 pestañas:
 * **Datos Fiscales**. En esta pestaña estableceremos los datos de la empresa, así como la razón social proporcionada por Batuz al darnos de alta. Si tenemos varias empresas habrá que crear un registro por cada una
 ![Datos Fiscales](./img/confDatosGen.png)
 
-* **Configuración** En esta pestaña estableceremos configuraciones sobre el comportamiento del módulo: Tipo de enrono, tipo de periodo, intervalo de presentaciones, fecha de inicio en Batuz, urls de consulta y envio de datos a batuz...
+* **Configuración** En esta pestaña estableceremos configuraciones sobre el comportamiento del módulo: Tipo de entorno, tipo de periodo, intervalo de presentaciones, fecha de inicio en Batuz, urls de consulta y envio de datos a batuz...
 ![Configuración](./img/confConfig.png)
 
 * **Configuración Local** En esta pestaña configuraremos urls a aplicaciones de nuestro equipo y al certificado de empresa
 
 ![Configuración Local](./img/confConfLocal.png)
 
-# Ejercicio y periodos
+# Estructura del módulo
+
+## Ejercicio y periodos
 
 Antes de generar la primera presentación y de calcular datos del Batuz para las facturas emitidas y recibidas previamente generadas, es necesario acceder al registro del ejercicio para generar los periodos de presentación que requiere el módulo Batuz.
 
@@ -195,8 +197,6 @@ El resto de claves de operación son casos específicos no contemplados en la co
 - **Cuota Deducible**: Importe de la cuota a deducir.
 - **Importes en Euros con Inversión de Sujeto Pasivo**: Se emitirán tantos registros como agrupaciones por tipo tenga la factura, los datos a emitir son tipo Impositivo, Base Imponible, cuota del impuesto, tipo de recargo de equivalencia y cuota de recargo de equivalencia.
 - **Importes en Euros**: Se emitirán tantos registros como agrupaciones por tipo tenga la factura, los datos a emitir son tipo Impositivo, Base Imponible, cuota del impuesto, tipo de recargo de equivalencia y cuota de recargo de equivalencia. El porcentaje de compensación REAGYP y la compensación REAGYP no son valores calculados por defecto y en el caso de ser necesarios deberían indicarse de manera manual, o bien, solicitar una personalización del sistema.
-
-
 
 # Guía rápida de uso del módulo Batuz
 En esta sección se describe brevemente y con un sentido práctico cómo usar el módulo Batuz de Eneboo para el suministro de facturas emitidas y recibidas. Vamos a suponer que el módulo está correctamente configurado.

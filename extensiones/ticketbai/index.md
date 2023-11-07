@@ -1,5 +1,13 @@
 # Manual TicketBAI
 
+## Activar llamadas a Pineboo Server
+Para activar las llamadas de forma global, insertamos el siguiente registro en la tabla flsettings:
+
+```
+flkey = 'usarServidorPineboo_firma'
+valor = 'true'
+```
+
 ## Configuraciones previas
 
 - Copiar certificado a la carpeta **Pineboo** (al mismo nivel que tempdata)
@@ -21,7 +29,6 @@
 * El Garante TicketBAI se puede configurar el la pestaña **servidor** de **Area de Facturación/Principal/Configuración**. El servidor se encargaŕa de firmar digitalmente las facturas nuevas y anularlas, además de mantener la cadena garante.
 
 ![Configuración garante TicketBAI](./img/config.png)
-
 
 
 ## ¿Como puedo firmar una factura?

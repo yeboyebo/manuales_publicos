@@ -3,6 +3,9 @@
 Los objetivos de este proyecto son:
 + 
 
+## Propuesta realizada a petición de:
+
+
 ## Estructura
 
 ### Pantalla / Zona 1

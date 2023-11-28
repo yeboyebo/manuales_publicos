@@ -1,6 +1,6 @@
 # Envío Mail
 
-Esta extensión incluye la funcionalidad de adjuntar un documento del programa (pedido, factura, etc.) en un email a un cliente / provedor.
+Esta extensión incluye la funcionalidad de adjuntar un documento del programa (pedido, factura, etc.) en un e-mail a un cliente / provedor.
 
 ## Configuración
 
@@ -38,25 +38,25 @@ Aquí tenemos que informar:
 
 ![Variable de entorno](./img/outlook_windows2.png)
 
-## Configuración de emails en clientes
+## Configuración de e-mails en clientes
 
-- Cuando enviemos un email desde prespupuestos, pedidos, albaranes o facturas, el email al que se enviará el correo será el que esté configurado en la ficha del cliente, bien en el campo *E-mail* de la pestaña **General** o bien en los e-mails configuarados en la pestaña de **Agenda**.
+- Cuando enviemos un e-mail desde presupuestos, pedidos, albaranes o facturas, el e-mail al que se enviará el correo será el que esté configurado en la ficha del cliente, bien en el campo *E-mail* de la pestaña **General** o bien en los e-mails configuarados en la pestaña de **Agenda**.
 
-### Configuración email principal
+### Configuración e-mail principal
 
-- En la pestaña **General** de la ficha de clientes informaremos el email principal del cliente
+- En la pestaña **General** de la ficha de clientes informaremos el e-mail principal del cliente
 
 ![Email principal](./img/clientes1.png)
 
-### Configuración email contactos
+### Configuración e-mail contactos
 
-- En la pestaña de **Agenda** de la ficha de clientes tenemos una tabla para asignar distintos contactos al cliente, cada contacto tiene un campo para informar su email.
+- En la pestaña de **Agenda** de la ficha de clientes tenemos una tabla para asignar distintos contactos al cliente, cada contacto tiene un campo para informar su e-mail.
 
 ![Email principal](./img/clientes2.png)
 
-- En la misma pestaña, en la parte de la derecha podemos configurar para cada tipo de documento uno o varios emails de tal forma que al seleccionar un documento desde su maestro y pulsar sobre el botón de envío mail, se enviará a las direcciones de correos que se hayan configurado según el tipo de documento.
+- En la misma pestaña, en la parte de la derecha podemos configurar para cada tipo de documento uno o varios e-mails de tal forma que al seleccionar un documento desde su maestro y pulsar sobre el botón de envío mail, se enviará a las direcciones de correos que se hayan configurado según el tipo de documento.
 
-- Si queremos configurar los emails destinos a los que se enviarán cuando pulsemos en enviar correo desde el maestro de facturas, pulsaremos sobre el botón de añadir emails en el recuadro de facturas.
+- Si queremos configurar los e-mails destinos a los que se enviarán cuando pulsemos en enviar correo desde el maestro de facturas, pulsaremos sobre el botón de añadir e-mails en el recuadro de facturas.
 
 ![Email principal](./img/clientes3.png)
 
@@ -64,19 +64,19 @@ Aquí tenemos que informar:
 
 ![Email principal](./img/clientes4.png)
 
-- Se quedará guardado los emails a los que se enviarán los correos al pulsar en enviar email a una factura de dicho cliente.
+- Se quedarán guardadas las direcciones de los e-mails de dicho cliente a los que se enviarán los correos cuando pulsemos el botón de enviar e-mail de una factura de dicho cliente.
 
 ![Email principal](./img/clientes5.png)
 
 
-### Prioridad de selección de email
+### Prioridad de selección de e-mail
 
-- A la hora de enviar un documento por email, primero se mirará si existe para el tipo de documento uno o varios emails configurados en la pestaña **Agenda** de la ficha del cliente, si no existe ningún email configurado para el tipo de documento entonces mirará el email configurado en la pestaña **General** 
+- A la hora de enviar un documento por e-mail, primero se mirará si existe para el tipo de documento uno o varios e-mails configurados en la pestaña **Agenda** de la ficha del cliente, si no existe ningún e-mail configurado para el tipo de documento entonces mirará el e-mail configurado en la pestaña **General** 
 
 
-## Envío de email desde maestro de documentos
+## Envío de e-mail desde maestro de documentos
 
-- En los maestros de presupuestos, pedidos, albaranes y facturas de clientes existe un botón el cual teniendo seleccionado un documento, enviará un email a la dirección de correo configurada siguiendo la prioridad descrita anteriormente adjuntando una copia del impreso del documento correspondiente.
+- En los maestros de presupuestos, pedidos, albaranes y facturas de clientes existe un botón el cual teniendo seleccionado un documento, enviará un e-mail a la dirección de correo configurada siguiendo la prioridad descrita anteriormente adjuntando una copia del impreso del documento correspondiente.
 
 - En el ejemplo podemos ver como se adjunta la factura 20230A000001 y se envía a los destinatarios que habíamos configurado en la ficha del cliente, en la pestaña de Agenda en el recuadro de facturas.
 

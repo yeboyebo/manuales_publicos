@@ -15,6 +15,20 @@
 
 *  El trabajador solo podrá seleccionar proyectos que estén en **estado abierto**. Para cambiar el estado de un proyecto podemos hacerlo en el formulario **Area de Colaboración/Proyectos/Proyectos**.
 
+## Sincronización con aplicación en servidor remoto.
+El despliegue de la aplicación se localizará en un servidor remoto. Podremos sincronizar los datos de partes y proyectos, así como reabrir partes cerrados con el servidor principal desde el ERP del mismo.
+
+### Sincronizar partes, proyectos y reabrir partes
+
+* Desde el formulario **Area de Facturación/Facturación/Partes de tarbajo** podremos sincronizar con el servidor remoto. Actualizaremos los datos de la tabla de proyectos de la aplicación remota, así como traer los datos de los partes con estado *firmado* en la aplicación. Para ello debemos clicar en el botón **Sincronizar con la base de datos de partes de trabajo** que encontramos en la parte derecha de la barra superior. Si la operación ha sido exitosa veremos un mensaje de confirmación *Se han sincronizado los partes desde la aplicación web* y estos partes pasarán a estado **Cerrado**.
+
+* Para reabrir un parte **cerrado**, seleccionamos el parte y clicamos el botón **Reabrir** que encontramos en la parte derecha de la barra superior.  Si la operación ha sido exitosa veremos un mensaje de confirmación *Este parte se ha reabierto tanto en el ERP como en la aplicación web* y estos partes pasarán a estado **Borrador**.
+
+### Modificar trabajadores, artículos, familias, horas objetivo, etc.
+
+Toda los datos que no sean proyectos no serán sincronizados hacía la base de datos del servidor remoto. De modo que si los modificamos en ERP principal, también debemos hacerlo en el ERP del servidor remoto.
+
+
 ## Listado de partes
 
 * Veremos un listado de los últimos 15 partes registrados.
@@ -85,5 +99,6 @@ Cada elemento línea consta de la siguiente información:
 * Cuando el total de tiempo ingresado en el parte se corresponda con el tiempo objetivo, el color del campo *horas ingresadas* cambiará a verde y el botón **Firmar parte** estará habilitado.
   * Se abre un dialogo de confirmación.
 
-
 ![Firmar parte](./img/firmar_parte.png)
+
+* Una vez firmado por el trabajador se indicará el estado del parte(**Firmado**) al lado del código del mismo y ya no se podrá modificar por parte del trabajador. Y después de sincronizar la aplicación remota desde el ERP del servidor principal, el estado pasará a ser **Cerrado**. 

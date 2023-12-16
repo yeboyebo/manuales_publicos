@@ -26,7 +26,7 @@ El despliegue de la aplicación se localizará en un servidor remoto. Podremos s
 
 ### Modificar trabajadores, artículos, familias, horas objetivo, etc.
 
-Toda los datos que no sean proyectos no serán sincronizados hacía la base de datos del servidor remoto. De modo que si los modificamos en ERP principal, también debemos hacerlo en el ERP del servidor remoto.
+Todos los datos que no sean proyectos no serán sincronizados hacía la base de datos del servidor remoto. De modo que si los modificamos en el ERP principal, también debemos hacerlo en el ERP del servidor remoto.
 
 
 ## Listado de partes

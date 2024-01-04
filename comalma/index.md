@@ -14,5 +14,5 @@
   - [Consultar mis datos](./comercios/datoscomercio.md)
 
 ## App de usuarios
-  - [Consultar mis compras](./usuarios/comprasusuario.md)
-  - [Consultar mis datos](./usuarios/datosusuarios.md)
+  - [Consultar mis compras](./usuarios/comprasusuarios.md)
+  - [Consultar mis datos](./usuarios/datosusuario.md)

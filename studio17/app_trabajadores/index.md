@@ -2,7 +2,7 @@
 
 ## Configuraciones previas en el ERP
 
-* Para establecer la cantidad de **horas objetivo** que el trabajador debe introducir en un parte diario, debemos ir al formulario **Area de Facturación/Facturación/Configuración** y rellenar los campos *Horas partes* y *Horas partes viernes* en formato decimal, es decir, siete horas y media serían 7.5 horas.
+* Para establecer la cantidad de **horas objetivo** que el trabajador debe introducir en un parte diario, debemos ir al formulario **Area de Facturación/Facturación/Configuración** y rellenar los campos *Horas partes* y *Horas partes viernes* en formato *hora:minutos:segundos*.
 
 * Los trabajos que el trabajador puede seleccionar a la hora de crear una línea de trabajo de un parte, pertenecen a la superfamilia de artículos *MANO DE OBRA*.
   * Si no existe dicha familia, podemos crearla en el formulario **Area de Facturación/Almacén/Superfamilias** con el nombre *MANODEOBRA* y el tipo *MANO DE OBRA*.<br>

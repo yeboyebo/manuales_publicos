@@ -2,11 +2,11 @@
 
 ## Condiciones para usuarios
 
-Los usuarios que acceden a la aplicación se gestionan desde Area de facturación->Principal->Clientes
+Los usuarios que acceden a la aplicación se gestionan en el ERP desde Area de ***Facturación->Principal->Clientes***
 
-Un cliente debe tener informado el campo E-mail para poder logear en la web
+Un cliente debe tener informado el campo ***E-mail*** para poder logear en la web
 
-Además desde la pestaña Tienda online del formulario de clientes hay que darles una contraseña.
+Además desde la pestaña ***Tienda online*** del formulario de clientes hay que darles una contraseña, la cual debe tener al menos 6 dígitos, una mayuscula, una minuscula y un número.
 
 ![Alt text](image.png)
 
@@ -15,6 +15,9 @@ Además desde la pestaña Tienda online del formulario de clientes hay que darle
 
 ## Condiciones para que articulos sean visibles
 
-Que tengan planta asociada y que esten publicados en el ultimo informe de disponibles.
+Para que un articulo sea visible en la tienda online se deben cumplir las siguientes condciones:
 
-Se mostraran los precios de los articulos articulos en funcion de la tarifa del cliente.
+- Que tengan planta asociada
+- Que esten publicados en el ultimo informe de disponibles.
+
+Se mostraran los precios de los articulos en funcion de la tarifa del cliente.

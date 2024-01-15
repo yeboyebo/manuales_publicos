@@ -28,7 +28,9 @@ A este grupo le añadimos los grupos contables de IVA correspondientes a cada pa
 
 ![Añadiendo grupo contable de IVA](./img/grupoIvaConf.png)
 
-En campo 'G.Producto' del formulario añadiremos el código de impuesto de cada país, los cuáles ya creamos anteriormente.
+En el campo 'G.Producto' del formulario añadiremos el código de impuesto de cada país, los cuáles ya creamos anteriormente.
+
+### Informar grupo de negocio IVA UE VAT por defecto.
 
 Por último, nos dirigiremos a la configuración principal del módulo de facturación. Ruta: **Area de facturación -> Principal -> Configuración**
 

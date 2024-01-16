@@ -2,6 +2,8 @@
 
 ![Alt text](../images/misdatosconsumidor.png)
 
-Los clientes que accedan a la aplicación pondran gestionar sus datos personales desde el menu principal -> Mis datos
+Los clientes que acceden a la aplicación podrán gestionar sus datos personales desde el menú principal -> Mis datos
+
+![Alt text](../images/provinciasconsumidor.png)
 
 [Volver al Índice](../index.md)

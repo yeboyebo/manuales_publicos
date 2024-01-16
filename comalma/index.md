@@ -9,10 +9,15 @@
   - [Gestión de listas](./administracion/listas.md)
 
 ## App de Establecimientos
-  <!-- - [Crear una nueva venta](./comercios/nuevaventa.md) -->
-  - [Consultar mis ventas](./comercios/ventascomercio.md)
+
+![Alt text](./images/homecomercio.png)
+
+  - [Consultar ventas establecimiento](./comercios/ventascomercio.md)
   - [Consultar mis datos](./comercios/datoscomercio.md)
 
 ## App de usuarios
+
+![Alt text](./images/homeconsumidores.png)
+
   - [Consultar mis compras](./usuarios/comprasusuarios.md)
   - [Consultar mis datos](./usuarios/datosusuario.md)

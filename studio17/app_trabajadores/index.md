@@ -11,7 +11,7 @@
 
 * En el formulario **Area de Facturación/Almacén/Artículos** debemos añadir la familia correspondiente al mismo, que determinará así el oficio relacionado con el artículo y la superfamilia a la que pertenece.
 
-* En el formulario **Area de Colaboración/Proyectos/Usuarios** debemos seleccionar el oficio del mismo de tal modo que el usuario solo podrá ver los artículos que pertenezcan a su mismo oficio y aquellos artículos cuya familia tenga el oficio *Todos*.
+* En el formulario **Area de Colaboración/Proyectos/Usuarios** debemos seleccionar el oficio del mismo de tal modo que el usuario solo podrá ver los artículos que pertenezcan a su mismo oficio y aquellos artículos cuya familia tenga el oficio *Todos*. Si el oficio del usuario es *'Todos'*, este podrá ver todos los artículos cuya superfamilia sea *MANODEOBRA*.
 
 *  El trabajador solo podrá seleccionar proyectos que estén en **estado abierto**. Para cambiar el estado de un proyecto podemos hacerlo en el formulario **Area de Colaboración/Proyectos/Proyectos**.
 

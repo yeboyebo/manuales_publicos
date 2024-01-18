@@ -19,5 +19,6 @@
 
 ![Alt text](./images/homeconsumidores.png)
 
+  - [Registro consumidor](./usuarios/altausuarios.md)
   - [Consultar mis compras](./usuarios/comprasusuarios.md)
   - [Consultar mis datos](./usuarios/datosusuario.md)

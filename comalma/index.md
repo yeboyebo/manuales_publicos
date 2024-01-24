@@ -4,7 +4,7 @@
 
 ![Alt text](./images/homeadmin.png)
 
-  - [Gestión de comercios](./administracion/comercios.md)
+  - [Gestión de establecimientos](./administracion/comercios.md)
   - [Gestión campañas](./administracion/campanas.md)
   - [Gestión de listas](./administracion/listas.md)
 

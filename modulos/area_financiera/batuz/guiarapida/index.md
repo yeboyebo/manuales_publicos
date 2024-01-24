@@ -48,7 +48,8 @@ Para hacerlo seguiremos estos pasos:
 - Abrimos la presentación y consultamos el Estado global de cada una de las comunicaciones. Si hay algún error podemos consultar el Estado de registro de cada factura abriendo la comunicación.
 
 ## Presentación de facturas SIN Garante
-En los casos en las que la factura está firmada pero da error al presentar (el campo **Firmado** la factura tiene el valor de *Firmado* y el campo **Estado Batuz**  es *INCORRECTO*), tenemos que solventar los errores que hacen que falle al presentar y volver a presentar.
+En los casos en las que una determianda factura está firmada pero da error al presentar (el campo **Firmado** de la factura tiene el valor de *Firmado* o *Anulado* porque la hemos anulado y el campo **Estado Batuz**  es *INCORRECTO*), tenemos que solventar los errores que hacen que falle al presentar y volver a presentar.
+
 Como la factura está firmada no es posible modificarla por lo que habría que modificar el registro en la propia presentación y poder presentarla *SIN Garante* ya que lo firmado no corresponde con lo que se va a presentar.
 Para ello seguirmos estos pasos:
 - Marcaremos la factura a presentar como *Sin Garante*, para ello teniendo la factura seleccionada, pulsaremos el botón de **Marcar Sin Garante**

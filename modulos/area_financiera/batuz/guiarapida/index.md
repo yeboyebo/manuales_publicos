@@ -47,4 +47,36 @@ Para hacerlo seguiremos estos pasos:
 - Pulsamos el botón Generar Fichero ![Batuz](./img/batuz.png).
 - Abrimos la presentación y consultamos el Estado global de cada una de las comunicaciones. Si hay algún error podemos consultar el Estado de registro de cada factura abriendo la comunicación.
 
+## Presentación de facturas SIN Garante
+En los casos en las que la factura está firmada pero da error al presentar (el campo **Firmado** la factura tiene el valor de *Firmado* y el campo **Estado Batuz**  es *INCORRECTO*), tenemos que solventar los errores que hacen que falle al presentar y volver a presentar.
+Como la factura está firmada no es posible modificarla por lo que habría que modificar el registro en la propia presentación y poder presentarla *SIN Garante* ya que lo firmado no corresponde con lo que se va a presentar.
+Para ello seguirmos estos pasos:
+- Marcaremos la factura a presentar como *Sin Garante*, para ello teniendo la factura seleccionada, pulsaremos el botón de **Marcar Sin Garante**
+
+![Marcar Sin Garante](./img/facturascli1.png)
+
+- Nos avisará de que la factura se va a presentar *Sin Garante* y si queremos continuar.
+
+![Marcar Sin Garante](./img/facturascli2.png)
+
+    - Si pulsamos en No no hará nada
+    - Si pulsamos en Si la factura se marca como *Sin Garante*
+
+![Marcar Sin Garante](./img/facturascli3.png)
+
+- Crearemos una nueva presentación informando todos los filtros deseados como si una **Alta** normal se tratara
+- Marcaremos el check de **Búsqueda de facturas sin garante**
+
+![Marcar Sin Garante](./img/facturascli4.png)
+
+- Pulsaremos en el botón de calcular datos 
+
+![Marcar Sin Garante](./img/facturascli5.png)
+
+- Nos aparecerá únicamente las facturas que estén marcadas como *Sin Garante*, en nuestro ejemplo la factura *F0240A000047*
+
+![Marcar Sin Garante](./img/facturascli6.png)
+
+- El resto de pasos es el mismo que en una presentación normal
+
 [Volver](../index.md)

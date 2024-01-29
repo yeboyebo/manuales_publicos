@@ -1,6 +1,6 @@
 # Nueva venta
 
-![Alt text](../images/nuevacompra.png)
+![Alt text](../images/nuevaventa.png)
 
 La aplicación de comercios después de logear como cliente vemos directamente el formulario de nueva venta, con fecha de hoy por defecto.
 

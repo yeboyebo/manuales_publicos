@@ -22,12 +22,9 @@ Si pulsamos el botón de la derecha de **Selección de Utillajes** se abrirá un
 
 Para asociar los utillajes seguieremos lo siguientes pasos:
 
-- Establecer el **Tipo de Tarea** y el **Tipo de utillaje**
-- Pulsamos el botón **Buscar**
-- Al hacer esto nos aparecerán en la tabla de arriba, todos los utillajes que podemos asociar a la fabricación de ese artículo. Seleccionamos los que sean necesarios.
-- Pulsamos el botón **Seleccionar Utillaje** situado entre las dos tablas. Al hacer esto los utillajes aparecerán en la tabla inferior y quedarán asociados a ese artículo
-- Podemos asociar más utillajes a otros tipos de tarea repitiendo todos los pasos.
-- Para quitar utillajes los seleccionaremos en la tabla inferiro y pulsaremos el botón **Quitar utillaje**
+- Establecer el **Tipo de Tarea** si no está ya informado
+- Al hacer esto nos aparecerán en la tabla, todos los utillajes que podemos asociar a la fabricación de ese artículo y aparecerán maracados los que ya estén asociados.
+- Al marcar o desmarcar utillajes se incluirán o quitarán del artículo.
 
 
 ## Observaciones a tener en cuenta en la fabricación de un producto

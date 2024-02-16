@@ -8,3 +8,4 @@
 
 [Cómo gestionar tareas](./gestiontareas/index.md)
 
+[Cómo gestionar utillajes](./gestionutillajes/index.md)

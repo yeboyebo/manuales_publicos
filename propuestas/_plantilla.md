@@ -24,6 +24,9 @@ Para hacer x:
 ## Notas de desarrollo
 No hay notas de desarrollo
 
+## Tareas
+(mismas que puntos de estructura)
+
 ## Manual
 El manual constará de...
 No es necesario manual

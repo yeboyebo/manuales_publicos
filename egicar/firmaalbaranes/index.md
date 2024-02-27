@@ -8,4 +8,6 @@ Los datos de cada albarán que se mustran son, en la parte de arriba el código 
 
 A la derecha hay un botón *Firmar* que al clicar desplegará un dialogo para proceder a la firma del mismo. En este dialogo podremos seleccionar el firmante, si existe un contacto asociado al cliente o rellenar los datos manualmente, la fecha y hora son, por defecto, el momento actual, los cuales son editables. También se mostrará las líneas de pedido asociadas al albarán indicando **la cantidad** X **el producto** de la línea. En la parte de abajo esta la caja donde estampar la firmar. 
 
+Al firmar el albarán se enviará un email con un documento pdf con el albarán firmado.
+
 [Volver al Índice](../index.md)

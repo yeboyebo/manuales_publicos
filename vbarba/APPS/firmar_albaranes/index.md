@@ -27,3 +27,7 @@
 ![Firma](./img/firma5.png)
 
 * En caso de que nos hayamos confundido a la hora de firmar pulsaremos **Limpiar** el cual nos vaciará el campo de firma. En caso de que todo estuviera correcto pulsaremos sobre **Firmar** el cual terminará el proceso de firma.
+
+### Más
+
+  * [Volver al índice](../index.md)

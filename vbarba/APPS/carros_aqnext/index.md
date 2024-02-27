@@ -11,3 +11,7 @@
 ## Pantalla de carros de pedido
 
 ![Alt text](./images/carrospedido.png)
+
+### Más
+
+  * [Volver al índice](../index.md)

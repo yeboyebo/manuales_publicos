@@ -9,3 +9,4 @@
   - [Nuevo informe ADR](./area_facturacion/informes/informe_adr.md)
   - [Trazabilidad interna y producción](./area_facturacion/almacen/trazabilidadinterna.md)
   - [Informe de inventario valorado](./area_facturacion/informes/inventarioval.md)
+  - [Informe etiquetas](./area_facturacion/informes/informeEtiquetas.md)

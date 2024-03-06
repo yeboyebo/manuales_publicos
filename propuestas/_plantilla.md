@@ -33,5 +33,5 @@ No es necesario manual
 
 ## Presupuesto
 ### Análisis X€
-### Desarrollo X€
+### Desarrollo e instalación X€
 ### Documentación X€

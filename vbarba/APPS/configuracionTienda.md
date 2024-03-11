@@ -21,3 +21,7 @@ Para que un artículo sea visible en la tienda online se deben cumplir las sigui
 - Que estén publicados en el último informe de disponibles.
 
 Se mostrarán los precios de los artículos en función de la tarifa del cliente.
+
+### Más
+
+  * [Volver al índice](./index.md)

@@ -60,3 +60,7 @@ También podemos acceder a un parte asociado con un albarán desde la pantalla *
   ![E/S carros](./img/es_carros.png)
 
   La edición se perderá si los datos no se guardan clicando el botón *Guardar las entradas/salidas* o firmando el parte.
+
+### Más
+
+  * [Volver al índice](../index.md)

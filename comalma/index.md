@@ -4,7 +4,7 @@
 
 ![Alt text](./images/homeadmin.png)
 
-  - [Gestión de comercios](./administracion/comercios.md)
+  - [Gestión de establecimientos](./administracion/comercios.md)
   - [Gestión campañas](./administracion/campanas.md)
   - [Gestión de listas](./administracion/listas.md)
 
@@ -19,6 +19,6 @@
 
 ![Alt text](./images/homeconsumidores.png)
 
-  - [Registro consumidor](./usuarios/altausuarios.md)
+  - [Registro usuario](./usuarios/altausuarios.md)
   - [Consultar mis compras](./usuarios/comprasusuarios.md)
   - [Consultar mis datos](./usuarios/datosusuario.md)

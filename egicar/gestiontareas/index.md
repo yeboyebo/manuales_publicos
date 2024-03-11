@@ -2,7 +2,11 @@
 
 Desde la pantalla **Tareas de terminal** tendremos acceso a la gestión de tareas. Solo tendrán acceso los usuarios que tengan asociado un trabajador, si no lo está veremos el mensaje *'Este usuario no está asociado a ningún trabajador'*.
 
-Una vez hayamos accedido a la pantalla, veremos un cuadro de búsqueda en el que ingresar un código de tarea, este se buscará y si la tarea existe veremos su descripción y código, el orden de producción al que pertence, y el estado y las posibles acciones a realizar dependiendo del mismo. Si el código de tarea buscado no se encuentra veremos un mensaje de aviso indicando que la tarea no existe.
+Una vez hayamos accedido a la pantalla, veremos un cuadro de búsqueda en el que ingresar un código de tarea, este se buscará y si la tarea existe veremos su descripción y código, la orden de producción al que pertence, el árticulo a fabricar, los utillajes que se encesitan en el proceso de fabricación, obsrvaciones a la tarea y el estado y las posibles acciones a realizar dependiendo del mismo. Si el código de tarea buscado no se encuentra veremos un mensaje de aviso indicando que la tarea no existe.
+
+Podremos navegar a la ficha de la [orden de producción](../ordenesproduccion/index.md) a la que pertence la tarea clicando en el botón *Ir a la orden* situado junto a al código de la orden.
+
+Podremos navegar a la ficha del del pedido al que pertence la tarea clicando en el botón *Ir al pedido* situado junto a al código de la orden, desde donde podremos generar albranes parciales de envío con la cantidad ya fabricada..
 
 ## Estados de tarea
 

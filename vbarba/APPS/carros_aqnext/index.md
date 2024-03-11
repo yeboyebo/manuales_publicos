@@ -28,3 +28,6 @@ Query tabla lineas:
 
 Acciones:
 
+### Más
+
+  * [Volver al índice](../index.md)

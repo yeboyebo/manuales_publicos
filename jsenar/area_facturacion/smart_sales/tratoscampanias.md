@@ -59,3 +59,5 @@ Pulsando el botón
 ![Nuevo trato](./img/publicar.png)
 
 Se publicaran automáticamente todos los tratos que esten en estado Asignado.
+
+[Volver al Índice](./index.md)

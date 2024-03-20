@@ -42,7 +42,7 @@ Si los datos de contacto del excel no coinciden con los datos almacenados, se pu
 
 El formato de excel sera:
 
-email | cifnif | codpostal | observaciones | familia productos interesado
+nombre y apellidos | email | ciudad | cifnif | codpostal | observaciones | familia productos interesado
 
 ## Asignar agente a tratos automáticamente por código postal
 

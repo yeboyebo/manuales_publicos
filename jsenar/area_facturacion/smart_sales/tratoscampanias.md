@@ -23,7 +23,7 @@ Pulsando sobre el icono "+" en la parte izquierda, se abre el formulario para in
 
 La fecha por defecto es la de hoy.
 
-El tipo de trato es que se indique por defecto en el ERP en el area de facturacion->Configuracion->Smartsales
+El tipo de trato es que se indique por defecto en la campaña.
 
 Es posible crear un nuevo contacto si es para un contacto no existente.
 

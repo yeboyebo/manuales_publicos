@@ -52,3 +52,7 @@ En cambio, si creamos un presupuesto con el cliente que no tiene comisión espec
 
 El % de comisión es el mismo que tiene el agente en su ficha porque el cliente relacionado no tiene una comisión especial propia.
 
+### Más
+
+  * [Volver al Índice](../index.md)
+

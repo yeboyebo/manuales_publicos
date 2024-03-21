@@ -34,3 +34,7 @@ En el informe de facturas recibidas el cual podemos imprimir desde  **Área Fina
 
 
 ![Informe facturas recibidas](./img/informeFacturasRecibidas.png)
+
+### Más
+
+  * [Volver al Índice](../index.md)

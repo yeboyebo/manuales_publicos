@@ -40,9 +40,9 @@ Se puede seleccionar un fichero excel con información de contactos, el sistema 
 Los tratos creados automáticamente no tendran agente asignado.
 Si los datos de contacto del excel no coinciden con los datos almacenados, se pueden ver las diferencias desde el boton resolver diferencias sobre el campo de contacto.
 
-El formato de excel sera:
+El formato debera ser xlsx y contener los datos en este orden:
 
-nombre y apellidos | email | ciudad | cifnif | codpostal | observaciones | familia productos interesado
+nombre y apellidos | telefono | email | ciudad | codpostal | fecha y hora | observaciones | familia productos interesado
 
 ## Asignar agente a tratos automáticamente por código postal
 

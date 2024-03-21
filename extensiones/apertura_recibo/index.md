@@ -4,7 +4,7 @@ Esta extensión permite la reapertura de un recibo de cliente que haya sido marc
 
 ### Funcionalidad anterior
 
-Cuando hacias el pago de un recibo y luego este era devuelto, el importe era bloqueado y no podía ser modificado.
+Cuando hacías el pago de un recibo y luego este era devuelto, el importe era bloqueado y no podía ser modificado.
 
 ![Importe del recibo devuelto bloqueado](./img/importeBloqueado.png)
 
@@ -19,14 +19,14 @@ Añadimos un botón en el master de recibos cliente.
 
 ![Nuevo recicbo creado](./img/nuevoRecibo.png)
 
-Creará un nuevo recibo con los mismos datos (importe, factura asignada). Pero ahora este tendrá su es tado en __Emitido__ y se le podrá moficar su importe para pagarlo por partes.
+Creará un nuevo recibo con los mismos datos (importe, factura asignada). Pero ahora este tendrá su estado en __Emitido__ y se le podrá modificar su importe para pagarlo por partes.
 
 ![Los diferentes recibos creados](./img/variosRecibos.png)
 
 ![Recibos Agrupados](./img/recibosAgrupados.png)
 
 
-Si desactivamos el tick de _Sólo pendientes_ podremos ver como el recibo original se ha agrupado con otro nuevo recibo.
+Si desactivamos la opción _Sólo pendientes_, observaremos cómo el recibo original se ha agrupado con otro nuevo recibo.
 
 El nuevo recibo agrupado tendrá el importe del original pero en negativo. Y al estar los dos agrupados se creará un grupo con importe 0.
 

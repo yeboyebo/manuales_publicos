@@ -39,3 +39,7 @@ Para poder justificar los resultados de informes ya generados, al momento de gen
 Este archivo tendrá de nombre la descripción del informe que hayamos generado seguido de la fecha y hora en la que se generó y el sufijo "\_comps".
 
 El caracter separador de los datos de este archivo csv es "|".
+
+### Más
+
+  * [Volver al Índice](../index.md)

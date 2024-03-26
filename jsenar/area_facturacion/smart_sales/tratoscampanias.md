@@ -23,7 +23,7 @@ Pulsando sobre el icono "+" en la parte izquierda, se abre el formulario para in
 
 La fecha por defecto es la de hoy.
 
-El tipo de trato es que se indique por defecto en el ERP en el area de facturacion->Configuracion->Smartsales
+El tipo de trato es que se indique por defecto en la campaña.
 
 Es posible crear un nuevo contacto si es para un contacto no existente.
 
@@ -40,9 +40,9 @@ Se puede seleccionar un fichero excel con información de contactos, el sistema 
 Los tratos creados automáticamente no tendran agente asignado.
 Si los datos de contacto del excel no coinciden con los datos almacenados, se pueden ver las diferencias desde el boton resolver diferencias sobre el campo de contacto.
 
-El formato de excel sera:
+El formato debera ser xlsx y contener los datos en este orden:
 
-email | cifnif | codpostal | observaciones | familia productos interesado
+nombre y apellidos | telefono | email | ciudad | codpostal | fecha y hora | observaciones | familia productos interesado
 
 ## Asignar agente a tratos automáticamente por código postal
 

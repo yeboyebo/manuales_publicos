@@ -31,6 +31,9 @@ No hay notas de desarrollo
 El manual constará de...
 No es necesario manual
 
+## Soporte remoto tras la instalación
+No es necesario
+
 ## Presupuesto
 ### Análisis X€
 ### Desarrollo e instalación X€

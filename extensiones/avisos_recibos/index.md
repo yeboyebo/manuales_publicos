@@ -47,3 +47,8 @@ Hay una nueva acción Envío avisos en tesorería, similar a Envío cliente en f
 
 ##### Envío de reclamaciones
 Hay una nueva acción Envío reclamaciones en tesorería, similar a Envío cliente en facturación, que permitirá asociar recibos a un envío, que cumplan los criterios de Reclamaciones pendientes, que haga el envío y que marque los recibos como Reclamación enviada
+
+
+### Más
+
+  * [Volver al Índice](../index.md)

@@ -40,17 +40,19 @@ En **_Area de Sistema/Mantenimientos/Valores parámetros_** hay que rellenar los
                 "codpago": null,
                 "codalmacen": null,
                 "codejercicio": null,
-                "codserie": null
+                "codserie": null,
+                "codgrupoivaneg": null
             }
         },
         "lines": {
             "table": "lineasalbaranesprov",
             "relation_id": "idalbaran",
             "fields" : {
-                "referencia_proveedor" : "identifier",
+                "referencia_proveedor" : null,
+                "referenciaproveedor": "identifier",
                 "descripcion": "description",
                 "cantidad": "quantity",
-                "pvpunitario": "TaxBaseUnitPrice",
+                "pvpunitario": "taxBaseUnitPrice",
                 "pvpsindto": "taxBaseUnitPrice",
                 "pvptotal": "totalAmount",
                 "codimpuesto": null,
@@ -87,17 +89,19 @@ En **_Area de Sistema/Mantenimientos/Valores parámetros_** hay que rellenar los
                 "codpago": null,
                 "codalmacen": null,
                 "codejercicio": null,
-                "codserie": null
+                "codserie": null,
+                "codgrupoivaneg": null
             }
         },
         "lines": {
             "table": "lineasfacturasprov",
             "relation_id": "idfactura",
             "fields" : {
-                "referencia_proveedor" : "identifier",
+                "referencia_proveedor" : null,
+                "referenciaproveedor": "identifier",
                 "descripcion": "description",
                 "cantidad": "quantity",
-                "pvpunitario": "TaxBaseUnitPrice",
+                "pvpunitario": "taxBaseUnitPrice",
                 "pvpsindto": "taxBaseUnitPrice",
                 "pvptotal": "totalAmount",
                 "codimpuesto": null,

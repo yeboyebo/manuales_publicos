@@ -32,8 +32,8 @@ XXX H___ ...
 El manual constará de...
 No es necesario manual
 
-## Soporte remoto tras la instalación
-No es necesario
+## Asistencia a puesta en marcha
+No es necesaria
 
 ## Presupuesto
 XXX H___ Análisis X€

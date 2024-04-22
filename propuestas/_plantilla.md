@@ -33,7 +33,7 @@ El manual constará de...
 No es necesario manual
 
 ## Asistencia a puesta en marcha
-No es necesaria
+No es necesaria.
 
 ## Presupuesto
 XXX H___ Análisis X€

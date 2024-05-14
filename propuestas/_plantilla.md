@@ -25,7 +25,7 @@ Para hacer x:
 No hay notas de desarrollo
 
 ## Tareas
-XXX H___ ...
++ H___ ...
 (mismas que puntos de estructura)
 
 ## Manual
@@ -36,6 +36,6 @@ No es necesario manual
 No es necesaria.
 
 ## Presupuesto
-XXX H___ Análisis X€
-XXX H___ Desarrollo e instalación X€
-XXX H___ Documentación X€
++ H___ Análisis X€
++ H___ Desarrollo e instalación X€
++ H___ Documentación X€

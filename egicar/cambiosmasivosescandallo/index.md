@@ -7,12 +7,14 @@ En **Facturción->Almacén** tenemos una nueva acción **Cambios Masivos de Esca
 + Búsqueda. En este apartado estbleceremos algunos filtros para realizar un búsqueda de los componentes sobre los que deseamos realizar el cambio masivo.
 
 Los campos de búsqueda serán:
+
     - Referencia producto desde.
     - Referencia producto hasta.
     - Referencia componente. Habilitados en modos Modificar / Eliminar.
 Una vez establecidos estos valores si pulsamos sobre el botón **Buscar**, en la tabla inferiro se mostrará el resultado de la búsqueda
 
-+ Datos. En esta última parte debemos establecer los datos que queremos cambiar:  
++ Datos. En esta última parte debemos establecer los datos que queremos cambiar: 
+
         - Nueva referencia de componente. Habilitado en modo Añadir / Modificar.
         - Cantidad.
         - Tarea de consumo. Relacionado con tipos de tareas y filtrado por el tipo de proceso del rango. Todas las referencias deben fabricarse con el mismo tipo de proceso.

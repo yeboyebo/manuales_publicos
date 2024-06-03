@@ -2,16 +2,16 @@
 
 En **Facturción->Almacén** tenemos una nueva acción **Cambios Masivos de Escandallo**. Este formulario se divide en las siguientes partes:
 
-+ Cabecera. En esta parte encontramos datos rerentes al usuario y fecha que realizará el cambio así como el Modo de cambio. Este modo tiene 3 posibles valores: Añadir, Modificar y Eliminar. (Más adelante se explica cada uno de ellos)
++ Cabecera. En esta parte encontramos datos referentes al usuario y fecha que realizará el cambio así como el Modo de cambio. Este modo tiene 3 posibles valores: Añadir, Modificar y Eliminar. (Más adelante se explica cada uno de ellos)
     
-+ Búsqueda. En este apartado estbleceremos algunos filtros para realizar un búsqueda de los componentes sobre los que deseamos realizar el cambio masivo.
++ Búsqueda. En este apartado estbleceremos algunos filtros para realizar una búsqueda de los componentes sobre los que deseamos realizar el cambio masivo.
 
 Los campos de búsqueda serán:
 
     - Referencia producto desde.
     - Referencia producto hasta.
     - Referencia componente. Habilitados en modos Modificar / Eliminar.
-Una vez establecidos estos valores si pulsamos sobre el botón **Buscar**, en la tabla inferiro se mostrará el resultado de la búsqueda
+Una vez establecidos estos valores, si pulsamos sobre el botón **Buscar**, en la tabla inferior se mostrará el resultado de la búsqueda
 
 + Datos. En esta última parte debemos establecer los datos que queremos cambiar: 
 
@@ -19,9 +19,9 @@ Una vez establecidos estos valores si pulsamos sobre el botón **Buscar**, en la
         - Cantidad.
         - Tarea de consumo. Relacionado con tipos de tareas y filtrado por el tipo de proceso del rango. Todas las referencias deben fabricarse con el mismo tipo de proceso.
 
-Una vez establecidos los datos a cambiar pulsaremos el botón Lanzar para hacerlos efectos. Que dependiendo del modo que hayamos seleccionado realizará una acción diferente.
+Una vez establecidos los datos a cambiar pulsaremos el botón Lanzar para hacerlos efectivos. Dependiendo del modo que hayamos seleccionado se realizará una acción diferente.
 
-`IMPORTANTE:` Todas las búsquedas y acciones se realizarán por componentes en los que sus campos de Talla compuesto, Color compuesto y Barcode componente tengan valor nulo. No se operará con componentes de talla y color.
+`IMPORTANTE:` Todas las búsquedas y acciones se realizarán por componentes en los que sus campos de Talla compuesto, Color compuesto y Barcode componente tengan valor nulo. No podrá operar con componentes de talla y color.
 
 ## Crear nuevos componentes
 + Creamos un registro de **Cambio Masivo de Escandallo** y elegimos el modo _Añadir_.
@@ -46,7 +46,7 @@ Una vez establecidos los datos a cambiar pulsaremos el botón Lanzar para hacerl
     + Rango de referencias de productos afectados.
     + Referencia del componente a modificar
 
-+ Pulsamos **Buscar** para ver los artículos afectados. La lista muestra todos los productos del rango y sus columnas de compuesto están informadas solo si el producto ya tiene el componente a modificar.
++ Pulsamos **Buscar** para ver los artículos afectados. La lista mostrará todos los productos del rango y sus columnas de compuesto están informadas solo si el producto ya tiene el componente a modificar.
 
 + En el apartado Datos, informamos:
     + Nueva referencia del componente (puede ser la misma si solo queremos cambiar su cantidad)

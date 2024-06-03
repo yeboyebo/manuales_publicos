@@ -15,5 +15,3 @@
 [Cómo gestionar pedidos](./gestionpedidos/index.md)
 
 [Cómo firmar albaranes](./firmaalbaranes/index.md)
-
-[Cambios masivos de escandallo](./cambiosmasivosescandallo/index.md)

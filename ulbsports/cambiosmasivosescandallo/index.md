@@ -26,12 +26,10 @@ Una vez establecidos los datos a cambiar pulsaremos el botón Lanzar para hacerl
 ## Crear nuevos componentes
 + Creamos un registro de **Cambio Masivo de Escandallo** y elegimos el modo _Añadir_.
 
-+ Indicamos en la zona de búsqueda:
-    + Rango de referencias de productos afectados.
-    + Referencia del componente a crear
-        + En el apartado datos, la referencia del componente a crear se copia y queda inhabilitada.
++ Indicamos en la zona de búsqueda el rango de referencias de productos afectados
++ En el apartado datos, la referencia del nuevo componente.
 
-+ Pulsamos **Buscar** para ver los artículos afectados. La lista muestra todos los productos del rango y sus columnas de compuesto están informadas solo si el producto ya tiene el componente a crear.
++ Pulsamos **Buscar** para ver los artículos afectados. La lista muestra todos los productos del rango y sus columnas de componente estarán informadas solo si el producto ya tiene el componente a crear.
 
 + En el apartado Datos, informamos la cantidad del componente a crear (valor por defecto 1).
 
@@ -44,12 +42,12 @@ Una vez establecidos los datos a cambiar pulsaremos el botón Lanzar para hacerl
 + Creamos un registro de **Cambio Masivo de Escandallo** y elegimos el modo _Modificar_.
 + Indicamos en la zona de búsqueda:
     + Rango de referencias de productos afectados.
-    + Referencia del componente a modificar
+    + Referencia del componente a modificar. Al hacer esto se copiará automáticamente la referencia del componente al campo Nuevo Componente de la zona de Datos.
 
-+ Pulsamos **Buscar** para ver los artículos afectados. La lista mostrará todos los productos del rango y sus columnas de compuesto están informadas solo si el producto ya tiene el componente a modificar.
++ Pulsamos **Buscar** para ver los artículos afectados. La lista mostrará todos los productos del rango.
 
 + En el apartado Datos, informamos:
-    + Nueva referencia del componente (puede ser la misma si solo queremos cambiar su cantidad)
+    + Nueva referencia del componente. Por defecto será la misma o podremos establecer otra. Si dejamos la misma referencia será para modificar solamente la cantidad
     + Cantidad. Si la cantidad no está informada (valor vacío), se entenderá que se debe respetar la cantidad actual en cada componente. 
 
 + Pulsamos el botón **Lanzar**.

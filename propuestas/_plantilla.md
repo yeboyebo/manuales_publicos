@@ -36,12 +36,18 @@ Lectura:
 + Contactos de curso
 
 Casos de uso:
-+ _Cargar contactos_. Params:
-    + idCurso
-    + excel de contactos mismo formato que ERP
-+ _Añadir contacto_. Params: idCurso, email
-+ _Quitar contacto_. Params: idCurso, email
-+ crearCampaña. Estados: Curso sin campaña. Params: idCurso
+* _Cierre de turno_
+    * Params:
+        * Día
+        * Movimientos []:
+            * Lote
+            * Cantidad
+    * Validaciones:
+        * El turno no existe ya
+    * Acciones:
+        * Crea el turno
+        * Crea los movimientos de lote asociados al turno
+    * Regla de acceso: Cerrar turnos
 
 UI:
 + Maestro
@@ -53,6 +59,7 @@ UI:
         + Icono: Circulo. Estado (icono verde / rojo)
         + NO. Nombre de curso
         + NE. Fecha
+    + Ordenación: 
 + Detalle
     + Título. Nombre de curso
     + Cabecera:

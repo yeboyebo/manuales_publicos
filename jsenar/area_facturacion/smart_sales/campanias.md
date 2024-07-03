@@ -18,7 +18,7 @@ De esta manera accederemos al asistente de creación de campañas
 
 Lo primero que debemos hacer es darle un nombre representativo de la campaña y elegir el tipo de campaña, así como decidir si vamos a generar la campaña por subfamilias o artículos concretos.
 
-Entre los tipos de campaña podremos elegir entre Repetición, Captación y Medición.
+Entre los tipos de campaña podremos elegir entre *repetición*, *captación*, *medición*, *venta cruzada* y *marketing digital*.
 
 Al terminar, pulsaremos siguiente.
 
@@ -37,6 +37,32 @@ En caso de elegir la campaña de captación, accederemos a la configuración de 
 ![captacion](./img/captacion.png)
 
 Aquí deberemos configurar el tipo de captación (Leads o Venta Directa). Así como el umbral de recomendación (parámetro calculado por una Inteligencia Artificial que indica el nivel de recomendación, a más alto, más recomendado).
+
+## Parámetros de campañas de medición
+
+En caso de elegir la campaña de medición, accederemos a la configuración de parámetros de medición. Aquí deberemos configurar el rango de medición del impacto de la campaña.
+
+## Parámetros de campañas de venta cruzada
+
+En caso de elegir la campaña de venta cruzada, accederemos a la configuración de parámetros de venta cruzada.
+
+![ventacruzada](./img/ventacruzada.png)
+
+En este caso, tendremos que configurar los días desde la última compra. Este parámetro se utilizará para buscar los clientes que han comprado los productos últimamente.
+
+Establecer los productos objetivo de busqueda de compra de clientes.
+
+Establecer productos a ofertar en la campaña, indicando la cantidad y el precio al que deben ser ofertados.
+
+## Parámetros de campañas de marketing digital
+
+En caso de elegir la campaña de marketing digital, accederemos a la configuración de parámetros de marketing digital.
+
+![ventacruzada](./img/ventacruzada.png)
+
+**OPCIONAL:** Establecer productos a ofertar en la campaña, indicando la cantidad y el precio al que deben ser ofertados.
+
+
 
 ## Subfamilia
 
@@ -83,6 +109,17 @@ En caso de no tener el número adecuado de clientes, podemos modificar los pará
 Al pulsar en lanzar campaña, se creará una lista en ActiveCampaign con los emails de los clientes implicados.
 
 Esta lista no estará activa hasta que se cree una campaña asociada a la misma.
+
+
+## Publicar campaña en Meta(Facebook)
+
+Para publicar la campaña en el gestor de anuncios de Meta asociado tenemos que hacer clic en el botón *'Publicar campaña en Meta(Facebook)'*. El botón estará deshabilitado si no se ha establecido un **tipo de trato** para la campaña.
+
+![publicarCampMkt](./img/publicarCampMkt.png)
+
+Si la publicación es exitosa el estado de la campaña parasará a *'En seguimiento'* y el botón cambiará a *'Sincronizar campaña Meta(Facebook)'*. Cuando un cliente potencial(*lead*) se une a una campaña de Facebook se generará automaticamente un trato asociado a ese contacto.
+
+Para prevenir posibles fallos en la creación automática de tratos tenemos el botón *sincronizar* que utlizaremos para generar los tratos de los contactos asociados en la campaña de Facebook que no lo estuvierán ya.
 
 ## Medición de campaña
 

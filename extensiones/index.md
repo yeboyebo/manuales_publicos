@@ -20,3 +20,4 @@
 - [Envalora](./envalora/index.md)
 - [Viveros plantas](./viveros_plantas/index.md)
 - [Avisos y reclamaciones de recibos de venta](./avisos_recibos/index.md)
+- [Apertura recibo devuelto](./apertura_recibo/index.md)

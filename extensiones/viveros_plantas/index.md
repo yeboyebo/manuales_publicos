@@ -15,3 +15,7 @@ Cuando un artículo tiene asociada una planta en su campo Planta, la descripció
 
 ### Informes / Informe de tarifa
 El informe de tarifa ordena por planta y litraje, de forma que los artículos de la tarifa de una misma planta, vengan listados de manera creciente en función de su litraje.
+
+### Más
+
+  * [Volver al Índice](../index.md)

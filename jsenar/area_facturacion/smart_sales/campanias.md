@@ -100,6 +100,12 @@ Al pulsar sobre ella, podremos acceder al detalle de la campaña y podremos modi
 
 ![detalle](./img/detalle.png)
 
+## Datos para tratos
+
+Podemos setear unos valores para que cuando al lanzar una campaña que genera autómaticamente tratos, podamos crear los mismos con un valor y un agente determinado, este último campo dependerá de si el *tipo de trato* está [configurado](./firmaalbaranes/index.md) a tal efecto.  
+
+![datostratos](./img/datostratos.png)
+
 ## Lanzamiento de campaña
 
 Para lanzar la campaña, primero deberemos calcular los clientes a los que va a ir dirigida, para ello, pulsamos en el botón "Calcular clientes". En caso de que haya clientes que se correspondan con los parámetros indicados, se activará el botón de "Lanzar campaña para X clientes", indicando el número correspondiente.

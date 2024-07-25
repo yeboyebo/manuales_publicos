@@ -4,7 +4,7 @@ Para añadir un producto al carrito, clicamos en el modelo elegido y se desplega
 
 Primero debemos elegir el tipo de tela, ya que no se puede elegir ningún tipo de módulo hasta elegir tela, ya que estos están limitados al tipo de tela.
 
-Una vez elegida la tela podemos elegir el módulo deseado dentro de las opciones posibles.
+Una vez elegida la tela podemos elegir el módulo deseado dentro de las [posibles opciones añadidas](./addconfpreciobase.md). Solo veremos las opciones que tengan un precio base para el modelo, serie de tela, grupo de clientes y con un precio mayor de 0 en la base de datos.
 
 Podemos filtrar las opciones, para ambas selecciones escribiendo la *referencia* o la *descripción*.
 

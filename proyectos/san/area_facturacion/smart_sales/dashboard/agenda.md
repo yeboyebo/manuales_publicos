@@ -48,5 +48,25 @@ Veremos el nombre del evento en la parte superior y un listado de los productos 
 
 La caja *contactos más activos en últimos meses* será visible siempre que tengamos al menos un contacto de este tipo.
 
+## Tratos
+
+Aquí veremos un listado de los últimos como máximo 6 tratos abiertos del agente logeado. Si clicamos alguno de ellos navegaremos a la ficha del trato.
+
+Si clicamos en ver todos, navegaremos a la pantalla de tratos.
+
+## Tratos de venta de formación
+
+Esta caja solo será visible si existe uno o más tratos asociados al agente logeado o su superior que han sido generados por el departamento de marketing para este agente.
+
+Si clicamos en la caja navegaremos a la ficha de la tratos de marketing.
+
+## Tareas
+
+Aquí el agente podrá el número de tareas pendientes que tiene asociadas, si clicamos en la caja se abrirá un desplegable mostrando las tareas. 
+
+Si clicamos alguna de ellas navegaremos a la ficha de la tarea.
+
+Si clicamos en ver todas, navegaremos a la pantalla de tareas.
+
 
 [Volver al Índice](./index.md)

@@ -4,7 +4,7 @@
 
 ## Índice
 
-- [Dashboard](./dashboard.md)
+- [Dashboard](./dashboard/index.md)
 - [Campañas](./campanias.md)
 - [Cursos(eventos)](./eventos_curso.md)
 - [Tipos de trato](./tipostrato.md)

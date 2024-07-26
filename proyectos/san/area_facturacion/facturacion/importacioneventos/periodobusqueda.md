@@ -1,6 +1,6 @@
 # Configurar periodo de búsqueda
 
-Por defecto, el periodo establecido de búsqueda de contactos para generar la notificación de **contactos recientes** en SmartSales está establecido en 30 días, es decir, solo se buscará aquellos contactos que hayan asistido a un evento cuya fecha de inicio este establecida en los últimos 30 días.
+Por defecto, el periodo establecido de búsqueda de contactos para generar la notificación de **contactos de cursos o más activos** en SmartSales está establecido en 30 días, es decir, solo se buscará aquellos contactos que hayan asistido a un evento cuya fecha de inicio este establecida en los últimos 30 días.
 
 ## ¿Cómo modifico el periodo de búsqueda?
 

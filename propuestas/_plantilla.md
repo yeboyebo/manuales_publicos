@@ -115,19 +115,9 @@ UI:
         + Fila N: (error)
     + Aceptar
 
-### Campañas
-Estados:
-+ Campaña de curso de formación (hay un evento de tipo Curso asociado)
-+ Otros estados
-
-Casos de uso:
-+ generarTratosCampañaCurso.
-    + Estados: Campaña de curso de formación
-    + Params: idCampaña
-    + Regla de acceso: editarCampañasMarketing
 
 ## Tareas
-+ H___ ...
+* H___ ...
 (mismas que puntos de estructura)
 
 ## Manual

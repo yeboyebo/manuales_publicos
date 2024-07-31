@@ -10,6 +10,10 @@ Para los tipo de tratos que tienen asignado un agente por defecto para los trato
 
 Si este check está marcado al generar tratos automáticamnete desde una campaña se comprobará si la misma tiene informado el campo *agente tratos* y si no es así se mostrará un mensaje de aviso. 
 
+## Exigir generación de pedido para ganar trato
+
+Si este check está marcado el botón 'Ganado' estará deshabilitado. De modo que tendremos que generar un pedido o generar un presupuesto y aprobarlo generando un pedido para ganar el trato. 
+
 
 ## Añadir causas de perdida de trato
 

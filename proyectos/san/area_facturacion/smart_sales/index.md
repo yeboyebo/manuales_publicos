@@ -8,6 +8,7 @@
 - [Campañas](./campanias.md)
 - [Cursos(eventos)](./eventos_curso.md)
 - [Tipos de trato](./tipostrato.md)
+- [Tratos](./tratos.md)
 - [Tratos Campañas](./tratoscampanias.md)
 - [Carga de datos de IA](./carga_datos_ia.md)
 - [Sincronización de contactos con ActiveCampaign](./sincro_activecampaign.md)

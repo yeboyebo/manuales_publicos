@@ -21,3 +21,4 @@
 - [Viveros plantas](./viveros_plantas/index.md)
 - [Avisos y reclamaciones de recibos de venta](./avisos_recibos/index.md)
 - [Apertura recibo devuelto](./apertura_recibo/index.md)
+- [Centros de coste](./centros_coste/index.md)

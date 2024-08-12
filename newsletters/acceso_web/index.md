@@ -9,7 +9,7 @@ Lo primero que os vamos a contar es algo que muchos de vosotros ya conocéis e i
 Uno de nuestros proyectos más ambiciosos es el de disponer de una interfaz web completa para Eneboo. Pero, dado que nuestra filosofía es la de permitir personalizar al máximo el proyecto de cada cliente, esta tarea es, como podéis imaginar, complicada.
 
 ```
-imagen / vídeo: pantalla de creación de consulta y creación de albaranes (menú > lista > creación > línea), en ordenador y 
+imagen / vídeo: pantalla de creación de consulta y creación de albaranes (menú > lista > creación > línea), en ordenador y móvil
 
 Pie: Ejemplo de secuencia de creación de pedidos de cliente en versiones de escritorio y móvil. Todos los diseños que hacemos son responsive por defecto.
 ```

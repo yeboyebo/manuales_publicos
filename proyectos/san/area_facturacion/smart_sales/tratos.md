@@ -25,7 +25,13 @@ Podemos añadir un contacto de la lista usando el buscador o crear un nuevo cont
 
 ### Tipo de trato
 
-Aquí podemos dseleccionar el tipo de trato entre las opciones. Cada tipo de trato tiene asocidas unas características. Que se pueden definir en la sección [tipos de trato](./tipostrato.md).
+Aquí podemos seleccionar el tipo de trato entre las opciones. Cada tipo de trato tiene asocidas unas características. Que se pueden definir en la sección [tipos de trato](./tipostrato.md).
+
+### Familias de producto
+
+Aquí podemos asociar al trato una lista de familias de producto, usando el selector podemos añadir familias a la lista y clicando en el aspa de la izquierda podemos borrar de la lista. Para que los cambios sean efectivos debemos clicar el botón '*guardar*'.
+
+![familia_trato](./img/familia_trato.png)
 
 ### Tareas
 

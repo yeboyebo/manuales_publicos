@@ -29,7 +29,7 @@ Se pueden dar los siguientes casos:
 
 En las facturas de cliente, tenemos la posibilidad de informar los centros de coste y subcentros de coste en las líneas, en caso de haberlos informado, se crearán partidas en el asiento con las líneas agrupadas por centro y subcentro de coste, ejemplo:
 
-### Ejemplo 1: 2 líneas con el mismo centro y subcentro de coste
+### Ejemplo 1: Dos líneas con el mismo centro y subcentro de coste
 
 Se creará una partida con el importe de la suma de de las dos líneas.
 

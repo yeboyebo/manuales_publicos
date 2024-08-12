@@ -2,7 +2,7 @@
 
 Para la configuración de los centros de coste revisar la documentacion de la extensión en el siguiente enlace:
 
-* [Distribución de ingresos y gastos en centros de coste](../../../extensiones/centros_coste/centroscoste.md)
+* [Distribución de ingresos y gastos en centros de coste](../../../extensiones/centros_coste/index.md)
 
 ## Configuración de centro y subcentro de coste por defecto
 

@@ -14,26 +14,29 @@ Creamos un nuevo centro de coste, dentro de los centros de coste podemos crear u
 
 ## Crear criterios de distribución
 
+Los criterios de distribución se usan para repartir el importe de ingresos y gastos que no tienen una correspondencia directa con un centro de coste.
+
 Podemos crear criterios de distribución e informar las subcuentas y los pesos con los que se repartirá los importes en las diferentes partidas.
 
 ![criterio_pesos](./img/criterio_distribucion_pesos.png)
 ![criterio_subcuentas](./img/criterio_distribucion_subcuentas.png)
 
-Una vez informados los centros de coste y los criterios de distribución, al crear una factura de cliente o proveedor el funcionamiento seria el siguiente.
+Una vez informados los centros de coste y los criterios de distribución, al crear una factura de cliente o proveedor el funcionamiento seria el descrito en los puntos siguientes.
 
 ## Facturas de cliente
+La creación de partidas de ingresos y si asignación a centros de coste se realiza de la siguiente forma:
++ ....
 
 En las facturas de cliente, tenemos la posibilidad de informar los centros de coste y subcentros de coste en las líneas, en caso de haberlos informado, se crearán partidas en el asiento con las líneas agrupadas por centro y subcentro de coste, ejemplo:
 
-### Ejemplo 1
+### Ejemplo 1: 2 líneas con el mismo centro y subcentro de coste
 
 Si tenemos 2 líneas con el mismo centro y subcentro de coste, se creará una partida con el importe de la suma de de las dos líneas en la subcuenta de venta 700.
 
 ![ejemplo_facturacli_1](./img/ejemplo_factcli_1.png)
 
+### Ejemplo 2: Líneas con diferentes centros de coste
 Si hay líneas con diferentes centros de coste se crearán tantas partidas de venta como agrupaciones se encuentren de centro y subcentro, ejemplo:
-
-### Ejemplo 2
 
 Tenemos 3 líneas, dos de ellas tienen mismo centro y subcentro, la otra tiene un centro y subcentro diferente. En este caso se crearán dos partidas, la primera agrupara las dos líneas con mismo centro y subcentro y la segunda la línea con centro y subcentro diferente a las otras dos.
 

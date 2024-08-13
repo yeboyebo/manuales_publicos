@@ -6,15 +6,17 @@ Para la configuración de los centros de coste revisar la documentacion de la ex
 
 ## Configuración de centro y subcentro de coste por defecto
 
-Podemos crear los centros de coste en Área de Facturación -> Almacén -> Configuración
+Podemos crear los centros de coste en Área de Facturación -> Almacén -> Configuración.
 
-En la pestaña de Hispanic
+En la pestaña de Hispanic:
 
 ![centro_subcentro_defecto](./img/centro_subcentro_defecto.png)
 
 ## Centro y subcentro de coste en ficha de Artículos
 
-Dentro de la ficha de los artículos, en la pestaña **Centros de coste** indicaremos el centro y subcentro de coste
+Dentro de la ficha de los artículos, en la pestaña **Centros de coste** indicaremos el centro y subcentro de coste.
+
+En el caso de alta de artículos, los valores por defecto de estos campos son los del apartado de _Configuración_.
 
 ![articulos](./img/centrocoste_articulos.png)
 

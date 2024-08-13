@@ -35,11 +35,11 @@ Ejemplos de estas adaptaciones web que ya hemos realizado para algunos clientes 
 
 De algunos de estos ejemplos os mostraremos casos reales en las próximas ediciones de la newsletter.
 
-¿Qué tienes que hacer para publicar en web alguna de las funcionalidades de Eneboo u otras que queramos implementar?
+¿Qué tienes que hacer para publicar en web alguna de las funcionalidades de Eneboo u otras que quieras implementar?
 + Lo primero, como siempre, hablar con nosotros, :-). Cuéntanos qué necesitas y entre todos buscaremos las mejor opción.
 + Si no lo tienes ya, instalaremos un servidor web Eneboo en una de tus máquinas, o en la nube conectado a tu base de datos, como prefieras.
 + Crearemos e instalaremos la web con la funcionalidad que diseñemos entre todos.
 
-Con esto ya tienes un entorno web de Eneboo que puedes hacer crecer cada vez que detectes una nueva necesidad. La filosofía de esta nueva opción es la misma que la de el _Eneboo_ clásico: adaptarla a tus necesidades para sacarle el mayor partido posible.
+Con esto ya tienes un entorno web de Eneboo que puedes hacer crecer cada vez que detectes una nueva necesidad. La filosofía de esta nueva opción es la misma que la del _Eneboo_ clásico: adaptarla a tus necesidades para sacarle el mayor partido posible.
 
 

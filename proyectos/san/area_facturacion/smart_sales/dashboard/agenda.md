@@ -64,7 +64,7 @@ Si clicamos en la caja navegaremos a la ficha de la tratos de marketing.
 
 Aquí el agente podrá el número de tareas pendientes que tiene asociadas, si clicamos en la caja se abrirá un desplegable mostrando las tareas. 
 
-Si clicamos alguna de ellas navegaremos a la ficha de la tarea.
+Si clicamos alguna de ellas navegaremos a la ficha de la [tarea](./tareas.md).
 
 Si clicamos en ver todas, navegaremos a la pantalla de tareas.
 

@@ -1,5 +1,6 @@
 # Crear pedido
-* Para crear un nuevo pedido clicamos en el botón *Nuevo pedido* con el icono del símbolo + situado arriba a la izquierda. Se abrirá un formulario en el que debemos ingresar el cliente, la dirección del mismo y el evento relacionado con el pedido. Todos los datos son necesarios para poder crear el pedido. 
+
+* Para crear un nuevo pedido clicamos en el botón *Nuevo pedido* con el icono del símbolo + situado arriba a la izquierda. Se abrirá un formulario en el que debemos ingresar el cliente, la dirección del mismo(*solo  podremos seleccionar entre las direcciones de envío asociadas al cliente*) y el evento relacionado con el pedido. Todos los datos son necesarios para poder crear el pedido. 
 
 ## ¿Qué es el evento relacionado con el pedido?
 

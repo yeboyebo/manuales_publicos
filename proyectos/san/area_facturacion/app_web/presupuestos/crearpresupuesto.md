@@ -1,5 +1,6 @@
 # Crear presupuesto
-* Para crear un nuevo presupuesto clicamos en el botón *Nuevo presupuesto* con el icono del símbolo + situado arriba a la izquierda. Se abrirá un formulario en el que debemos ingresar el cliente, la dirección del mismo y el evento relacionado con el presupuesto. Todos los datos son necesarios para poder crear el presupuesto. 
+
+* Para crear un nuevo presupuesto clicamos en el botón *Nuevo presupuesto* con el icono del símbolo + situado arriba a la izquierda. Se abrirá un formulario en el que debemos ingresar el cliente, la dirección del mismo(*solo  podremos seleccionar entre las direcciones de envío asociadas al cliente*) y el evento relacionado con el presupuesto. Todos los datos son necesarios para poder crear el presupuesto. 
 
 ## ¿Qué es el evento relacionado con el presupuesto?
 

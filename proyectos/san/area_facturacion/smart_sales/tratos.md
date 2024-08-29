@@ -35,7 +35,7 @@ Aquí podemos asociar al trato una lista de familias de producto, usando el sele
 
 ### Tareas
 
-Aquí veremos un listado de las tareas asociadas a este trato. Para cada tarea se indicará el nombre(*tachado si está completada*), fecha, hora, tipo. 
+Aquí veremos un listado de las [tareas](./tareas.md) asociadas a este trato. Para cada tarea se indicará el nombre(*tachado si está completada*), fecha, hora, tipo. 
 
 Podemos crear una tarea clicando en el botón del lateral derecho '**+ Tarea**'. Esta opción no está habilitada para el grupo de *marketing*.
 

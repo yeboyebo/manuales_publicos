@@ -28,6 +28,10 @@
 - [Agrupaciones de pedidos a Canarias](./area_facturacion/facturacion/agrupacionesCanarias/index.md)
 - [Pedidos de clientes](./area_facturacion/facturacion/pedidoscli/index.md)
 
+### Almacén
+
+- [Sincronización](./area_facturacion/almacen/sincronizacion/sincronizacion.md)
+
 ### Informes
 
 - [Clientes activos por código postal](./area_facturacion/informes/clientescodpostal.md)

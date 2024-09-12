@@ -1,0 +1,35 @@
+# Avisos por email de altas y bajas productos web
+
+Los objetivos de este proyecto son:
++ Conocer cuándo se han dado de alta o baja artículos en la tienda online de forma que se puedan añadir los datos asociados a los mismos en el panel de administración de Magento.
+
+
+## Estructura
+
+### Almacén / Configuración
+Añadiremos a la pestaña _Sincronización_ el siguiente campo:
++ Emails notificación altas y bajas Magento. Lista de emails a los que notificar las altas y las bajas de artículos activados o desactivados con éxito en Magento. Los emailsde la lista se separan por coma.
+
+## Dinámica
+Cada día por la noche se lanzará un proceso que comprobará las llamadas a webservices de Magento que se han hecho el día anterior y que cumplen que:
++ Se han completado con éxito.
++ Se refieren a altas y bajas de productos (no son sincronizaciones de stock ni de otro tipo)
+
+El proceso recopilará dos listas (altas y bajas) de productos (referencia y descripción) y enviará un correo a los destinatarios configurados con la información correspondiente.
+
+El correo se enviará todos los días independientemente de si hay o no datos modificados.
+
+Si no hay datos, se enviará un correo con:
++ Asunto: No hay datos de sincronización de artículos a revisar
++ Cuerpo: El proceso ha terminado a las hh:mm:ss de dd:mm:aaaa sin encontrar artículos activados o desactivados en la tienda online.
+
+Si hay datos:
++ Asunto: Hay X artículos activados y Y artículos desactivados en la tienda online pendientes de revisión
++ Cuerpo:
+```
+Los siguientes artículos han sido activados en la tienda online:
+[referencia] - [descripción]
+
+Los siguientes artículos han sido desactivados en la tienda online:
+[referencia] - [descripción]
+```

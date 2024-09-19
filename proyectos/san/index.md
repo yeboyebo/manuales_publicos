@@ -30,7 +30,9 @@
 
 ### Almacén
 
-- [Sincronización](./area_facturacion/almacen/sincronizacion/sincronizacion.md)
+- [Sincronización con tienda online](./area_facturacion/almacen/sincronizacion/sincronizacion.md)
+- [Carga de datos de previsiones IA](./area_facturacion/almacen/prev_compras_ia.md)
+
 
 ### Informes
 

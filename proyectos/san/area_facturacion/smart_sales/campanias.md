@@ -1,18 +1,21 @@
 # Campañas
-
-## Creación de la campaña
-
-Primero vamos a la pantalla de campañas desde el menú principal
+Primero vamos a la pantalla de campañas desde el menú principal.
 
 ![icono](./img/icono.png)
 
-Y posteriormente pulsamos sobre el icono "+" en la parte izquierda de la lista de campañas
+## Listado de campañas
+
+Veremos un listado de las campañas no archivadas. Si deseamos ver también las archivadas podemos marcar la opción en el filtro.
+
+## Creación de la campaña
+
+En la pantalla de campañiías pulsamos sobre el icono "+" en la parte izquierda de la lista de campañas
 
 ![acciones](./img/acciones.png)
 
 De esta manera accederemos al asistente de creación de campañas
 
-## Datos generales
+### Datos generales
 
 ![datosgenerales](./img/datosgenerales.png)
 
@@ -22,7 +25,7 @@ Entre los tipos de campaña podremos elegir entre *repetición*, *captación*, *
 
 Al terminar, pulsaremos siguiente.
 
-## Parámetros de campañas de repetición
+### Parámetros de campañas de repetición
 
 En caso de que hayamos elegido una campaña de repetición, accederemos a la configuración de parámetros de repetición.
 
@@ -30,7 +33,7 @@ En caso de que hayamos elegido una campaña de repetición, accederemos a la con
 
 En este caso, tendremos que configurar los días desde la última compra. Este parámetro se utilizará para buscar los clientes que han comprado estos productos/subfamilias últimamente.
 
-## Parámetros de campañas de captación
+### Parámetros de campañas de captación
 
 En caso de elegir la campaña de captación, accederemos a la configuración de parámetros de captación.
 
@@ -38,11 +41,11 @@ En caso de elegir la campaña de captación, accederemos a la configuración de 
 
 Aquí deberemos configurar el tipo de captación (Leads o Venta Directa). Así como el umbral de recomendación (parámetro calculado por una Inteligencia Artificial que indica el nivel de recomendación, a más alto, más recomendado).
 
-## Parámetros de campañas de medición
+### Parámetros de campañas de medición
 
 En caso de elegir la campaña de medición, accederemos a la configuración de parámetros de medición. Aquí deberemos configurar el rango de medición del impacto de la campaña.
 
-## Parámetros de campañas de venta cruzada
+### Parámetros de campañas de venta cruzada
 
 En caso de elegir la campaña de venta cruzada, accederemos a la configuración de parámetros de venta cruzada.
 
@@ -54,7 +57,7 @@ Establecer los productos objetivo de busqueda de compra de clientes.
 
 Establecer productos a ofertar en la campaña, indicando la cantidad y el precio al que deben ser ofertados.
 
-## Parámetros de campañas de marketing digital
+### Parámetros de campañas de marketing digital
 
 En caso de elegir la campaña de marketing digital, accederemos a la configuración de parámetros de marketing digital.
 
@@ -64,7 +67,7 @@ En caso de elegir la campaña de marketing digital, accederemos a la configuraci
 
 
 
-## Subfamilia
+### Subfamilia
 
 Si hemos elegido productos por subfamilia, ahora deberíamos indicar la subfamilia que queremos recomendar.
 
@@ -72,7 +75,7 @@ Si hemos elegido productos por subfamilia, ahora deberíamos indicar la subfamil
 
 Simplemente buscaremos por nombre la subfamilia y clicaremos sobre la deseada.
 
-## Productos
+### Productos
 
 En caso de elegir campaña por lista de productos, indicaremos los productos en el siguiente formulario.
 
@@ -80,13 +83,13 @@ En caso de elegir campaña por lista de productos, indicaremos los productos en 
 
 Simplemente buscaremos el producto por nombre o referencia, clicaremos sobre los productos deseados y pasarán a listarse debajo del buscador.
 
-## Rango de medición del impacto
+### Rango de medición del impacto
 
 El último formulario que tendremos que rellenar es el del rango de medición del impacto, es decir, las fechas entre las que querremos hacer seguimiento del impacto de la campaña.
 
 ![medicion](./img/medicion.png)
 
-## Resumen
+### Resumen
 
 Por último, se mostrará un resumen de la configuración de la campaña y, posteriormente el botón de confirmación de "Crear campaña".
 

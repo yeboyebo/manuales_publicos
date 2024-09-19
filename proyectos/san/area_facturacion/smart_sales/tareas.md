@@ -24,7 +24,9 @@ El tipo ya aparecerá seleccionado y debemos elegir si realizar la tarea ahora o
 En la ficha de la tarea podemos ver una serie de cajas con la información de la misma.
 
 - Título (*editable*)
-- Datos del trato (*no editable*)
+- Datos del trato (*no editable*):
+  - Trato al que pertenece(clicable para navegación)
+  - Contacto o cliente(clicable para navegación)
 - Tipo de tarea (*editable*)
 - Fecha y hora (*editable*)
 - Acciones (*hacer llamada, abrir el servidor de correo electrónica, mandar un mensaje de whatsapp*)

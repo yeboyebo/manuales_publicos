@@ -51,7 +51,8 @@ Suma de la columna *Cantidad Comisión* de la tabla *Subfamilias*.
 Suma de la columna *Total Comisión* de la tabla *Comisiones especiales*.
 
 ### Comisión G.C.
-Producto de *Ventas alcanzadas G.C.* x *% Comisión*.
+~~Producto de *Ventas alcanzadas G.C.* x *% Comisión*.~~
+Suma de la columna *Bonificación* de la pestaña *Grupos de compras*.
 
 ### Bonificación
 Suma de la columna *Bonificación* de la tabla *Bonificaciones*.

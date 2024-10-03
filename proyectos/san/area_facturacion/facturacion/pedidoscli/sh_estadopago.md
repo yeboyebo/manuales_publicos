@@ -22,6 +22,8 @@
 
 * **Devolucion por preparar / Devolucion preparada / Devolucion aprobada** si el pedido es una devolución.
 
+* **Pte. revision observaciones** Este valor se activará cuando el pedido tenga observaciones y no esté en ningún otro estado. Será el estado menos prioritario.
+
 Al aprobar un presupuesto sin código de cliente establecido, el valor del campo estado pago del pedido generado se informa con el valor **Cliente no registrado**.
 
 ### App / preparación de pedidos
@@ -38,3 +40,4 @@ En las preparaciones de pedido, no se mostrarán y no se podrán preparar los pe
 * **Devolucion preparada**.
 * **Devolucion aprobada**.
 * **Pte. Validacion promocion**.
+* **Pte. revision observaciones**.

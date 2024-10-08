@@ -24,7 +24,9 @@ El tipo ya aparecerá seleccionado y debemos elegir si realizar la tarea ahora o
 En la ficha de la tarea podemos ver una serie de cajas con la información de la misma.
 
 - Título (*editable*)
-- Datos del trato (*no editable*)
+- Datos del trato (*no editable*):
+  - Trato al que pertenece(clicable para navegación)
+  - Contacto o cliente(clicable para navegación)
 - Tipo de tarea (*editable*)
 - Fecha y hora (*editable*)
 - Acciones (*hacer llamada, abrir el servidor de correo electrónica, mandar un mensaje de whatsapp*)
@@ -40,5 +42,24 @@ En la ficha de la tarea podemos ver una serie de cajas con la información de la
  Si cancelamos esta opción y la tarea completada es la última asociada al trato, podremos cambiar el [estado del trato asociado](./tratos.md) desde esta misma pantalla.
 
   ![Cambia estado trato](./img/cambia_estado_trato.png)
+
+
+### Sincronizar tareas con calendario de google
+
+Al crear una tarea vermeos el siguiente mensaje si tofdavía no hemos sincronizado con una cuneta de google.
+
+![Aviso no sincro google](./img/aviso_no_sincro_google.png)
+
+Para hacerlo debemos visitar la pantalla de usuario desde el menú lateral derecho. En ella veremos los datos del ususrio y un botón con el que podremos dar permisos a la aplicación para acceder a los calendarios de la cuenta de google que deseemos. 
+
+![user_1](./img/user_1.png)
+
+Una vez completado el proceso, cada vez que creemos una tarea, también dse creará un evento con el mismo titulo en nuestro calendario para la fecha y hora elgida. En la descripción del evneto encontraremos la una url con la que redireccionar a la tarea del CRM.
+
+![evento google](./img/evento_google.png)  
+
+Para revocar los permisos concedidos podemos hacerlo desde nuestra cuenta de google. Está información también la podemos ver en la pantalla de usuario una vez concedidos los permisos.
+
+![user_2](./img/user_2.png)
 
 [Volver al Índice](./index.md)

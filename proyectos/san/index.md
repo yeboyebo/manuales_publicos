@@ -30,7 +30,9 @@
 
 ### Almacén
 
-- [Sincronización](./area_facturacion/almacen/sincronizacion/sincronizacion.md)
+- [Sincronización con tienda online](./area_facturacion/almacen/sincronizacion/sincronizacion.md)
+- [Carga de datos de previsiones IA](./area_facturacion/almacen/prev_compras_ia.md)
+
 
 ### Informes
 
@@ -50,3 +52,8 @@
 ### Exportar tablas de Eneboo a hojas de calculo
 
 - [Exportar tablas a hojas de calculo](./area_facturacion/principal/permisos_exportar_hoja_de_calculo/permisos_exportar_hoja_de_calculo.md)
+
+### Avisos por email de altas y bajas productos web
+
+- [Avisos por email de altas y bajas productos web](./area_facturacion/almacen/avisos_por_email_de_altas_y_bajas_productos_web/avisos_por_email_de_altas_y_bajas_productos_web.md)
+

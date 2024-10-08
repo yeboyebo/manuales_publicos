@@ -72,6 +72,10 @@
 
         ![Agencia de envío](./img/enviosagencia8.png)
 
+        - País origen --> Las referencias de las facturas tienen que tener asociado un país origen en su ficha
+
+        ![Agencia de envío](./img/enviosagencia27.png)        
+
         - Observaciones --> Las observaciones de las facturas tiene las restricción de que tienen como máximo 550 caracteres.
 
 

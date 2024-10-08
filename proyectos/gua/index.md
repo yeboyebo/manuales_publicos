@@ -7,5 +7,5 @@
   * [Cantidades Feria/Showroom y En almacen en stocks ](./areafacturacion/almacen/stocks/cantidadferia/index.md)
   * [Sincronización de clientes mayoristas](./areafacturacion/principal/clientes/sincro_clientes.md)
   * [Sincronización de planes de precios](./areafacturacion/almacen/magento/mg_planesprecios.md)
-  * [Envíos Agencia](./areafacturacion/facturacion/enviosagencia/enviosagencia.md)
+  * [Envíos Agencia](./areafacturacion/facturacion/enviosagencia/envios_agencia.md)
   

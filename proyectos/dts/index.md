@@ -10,3 +10,4 @@
   - [Trazabilidad interna y producción](./area_facturacion/almacen/trazabilidadinterna.md)
   - [Informe de inventario valorado](./area_facturacion/informes/inventarioval.md)
   - [Informe etiquetas](./area_facturacion/informes/informeEtiquetas.md)
+  - [Reglas control de acceso](./sistema/control_acceso/index.md)

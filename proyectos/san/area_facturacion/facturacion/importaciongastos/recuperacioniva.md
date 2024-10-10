@@ -6,7 +6,7 @@ Antes de realizar la importación de la recuperación de iva, debe existir previ
 
 * Pulsamos sobre el botón **Importar** del formulario principal de **Area de Facturación/Facturación/Importación Gastos/Recuperación IVA**. Esto abrirá un formulario de importación.
 
-Para realizar la importación seguimos los pasos indicados en [Importación CSV](../../../../modulos/area_facturacion/facturacion/importacioncsv.md)
+Para realizar la importación seguimos los pasos indicados en [Importación CSV](../../../../../modulos/area_facturacion/facturacion/importacioncsv.md)
 
 ## ¿Cómo veo los datos importados?
 

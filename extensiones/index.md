@@ -23,3 +23,4 @@
 - [Apertura recibo devuelto](./apertura_recibo/index.md)
 - [Centros de coste](./centros_coste/index.md)
 - [Contabilidad Inversión de Sujeto Pasivo](./contauto_isp/index.md)
+- [Importación de asientos](./import_asientos/index.md)

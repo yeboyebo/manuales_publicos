@@ -128,6 +128,6 @@ No es necesario manual
 No es necesaria.
 
 ## Presupuesto
-* H___ Análisis X€
-* H___ Desarrollo e instalación X€
-* H___ Documentación X€
+* H___ Análisis
+* H___ Desarrollo e instalación
+* H___ Documentación

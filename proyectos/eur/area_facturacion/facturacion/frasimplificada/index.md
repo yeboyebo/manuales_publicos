@@ -24,6 +24,6 @@
     * El campo *Clave Tipo Factura* se calculará según los criterios actuales.
     * Si la factura proviene de un albarán:
         - El campo *Nombre* se calculará según el código del cliente.
-        - El campo *C.I.F./N.I.F.* se calculará según el código del cliente.
+        - El campo *C.I.F./N.I.F.*, si el cliente del albarán tiene un cliente de facturación asociado, se calculará según el código del cliente de facturación, si no, lo copiará del albarán.
         - Los campos *Dirección*, *Ciudad*, *Provincia*, *C.P.* y *País* se calcularán según la dirección de facturación del cliente.
  

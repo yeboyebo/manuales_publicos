@@ -10,4 +10,6 @@ A la derecha hay un botón *Firmar* que al clicar desplegará un dialogo para pr
 
 Al firmar el albarán se enviará un email con un documento pdf con el albarán firmado.
 
+[Filtro por el agente asociado al usuario conectado](filtrofirmaalbaranes/index.md)
+
 [Volver al Índice](../index.md)

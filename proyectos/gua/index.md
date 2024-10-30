@@ -12,6 +12,6 @@
   
 ### Tienda Online
   #### Admin Magento
-  * [Subir y configurar vídeo desde Vimeo](./tiendaonline/admin/videos/subir-video-vimeo/subir-vimeo.md)
-  * [Inserción de videos en productos desde admin Magento](./tiendaonline/admin/videos/productos/video-productos.md)
-  * [Inserción de videos en bloques CMS desde admin Magento](./tiendaonline/admin/videos/editor-bloques-cms/video-cms.md)
+  * [Subir y configurar vídeo desde Vimeo](./tiendaonline/admin/subir-video-vimeo/subir-vimeo.md)
+  * [Inserción de videos en productos desde admin Magento](./tiendaonline/admin/productos/video-productos.md)
+  * [Inserción de videos en bloques CMS desde admin Magento](./tiendaonline/admin/editor-bloques-cms/video-cms.md)

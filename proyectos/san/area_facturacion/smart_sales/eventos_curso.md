@@ -18,3 +18,25 @@ Una vez creada la campaña, no importara si se añaden o elimian contactos del e
 ## Añadir contacto
 
 Posibilidad de asociar un contacto al evento y actualiza los datos del contacto, tambien se puede crear un contacto nuevo desde la pantalla de añadir.
+
+## Cargar contactos
+
+Se puede cargar una lista de contactos seleccionando un fichero .xls. El fichero deberá tener la siguiente estructura:
+
+| Nombre curso | Nombre agente | Ciudad | Email | Teléfono | C.P. |
+
+## Contactos no revisados
+
+Al cargar contactos puede suceder que cargemos información de un contacto con un email ya existente, si alguno de los campos introducidos(ciudad, teléfono, cp) no tuviera un valor previo se actualizaría.
+
+Indicamos que un contacto no ha sido revisado después de la creación o de una actualización con el icono:
+
+![icono_contacto_nr](./img/icono_contacto_nr.png)
+
+Para desmarcarlo clicamos en el contacto indicado y en la ficha del mismo marcamos la caja "*Contacto revisado*".
+
+![contacto_rev](./img/contacto_rev.png)
+
+## Curso no revisado
+
+Si el curso tiene algún contacto no revisado lo indicaremos con el mismo icono que usamos para el contacto no revisado.

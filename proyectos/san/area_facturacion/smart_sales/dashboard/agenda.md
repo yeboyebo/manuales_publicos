@@ -54,6 +54,12 @@ Aquí veremos un listado de los últimos como máximo 6 tratos abiertos del agen
 
 Si clicamos en ver todos, navegaremos a la pantalla de tratos.
 
+## Tratos de licencia farmacéutica
+
+Esta caja solo será visible si existe uno o más tratos de tipo licencia farmacétuca que han sido generados para un cliente asociado al agente logeado pero gestionado por un agente del departamente defarmacia.
+
+Si clicamos en la caja navegaremos a la ficha de la tratos de licencia farmacéutica.
+
 ## Tratos de venta de formación
 
 Esta caja solo será visible si existe uno o más tratos asociados al agente logeado o su superior que han sido generados por el departamento de marketing para este agente.

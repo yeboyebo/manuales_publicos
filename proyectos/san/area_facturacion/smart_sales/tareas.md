@@ -46,7 +46,7 @@ En la ficha de la tarea podemos ver una serie de cajas con la información de la
 
 ### Sincronizar tareas con calendario de google
 
-Al crear una tarea vermeos el siguiente mensaje si tofdavía no hemos sincronizado con una cuneta de google.
+Al crear una tarea vermeos el siguiente mensaje si todavía no hemos sincronizado con una cuneta de google.
 
 ![Aviso no sincro google](./img/aviso_no_sincro_google.png)
 

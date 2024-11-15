@@ -41,12 +41,20 @@ Podemos crear una tarea clicando en el botón del lateral derecho '**+ Tarea**'.
 
 ### Estado
 
-Aquí podemos cambiar el estado del trato. Si clicamos el estado *Perdido*, debemos seleccionar una causa de pérdida del trato que están asociadas al tipo de trato. La causa se mostrará debajo del estado, si el tipo de trao es '*venta producto* y se puede editar.
+Aquí podemos cambiar el estado del trato. Si clicamos el estado *Perdido*, debemos seleccionar una causa de pérdida del trato que están asociadas al tipo de trato. La causa se mostrará debajo del estado, si el tipo de trato es '*venta producto* y se puede editar.
 
 Para ganar un trato debemos clicar en el botón si el tipo de trato no está configurado para '*exigir generación de pedido para ganar trato*' en la sección [tipos de trato](./tipostrato.md), si lo está tendremos que generar un pedido o generar un presupuesto y aprobarlo generando un pedido, así el trato cambiará a *ganado* automáticamente. 
 
 ### Borrar trato
 
 Veremos el botón *borrar* si el estado del trato es diferente de '*ganado* y el usuario logeado es el agente asociado al mismo o si el grupo al que pertenece el usuario logeado tiene permisos para borrar tratos. 
+
+### Asociar pedido
+
+Veremos el botón *borrar* si el tipo de trato esta configurado para '*exigir generación de pedido para ganar trato*' en la sección [tipos de trato](./tipostrato.md) y no tiene ya asociado ningún pedido ni ningún presupuesto.
+
+Al clicar en el botón se desplegará un modal en el que podremos selecionar un pedido existente asociado al agente logeado y también al cliente del trato si este tuviera uno asociado. 
+
+Al confirmar se ganará el trato y también se asociará el pedido al trato y si el trato no tuviera un cliente asociado se le asociaría el del pedido.
 
 [Volver al Índice](./index.md)

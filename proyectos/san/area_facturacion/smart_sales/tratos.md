@@ -57,4 +57,15 @@ Al clicar en el botón se desplegará un modal en el que podremos seleccionar un
 
 Al confirmar se ganará el trato, se asociará el pedido al trato y si el trato no tuviera un cliente asociado se le asociaría el del pedido.
 
+
+## Crear trato
+
+En el formulario de creación de trato introduciremos la información del nuevo trato. Existen algunos campos obligatorios para poder confirmar la creación del mismo, si estos campos no tienen valor el botón 'Confirmar' no se podrá pulsar. Los campos obligatorios son: 
+
+- Título
+- Fecha(por defecto el día actual)
+- Cliente o contacto
+- Tipo
+- Notas(solo si el tipo seleccionado es el configurado para '*Colaboración*' desde el ERP, en el formulario **Area de Facturación/Facturación/Configuración**)
+
 [Volver al Índice](./index.md)

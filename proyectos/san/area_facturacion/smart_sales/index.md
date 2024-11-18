@@ -13,7 +13,7 @@
 - [FAQ](./faq.md)
 - [Sincronización de contactos con ActiveCampaign](./sincro_activecampaign.md)
 - [Tareas](./tareas.md)
-- [Tipos de trato](./tareas.md)
+- [Tipos de trato](./tipostrato.md)
 - [Tratos](./tratos.md)
 - [Tratos Campañas](./tratoscampanias.md)
 

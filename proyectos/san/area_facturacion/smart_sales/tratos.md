@@ -51,7 +51,7 @@ Veremos el botón *borrar* si el estado del trato es diferente de '*ganado* y el
 
 ### Asociar pedido
 
-Veremos el botón *borrar* si el tipo de trato esta configurado para '*exigir generación de pedido para ganar trato*' en la sección [tipos de trato](./tipostrato.md) y no tiene ya asociado ningún pedido ni ningún presupuesto.
+Veremos el botón *Asociar pedido* si el tipo de trato esta configurado para '*exigir generación de pedido para ganar trato*' en la sección [tipos de trato](./tipostrato.md) y no tiene ya asociado ningún pedido ni ningún presupuesto.
 
 Al clicar en el botón se desplegará un modal en el que podremos seleccionar un pedido existente asociado al agente logeado y también al cliente del trato si este tuviera uno asociado. 
 

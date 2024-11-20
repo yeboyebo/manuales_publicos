@@ -120,6 +120,10 @@ UI:
 * H___ ...
 (mismas que puntos de estructura)
 
+## Tests
+
++ 
+
 ## Manual
 El manual constará de...
 No es necesario manual

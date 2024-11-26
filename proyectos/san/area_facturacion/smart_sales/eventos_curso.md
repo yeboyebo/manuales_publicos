@@ -4,14 +4,14 @@
 
 Se puede acceder a los eventos de tipo curso desde el menu principal en la seccion de smartsales.
 
-Dentro los usuarios de Marketing podran ver toda informacion y realizar las acciones, el resto de usuarios solo vera los contactos asociados a su agente.
+Dentro los usuarios de Marketing y los superusuarios podran ver toda informacion y realizar las acciones, el resto de usuarios solo vera los contactos asociados a su agente.
 
 ![datosgenerales](./img/cursos.png)
 
 
 ## Crear campaña
 
- Crea una campaña de tipo captacion de leads con los datos del curso(Nombre, productos) y un score minimo de 0. Tambien se crea un trato por cada contacto asociado al curso.
+ Crea una campaña de tipo captacion de leads con los datos del curso(Nombre, productos) y un score minimo de 0. Tambien se crea un trato por cada contacto asociado al curso para lo que debemos seleccionar el tipo de trato que queremos usar en la creación de los mismos.
 
 Una vez creada la campaña, no importara si se añaden o elimian contactos del evento, los tratos no se veran afectados.
 

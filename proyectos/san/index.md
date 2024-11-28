@@ -48,6 +48,7 @@
 - [Presupuestos](./area_facturacion/app_web/presupuestos/index.md)
 - [Inventarios](./area_facturacion/app_web/inventarios/index.md)
 - [Preparacion de pedidos de venta](./area_facturacion/app_web/sh_preparaciondepedidos/index.md)
+- [Pruebas instalación](./area_facturacion/app_web/installtest/index.md)
 
 ### Exportar tablas de Eneboo a hojas de calculo
 

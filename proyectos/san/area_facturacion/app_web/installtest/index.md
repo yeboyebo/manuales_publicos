@@ -36,6 +36,7 @@
   delete from presupuestoscli where idtrato in (ids);
   delete from ss_tareas where idtrato in (ids);
   delete from ss_notas where idtrato in (ids);
+  delete from ss_tratos where idtrato in (ids);
   ```
 * Asociar pedido(comprobar si el pedido ya tenía asociado un trato, al terminar actualiza pedido con el idTrato)
 

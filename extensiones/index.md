@@ -24,3 +24,4 @@
 - [Centros de coste](./centros_coste/index.md)
 - [Contabilidad Inversión de Sujeto Pasivo](./contauto_isp/index.md)
 - [Importación de asientos](./import_asientos/index.md)
+- [Recibos de cliente en norma SEPA 34 (remesas de pago)](./remesa_devol_cli/index.md)

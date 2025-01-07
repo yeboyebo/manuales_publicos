@@ -40,10 +40,11 @@
   ```
 * Asociar pedido(comprobar si el pedido ya tenía asociado un trato, al terminar actualiza pedido con el idTrato)
 
-# Tarea
+# Tarea(trato e incidencia)
 
 * Crear tarea
 * Editar tarea
+* Completar y crear
 
 # Contacto
 

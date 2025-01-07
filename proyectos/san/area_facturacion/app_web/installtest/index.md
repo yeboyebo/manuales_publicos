@@ -10,7 +10,7 @@
 * Enviar pedido(NO EN PRODUCCIÓN)
 * Borrar pedido
 
-# Presupuesto
+## Presupuesto
 
 * Crear presupuesto
 * Editar presupuesto
@@ -19,10 +19,10 @@
 * Borrar línea
 * Borrar presupuesto
 
-# Preparaciones
+## Preparaciones
 * Carga de masters y de líneas en details
 
-# Trato
+## Trato
 
 * Crear trato, rellenano todos los campos
 * Crear pedido
@@ -40,13 +40,13 @@
   ```
 * Asociar pedido(comprobar si el pedido ya tenía asociado un trato, al terminar actualiza pedido con el idTrato)
 
-# Tarea(trato e incidencia)
+## Tarea(trato e incidencia)
 
 * Crear tarea
 * Editar tarea
 * Completar y crear
 
-# Contacto
+## Contacto
 
 * Crear contacto
 * Editar contacto

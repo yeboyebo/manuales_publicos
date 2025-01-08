@@ -46,6 +46,7 @@
 
 - [Pedidos](./area_facturacion/app_web/pedidos/index.md)
 - [Presupuestos](./area_facturacion/app_web/presupuestos/index.md)
+- [Incidencias](./area_facturacion/app_web/incidencias/index.md)
 - [Inventarios](./area_facturacion/app_web/inventarios/index.md)
 - [Preparacion de pedidos de venta](./area_facturacion/app_web/sh_preparaciondepedidos/index.md)
 - [Pruebas instalación](./area_facturacion/app_web/installtest/index.md)

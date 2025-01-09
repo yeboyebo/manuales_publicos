@@ -37,7 +37,7 @@ Al clicar el botón se creará automáticamente un presupuesto asociado a la inc
 
 Al crear el presupuesto, navegaremos automáticamente a la ficha del mismo.
 
-Si una incidencia tiene asociado un presupuesto podremos ir a la ficha del mismo clicando en el botón de la flecha.
+Si una incidencia tiene asociado un presupuesto podremos ir a la ficha del mismo clicando sobre el código del mismo.
 
 ### Tareas
 

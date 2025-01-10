@@ -38,18 +38,25 @@
 
 - [Clientes activos por código postal](./area_facturacion/informes/clientescodpostal.md)
 
-### Smart sales
-
-- [Smart Sales](./area_facturacion/smart_sales/index.md)
 
 ### Aplicación web
 
-- [Pedidos](./area_facturacion/app_web/pedidos/index.md)
-- [Presupuestos](./area_facturacion/app_web/presupuestos/index.md)
+- [Campañas](./area_facturacion/app_web/campanias/index.md)
+- [Clientes](./area_facturacion/app_web/clientes/index.md)
+- [Cursos(eventos)](./area_facturacion/app_web/eventos_curso/index.md)
+- [Farma](./area_facturacion/app_web/farma/index.md)
 - [Incidencias](./area_facturacion/app_web/incidencias/index.md)
 - [Inventarios](./area_facturacion/app_web/inventarios/index.md)
+- [Pedidos](./area_facturacion/app_web/pedidos/index.md)
+- [Perdidas de trato](./area_facturacion/app_web/perdidastrato/index.md)
+- [Presupuestos](./area_facturacion/app_web/presupuestos/index.md)
 - [Preparacion de pedidos de venta](./area_facturacion/app_web/sh_preparaciondepedidos/index.md)
 - [Pruebas instalación](./area_facturacion/app_web/installtest/index.md)
+- [Tareas](./area_facturacion/app_web/tareas/index.md)
+- [Tipos de trato](./area_facturacion/app_web/tipostrato/index.md)
+- [Tratos](./area_facturacion/app_web/tratos/index.md)
+- [Tratos de campania](./area_facturacion/app_web/tratoscampanias/index.md)
+- [Smart sales](./area_facturacion/app_web/smart_sales/index.md)
 
 ### Exportar tablas de Eneboo a hojas de calculo
 

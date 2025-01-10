@@ -62,6 +62,6 @@ Se publicaran automáticamente todos los tratos que esten en estado Asignado.
 
 ## Ficha trato
 
-La funcionalidad de los tratos de una campaña es similar a la de cualquier [trato](./tratos.md), salvo que dependiendo del tipo de campaña podría estar asociado a un cliente en vez a un contacto.
+La funcionalidad de los tratos de una campaña es similar a la de cualquier [trato](../tratos/index.md), salvo que dependiendo del tipo de campaña podría estar asociado a un cliente en vez a un contacto.
 
-[Volver al Índice](./index.md)
+[Volver al Índice](../../../index.md)

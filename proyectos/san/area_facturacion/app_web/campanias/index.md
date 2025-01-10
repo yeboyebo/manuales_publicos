@@ -105,7 +105,7 @@ Al pulsar sobre ella, podremos acceder al detalle de la campaña y podremos modi
 
 ## Datos para tratos
 
-Podemos setear unos valores para que cuando al lanzar una campaña que genera autómaticamente tratos, podamos crear los mismos con un valor y un agente determinado, este último campo dependerá de si el *tipo de trato* está [configurado](./tipostrato.md) a tal efecto.  
+Podemos setear unos valores para que cuando al lanzar una campaña que genera autómaticamente [tratos](../tratoscampanias/index.md), podamos crear los mismos con un valor y un agente determinado, este último campo dependerá de si el *tipo de trato* está [configurado](../tipostrato/index.md) a tal efecto.  
 
 ![datostratos](./img/datostratos.png)
 
@@ -138,4 +138,4 @@ Por último, tras lanzar la campaña (o con campañas de solo medición), podrem
 
 Junto con el gráfico, aparecen dos campos de fecha para indicar el rango de comparación sobre el periodo de impacto.
 
-[Volver al Índice](../../index.md)
+[Volver al Índice](../../../index.md)

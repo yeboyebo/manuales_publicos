@@ -19,4 +19,4 @@ Si este check está marcado el botón 'Ganado' estará deshabilitado. De modo qu
 
 Se pueden añadir tantas posibles causa de pérdida del trato como sea necesario.
 
-[Volver al Índice](./index.md)
+[Volver al Índice](../../../index.md)

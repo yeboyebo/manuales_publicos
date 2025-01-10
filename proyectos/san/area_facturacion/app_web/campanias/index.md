@@ -7,9 +7,11 @@ Primero vamos a la pantalla de campañas desde el menú principal.
 
 Veremos un listado de las campañas no archivadas. Si deseamos ver también las archivadas podemos marcar la opción en el filtro.
 
+No se mostrarán las campañas de tipo marketing digital/leads pacientes.
+
 ## Creación de la campaña
 
-En la pantalla de campañiías pulsamos sobre el icono "+" en la parte izquierda de la lista de campañas
+En la pantalla de campañias pulsamos sobre el icono "+" en la parte izquierda de la lista de campañas
 
 ![acciones](./img/acciones.png)
 

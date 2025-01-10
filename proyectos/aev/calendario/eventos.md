@@ -40,3 +40,5 @@ Al clicar en un día podremos ver desplegados los eventos programados para ese d
 Al clicar este botón se copiará al portapapeles un enlace con url con la que veremos el calendario con los eventos, en el modo usado y filtrado si fuera el caso. Este enlace sería como una foto fija, sin botones con lo que interactuar, con la funcionalidad al clicar en un día para ver los eventos programados.
 
 ![enlace](./img/enlace.png)
+
+[Volver al Índice](../index.md)

@@ -1,7 +1,7 @@
 # Tareas
 
 ## Crear tarea
-Podemos crear tareas para un agente asociadas a un trato clicando en el botón lateral derecho *'+ TAREA'* de la ficha del [trato](./tratos.md).
+Podemos crear tareas para un agente asociadas a un trato clicando en el botón lateral derecho *'+ TAREA'* de la ficha del [trato](../tratos/index.md).
 
 ![Botón crear tarea](./img/boton_crear_tarea.png)
 
@@ -39,7 +39,7 @@ En la ficha de la tarea podemos ver una serie de cajas con la información de la
 
  ![Siguiente tarea](./img/next_tarea.png)
 
- Si cancelamos esta opción y la tarea completada es la última asociada al trato, podremos cambiar el [estado del trato asociado](./tratos.md) desde esta misma pantalla.
+ Si cancelamos esta opción y la tarea completada es la última asociada al trato, podremos cambiar el [estado del trato asociado](../tratos/index.md) desde esta misma pantalla.
 
   ![Cambia estado trato](./img/cambia_estado_trato.png)
 
@@ -62,4 +62,4 @@ Para revocar los permisos concedidos podemos hacerlo desde nuestra cuenta de goo
 
 ![user_2](./img/user_2.png)
 
-[Volver al Índice](./index.md)
+[Volver al Índice](../../../index.md)

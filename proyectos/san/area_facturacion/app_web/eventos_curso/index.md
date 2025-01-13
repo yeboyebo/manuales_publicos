@@ -40,3 +40,5 @@ Para desmarcarlo clicamos en el contacto indicado y en la ficha del mismo marcam
 ## Curso no revisado
 
 Si el curso tiene algún contacto no revisado lo indicaremos con el mismo icono que usamos para el contacto no revisado.
+
+[Volver al Índice](../../../index.md)

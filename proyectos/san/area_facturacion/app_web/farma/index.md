@@ -23,7 +23,7 @@ Accedemos a la pantalla desde el menú principal en la sección *Smartsales* cli
 
 ![farmaicon](./img/farmaicon.png)
 
-El funcionamiento general es el mismo que el de cualquier otro [trato](./tratos.md), salvo que a la hora de ganar un trato generamos una licencia asociada al mismo.
+El funcionamiento general es el mismo que el de cualquier otro [trato](../tratos/index.md), salvo que a la hora de ganar un trato generamos una licencia asociada al mismo.
 
 En los listados de tratos que no son el propio de licencias framacéuticas, estos aparecerań marcados con un indicador.
 
@@ -43,4 +43,4 @@ Al ganar un trato se nos pedira la fecha de fin del trámite de la licencia y la
 
 Para cambiar de estado un trato ganado y por tanto con una licencia asociada debemos primero clicar de nuevo en 'Ganado' para pasar a un estado pendiente. Esto no solo cambiará el estado del trato si no que también eliminará la licencia asociada.
 
-[Volver al Índice](./index.md)
+[Volver al Índice](../../../index.md)

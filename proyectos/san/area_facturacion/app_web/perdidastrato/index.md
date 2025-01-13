@@ -2,7 +2,7 @@
 
 ## Gestionar causas de perdida de trato
 
-Se pueden gestionar las casusas de perdida de trato desde la pantalla de [tipos de trato](./tipostrato.md)
+Se pueden gestionar las casusas de perdida de trato desde la pantalla de [tipos de trato](../tipostrato/index.md).
 
 ![causasperdida](./img/causasperdida.png)
 
@@ -17,6 +17,4 @@ Una vez seleccionada una causa, se mostrara en la pantalla del trato y podra ser
 
 ![vistacausasperdida](./img/vistacausasperdida.png)
 
-
-
-[Volver al Índice](./index.md)
+[Volver al Índice](../../../index.md)

@@ -7,9 +7,11 @@ Primero vamos a la pantalla de campañas desde el menú principal.
 
 Veremos un listado de las campañas no archivadas. Si deseamos ver también las archivadas podemos marcar la opción en el filtro.
 
+No se mostrarán las campañas de tipo marketing digital/leads pacientes.
+
 ## Creación de la campaña
 
-En la pantalla de campañiías pulsamos sobre el icono "+" en la parte izquierda de la lista de campañas
+En la pantalla de campañias pulsamos sobre el icono "+" en la parte izquierda de la lista de campañas
 
 ![acciones](./img/acciones.png)
 
@@ -105,7 +107,7 @@ Al pulsar sobre ella, podremos acceder al detalle de la campaña y podremos modi
 
 ## Datos para tratos
 
-Podemos setear unos valores para que cuando al lanzar una campaña que genera autómaticamente tratos, podamos crear los mismos con un valor y un agente determinado, este último campo dependerá de si el *tipo de trato* está [configurado](./tipostrato.md) a tal efecto.  
+Podemos setear unos valores para que cuando al lanzar una campaña que genera autómaticamente [tratos](../tratoscampanias/index.md), podamos crear los mismos con un valor y un agente determinado, este último campo dependerá de si el *tipo de trato* está [configurado](../tipostrato/index.md) a tal efecto.  
 
 ![datostratos](./img/datostratos.png)
 
@@ -138,4 +140,4 @@ Por último, tras lanzar la campaña (o con campañas de solo medición), podrem
 
 Junto con el gráfico, aparecen dos campos de fecha para indicar el rango de comparación sobre el periodo de impacto.
 
-[Volver al Índice](../../index.md)
+[Volver al Índice](../../../index.md)

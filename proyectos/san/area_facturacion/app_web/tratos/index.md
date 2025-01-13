@@ -2,7 +2,7 @@
 
 ## Ver tratos de una campaña
 
-Se pueden ver un trato asociado al agente logeado desde la sección [agenda](./dashboard/agenda.md) del dashboard, seleccionado en el listado mostrado o clicando en '*ver todos*'.
+Se pueden ver un trato asociado al agente logeado desde la sección [agenda](../smart_sales/dashboard/agenda.md) del dashboard, seleccionado en el listado mostrado o clicando en '*ver todos*'.
 
 ## Trato
 
@@ -25,7 +25,7 @@ Podemos añadir un contacto de la lista usando el buscador o crear un nuevo cont
 
 ### Tipo de trato
 
-Aquí podemos seleccionar el tipo de trato entre las opciones. Cada tipo de trato tiene asocidas unas características. Que se pueden definir en la sección [tipos de trato](./tipostrato.md).
+Aquí podemos seleccionar el tipo de trato entre las opciones. Cada tipo de trato tiene asocidas unas características. Que se pueden definir en la sección [tipos de trato](../tipostrato/index.md).
 
 ### Familias de producto
 
@@ -35,7 +35,7 @@ Aquí podemos asociar al trato una lista de familias de producto, usando el sele
 
 ### Tareas
 
-Aquí veremos un listado de las [tareas](./tareas.md) asociadas a este trato. Para cada tarea se indicará el nombre(*tachado si está completada*), fecha, hora, tipo. 
+Aquí veremos un listado de las [tareas](../tareas/index.md) asociadas a este trato. Para cada tarea se indicará el nombre(*tachado si está completada*), fecha, hora, tipo. 
 
 Podemos crear una tarea clicando en el botón del lateral derecho '**+ Tarea**'. Esta opción no está habilitada para el grupo de *marketing*.
 
@@ -43,7 +43,7 @@ Podemos crear una tarea clicando en el botón del lateral derecho '**+ Tarea**'.
 
 Aquí podemos cambiar el estado del trato. Si clicamos el estado *Perdido*, debemos seleccionar una causa de pérdida del trato que están asociadas al tipo de trato. La causa se mostrará debajo del estado, si el tipo de trato es '*venta producto* y se puede editar.
 
-Para ganar un trato debemos clicar en el botón si el tipo de trato no está configurado para '*exigir generación de pedido para ganar trato*' en la sección [tipos de trato](./tipostrato.md), si lo está tendremos que generar un pedido o generar un presupuesto y aprobarlo generando un pedido, así el trato cambiará a *ganado* automáticamente. 
+Para ganar un trato debemos clicar en el botón si el tipo de trato no está configurado para '*exigir generación de pedido para ganar trato*' en la sección [tipos de trato](../tipostrato/index.md), si lo está tendremos que generar un pedido o generar un presupuesto y aprobarlo generando un pedido, así el trato cambiará a *ganado* automáticamente. 
 
 ### Borrar trato
 
@@ -51,7 +51,7 @@ Veremos el botón *borrar* si el estado del trato es diferente de '*ganado* y el
 
 ### Asociar pedido
 
-Veremos el botón *Asociar pedido* si el tipo de trato esta configurado para '*exigir generación de pedido para ganar trato*' en la sección [tipos de trato](./tipostrato.md) y no tiene ya asociado ningún pedido ni ningún presupuesto.
+Veremos el botón *Asociar pedido* si el tipo de trato esta configurado para '*exigir generación de pedido para ganar trato*' en la sección [tipos de trato](../tipostrato/index.md) y no tiene ya asociado ningún pedido ni ningún presupuesto.
 
 Al clicar en el botón se desplegará un modal en el que podremos seleccionar un pedido existente asociado al agente logeado y también al cliente del trato si este tuviera uno asociado. 
 
@@ -68,4 +68,4 @@ En el formulario de creación de trato introduciremos la información del nuevo 
 - Tipo
 - Notas(solo si el tipo seleccionado es el configurado para '*Colaboración*' desde el ERP, en el formulario **Area de Facturación/Facturación/Configuración**)
 
-[Volver al Índice](./index.md)
+[Volver al Índice](../../../index.md)

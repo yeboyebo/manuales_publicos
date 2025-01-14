@@ -1,6 +1,6 @@
 # Tratos
 
-## Ver tratos de una campaña
+## Ver tratos
 
 Se pueden ver un trato asociado al agente logeado desde la sección [agenda](../smart_sales/dashboard/agenda.md) del dashboard, seleccionado en el listado mostrado o clicando en '*ver todos*'.
 
@@ -11,7 +11,7 @@ Se pueden ver un trato asociado al agente logeado desde la sección [agenda](../
 En el trato podemos ver una serie de cajas con la información del mismo.
 - Nombre (*no editable*)
 - Valor (*editable*)
-- Contacto (*editable*) o cliente (*no editable*) asociado
+- Contacto (*editable*) y/o cliente (*no editable*) asociado
 - Tipo de trato (*editable*)
 - Fecha (*editable*)
 - Tareas (*editable*)
@@ -21,7 +21,14 @@ En el trato podemos ver una serie de cajas con la información del mismo.
 
 ### Contacto
 
-Podemos añadir un contacto de la lista usando el buscador o crear un nuevo contacto que una vez creado aparacerá selecionado. Debemos clicar el botón guardar.
+Podemos cambiar un contacto de la lista usando el buscador o crear un nuevo contacto que una vez creado aparacerá selecionado. Debemos clicar el botón guardar.
+
+Si el trato tiene un cliente asociado, en la busqueda solo veremos los contactos asociados a este cliente.
+
+### Cliente
+
+Este es un campo no editable, pero si el agente conectado tiene permisos de acceso a la pantalla de clientes, al clicar sobre el [cliente](../clientes/index.md) navegará a la ficha del mismo.
+
 
 ### Tipo de trato
 

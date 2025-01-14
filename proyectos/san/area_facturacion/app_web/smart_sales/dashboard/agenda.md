@@ -28,11 +28,16 @@ Si clicamos en la caja veremos la pantalla de *Contactos cursos* que contiene el
 
 #### Datos del contacto
 
-Si el contacto está asociado a nuestra lista como agente o a nuestros códigos postales, veremos los datos del contacto, incluyendo el apartado *Eventos(número de interacciones)* si existe actividad reciente o el texto *Sin participación en eventos* si no la hubiera.
+Si el contacto no está asociado a nuestra lista como agente o a nuestros códigos postales, veremos un texto('**El contacto no está asociado a tu lista**') y no podremos editar los datos del contacto. Solo podemos ver los apartados *Tratos* y *Tareas* si el contacto esta asociado.
+
+Si podremos ver el apartado *Eventos(número de interacciones)* si existe actividad reciente o el texto *Sin participación en eventos* si no la hubiera.
 
 Si desplegamos el apartado veremos un listado de los eventos en los que el contacto participó, indicando el nombre del evento y la fecha de inicio del mismo. Al clicar sobre un evento accederemos los datos del evento.
 
 ![Lista eventos contacto](./img/listaeventoscontactos.png)
+
+#### Asociar un contacto
+Al crear un contacto nuevo este se asociará al agente ceador. Para asociar un contacto ya exitente, se puede hacer en el alta de un trato(*no para tratos de campañas*), si el trato tiene un contacto asociado, comprobaremos si este está asociado al agente conectado y si no lo está se preguntará si queremos asociarlo.
 
 #### Datos del evento
 

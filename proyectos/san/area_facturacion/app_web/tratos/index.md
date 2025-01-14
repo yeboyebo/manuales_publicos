@@ -21,13 +21,13 @@ En el trato podemos ver una serie de cajas con la información del mismo.
 
 ### Contacto
 
-Podemos cambiar un contacto de la lista usando el buscador o crear un nuevo contacto que una vez creado aparacerá selecionado. Debemos clicar el botón guardar.
+Este campo solo lo veremos si el trato tiene asociado un contacto. Podemos cambiar un contacto usando el buscador o crear un nuevo contacto que una vez creado aparacerá selecionado. Debemos clicar el botón guardar.
 
 Si el trato tiene un cliente asociado, en la busqueda solo veremos los contactos asociados a este cliente.
 
 ### Cliente
 
-Este es un campo no editable, pero si el agente conectado tiene permisos de acceso a la pantalla de clientes, al clicar sobre el [cliente](../clientes/index.md) navegará a la ficha del mismo.
+Este campo solo lo veremos si el trato tiene asociado un cliente asociado. Es un campo no editable, pero si el agente conectado tiene permisos de acceso a la pantalla de clientes, al clicar sobre el [cliente](../clientes/index.md) navegará a la ficha del mismo.
 
 
 ### Tipo de trato

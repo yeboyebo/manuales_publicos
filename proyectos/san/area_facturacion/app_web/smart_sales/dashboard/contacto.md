@@ -5,13 +5,13 @@
 Los contactos son personas que generalmente representan a uno o varios clientes.
 
 Podemos acceder a contactos desde varios sitios:
-  #### Webapp
+  ### Webapp
   + Contactos
   + Clientes
   + Cursos
   + Trato(*editar contacto*)
 
-  #### Dashboard Smartsales
+  ### Dashboard Smartsales
   + Ficha de evento
   + Agenda:
     + Buscador

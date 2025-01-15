@@ -48,7 +48,7 @@ Suma de:
 * *Comisión por Subfamilia*
 * *Comisión especial*
 * *Comisión G.C.*
-* Si está activado el campo **, *Bonificación*
+* Si está activado el campo *Aplicar Bon.*, *Bonificación productos*
 
 ### % Comisión
 Porcentaje de comisión a aplicar. Obtenido, si no se establece de forma manual, del tramo más alto de la tabla *Comisiones* cuya columna *Mínimo de ventas* sea menor a la suma de *Ventas alcanzadas* + *Ventas alcanzadas G.C.*

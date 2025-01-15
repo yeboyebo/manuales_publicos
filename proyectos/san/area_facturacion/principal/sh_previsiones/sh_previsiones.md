@@ -14,15 +14,27 @@ Las previsiones por agente permiten establecer unos objetivos de venta por cada 
 
 ## Datos de cabecera
 
+### Ventas de otros agentes
+Sumatorio del campo *PVP Total* de las líneas de factura asociadas al período de la previsión que cumplen las siguiente condiciones:
++ Su cliente está asociado al agente de la previsión
++ Su agente es distinto del agente de la previsión.
++ Su familia tenga activado el check *Incluir en previsiones*.
+
+### Objetivo de ventas
+Resta entre _Objetivo Inicial_ y _Ventas a otros agentes_
+
 ### Ventas comisionables
 Sumatorio del campo *PVP Total* de las líneas de factura asociadas a la previsión, que cumplan los siguientes criterios:
 
 * Que su familia tenga activado el check *Incluir en previsiones*.
-* Que su cliente *NO* esté asociado a un grupo de compras.
-* Que su cliente *NO* tenga marcado el check *Comisión especial* o que tenga marcado el check *Incluir en ventas comisionables*.
+* Que su cliente *NO* esté asociado a un grupo de compras o, si lo está, que *NO* exista un registro de precio por cliente (atípica) para la referencia y cliente de la factura.
+* Que su cliente *NO* tenga marcado el check *Comisión especial* o que SÍ tenga marcado el check *Incluir en ventas comisionables*.
 
 ### Ventas alcanzadas
-Sumatorio del campo *PVP Total* de las líneas de factura asociadas a la previsión, exceptuando aquellas que pertenezcan a clientes asociados a un grupo de compras.
+Sumatorio del campo *PVP Total* de las líneas de factura asociadas a la previsión, que cumplan los siguientes criterios:
+
+* Que su familia tenga activado el check *Incluir en previsiones*.
+* Que su cliente *NO* esté asociado a un grupo de compras o, si lo está, que *NO* exista un registro de precio por cliente (atípica) para la referencia y cliente de la factura.
 
 ### Ventas comisión especial
 Sumatorio de la columna *Total ventas* de la tabla *Comisiones especiales*.
@@ -51,10 +63,9 @@ Suma de la columna *Cantidad Comisión* de la tabla *Subfamilias*.
 Suma de la columna *Total Comisión* de la tabla *Comisiones especiales*.
 
 ### Comisión G.C.
-~~Producto de *Ventas alcanzadas G.C.* x *% Comisión*.~~
 Suma de la columna *Bonificación* de la pestaña *Grupos de compras*.
 
-### Bonificación
+### Bonificación producto
 Suma de la columna *Bonificación* de la tabla *Bonificaciones*.
 
 ## Tablas
@@ -118,8 +129,11 @@ El orden de aplicación de bonificaciones (el tipo de bonificación que se aplic
 Esta tabla tiene la misma estructura que la de *Bonificaciones*, y se aplica únicamente a clientes asociados a un grupo de compras.
 
 Columnas:
-* **Ventas** es la suma del campo *PVP Total* de las líneas de las facturas asociadas al grupo de compras y a la previsión
+* **Ventas** es la suma del campo *PVP Total* de las líneas de las facturas asociadas a la previción que cumplen:
+    + Su cliente está asociado a un grupo de compras y existe un registro de precio por artículo y cliente (atípica) para la combinación de referencia de la línea y cliente de la factura.
+
 * **% Bonificación** es el campo *% Bonificación* del grupo de compras
+
 * **Bonificación** se calcula como el producto de las columnas *Ventas* x *% Bonificación*
 
 ### Subfamilias

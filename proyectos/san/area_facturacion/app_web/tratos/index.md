@@ -75,6 +75,8 @@ En el formulario de creación de trato introduciremos la información del nuevo 
 - Tipo
 - Notas(solo si el tipo seleccionado es el configurado para '*Colaboración*' desde el ERP, en el formulario **Area de Facturación/Facturación/Configuración**)
 
+El agente asociado al trato siempre será el agente creador del mismo. Está asignación podría variar para los tratos de [farma](../farma/index.md) o de [campaña](../tratoscampanias/index.md).
+
 ### Asociar contacto
 
 Si el trato tiene un contacto asociado, comprobaremos si este está asociado al agente conectado y si no lo está se preguntará si queremos asociarlo.

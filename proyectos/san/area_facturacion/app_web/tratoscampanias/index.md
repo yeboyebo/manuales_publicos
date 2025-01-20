@@ -21,9 +21,7 @@ Pulsando sobre el icono "+" en la parte izquierda, se abre el formulario para in
 
 ![Nuevo trato](./img/nuevotrato.png)
 
-La fecha por defecto es la de hoy.
-
-El tipo de trato es que se indique por defecto en la campaña.
+La fecha por defecto es la de hoy, el tipo de trato es que se indique por defecto en la campaña y el agente asociado será el agente conectado, este campo es editable.
 
 Es posible crear un nuevo contacto si es para un contacto no existente.
 
@@ -37,7 +35,7 @@ Pulsando el botón
 ![Nuevo trato](./img/cargatratoexcel.png)
 
 Se puede seleccionar un fichero excel con información de contactos, el sistema creara un trato por cada contacto del fichero que no tenga ya un trato para la campaña, si el email del contacto no está en el sistema creará un contacto nuevo.
-Los tratos creados automáticamente no tendran agente asignado.
+Los tratos creados automáticamente tendran como agente asociado el que este inbformado para la campaña y si está no tuviera ninguno se asociará al agente conectado.
 Si los datos de contacto del excel no coinciden con los datos almacenados, se pueden ver las diferencias desde el boton resolver diferencias sobre el campo de contacto.
 
 El formato debera ser xlsx y contener los datos en este orden:

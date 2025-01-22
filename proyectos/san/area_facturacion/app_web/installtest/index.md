@@ -50,3 +50,8 @@
 
 * Crear contacto
 * Editar contacto
+
+  ```sql
+  delete from crm_contactos where email = 'email';
+  delete from ss_contactos_agente where email = 'email';
+  ```

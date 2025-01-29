@@ -30,7 +30,12 @@
 
 * Crear trato, rellenano todos los campos
 * Crear pedido
-* Crear presupuesto y aprobarlo
+* Crear presupuesto
+* Aprobar presupuesto(NO EN PRODUCCIÓN)
+  * Antes cambiar el email de envío:
+    ```sql
+    update factppal_general set sh_mailrecepcion = 'EMAIL';
+    ```
 * Borrar trato
 * Añadir tarea
 * Añadir nota

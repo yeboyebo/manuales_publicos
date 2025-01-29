@@ -8,6 +8,10 @@
 * Modificar Línea
 * Borrar línea
 * Enviar pedido(NO EN PRODUCCIÓN)
+  * Antes cambiar el email de envío:
+    ```sql
+    update factppal_general set sh_mailrecepcion = 'EMAIL';
+    ```
 * Borrar pedido
 
 ## Presupuesto

@@ -4,11 +4,11 @@
 
 Aquí podemos ver una serie de valores para saber cual es el progreso de las ventas para el agente conectado:
 
-* **Porcentaje** del total de ventas en el perido configurado con respecto al objetivo marcado.
+* **Porcentaje** del total de ventas en el periodo configurado con respecto al objetivo marcado.
 
-* **Total ventas** en el perido configurado.
+* **Total ventas** en el periodo configurado.
 
-* **Incremento/año**: Porcentaje del total de ventas en el perido configurado con respecto al total de ventas en el año anterior.
+* **Incremento/año**: Porcentaje del total de ventas en el periodo configurado con respecto al total de ventas en el año anterior.
 
 Si el agente conectado es **superusuario** los datos mostrados corresponden a todos los agentes.
 

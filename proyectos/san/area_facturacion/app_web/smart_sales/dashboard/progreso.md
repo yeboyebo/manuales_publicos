@@ -6,7 +6,7 @@ Aquí podemos ver una serie de valores para saber cual es el progreso de las ven
 
 * **Porcentaje** del total de ventas en el perido configurado con respecto al objetivo marcado.
 
-* **Total ventas**
+* **Total ventas** en el perido configurado.
 
 * **Incremento/año**: Porcentaje del total de ventas en el perido configurado con respecto al total de ventas en el año anterior.
 

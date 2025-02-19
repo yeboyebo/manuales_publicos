@@ -8,6 +8,7 @@
   * [Cantidades Feria/Showroom y En almacen en stocks ](./areafacturacion/almacen/stocks/cantidadferia/index.md)
   * [Sincronización de clientes mayoristas](./areafacturacion/principal/clientes/sincro_clientes.md)
   * [Sincronización de planes de precios](./areafacturacion/almacen/magento/mg_planesprecios.md)
+  * [Sincronización de divisas automática](./areafacturacion/facturacion/divisas/sincro_divisas.md)  
   * [Envíos Agencia](./areafacturacion/facturacion/enviosagencia/envios_agencia.md)
   
 ### Tienda Online

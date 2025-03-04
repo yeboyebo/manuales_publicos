@@ -22,7 +22,11 @@ Si el contacto ha asistido a algún evento se indicará en una lista, al clicar 
 
 #### ¿Qué es un contacto de curso?
 
- Son aquellos contactos que están asociados a nuestro usuario por código postal o contactos que no tienen asignado ningún código postal y que han tenido una interacción o asistencia a un curso o evento en los últimos _N_ días, siendo _N_ un valor parametrizable en el ERP.  [Parametrizar días](./periodobusqueda.md).
+ Son aquellos contactos que están asociados a nuestro usuario por código postal o contactos que no tienen asignado ningún código postal y que han tenido una interacción o asistencia a un curso o evento en los últimos _N_ días, siendo _N_ un valor parametrizable en el ERP. 
+ 
+ También podemos parametrizar unos días de restraso a la hora de mostrar los contactos a los agentes en el mismo formulario del ERP.
+ 
+ [Ir a parametrizar días](./periodobusqueda.md)
 
 La caja *contactos de cursos* será visible siempre que tengamos al menos un contacto de este tipo.
 
@@ -36,7 +40,11 @@ Si clicamos en la caja veremos la pantalla de *Contactos cursos* que contiene el
 
 #### ¿Qué es un contacto activo?
 
- Son aquellos contactos que están asociados a nuestro usuario por código postal o contactos que no tienen asignado ningún código postal y que han tenido una interacción o asistencia con un curso/evento o una campaña en los últimos _N_ días, siendo _N_ un valor parametrizable en el ERP.  [Parametrizar días](./periodobusqueda.md).
+Son aquellos contactos que están asociados a nuestro usuario por código postal o contactos que no tienen asignado ningún código postal y que han tenido una interacción o asistencia con un curso/evento o una campaña en los últimos _N_ días, siendo _N_ un valor parametrizable en el ERP.
+
+También podemos parametrizar unos días de restraso a la hora de mostrar los contactos a los agentes en el mismo formulario del ERP.
+ 
+ [Ir a parametrizar días](./periodobusqueda.md)
 
 La caja *contactos más activos en últimos meses* será visible siempre que tengamos al menos un contacto de este tipo.
 

@@ -35,8 +35,6 @@ En caso de que hayamos elegido una campaña de repetición, accederemos a la con
 
 En este caso, tendremos que configurar los días desde la última compra. Este parámetro se utilizará para buscar los clientes que han comprado estos productos/subfamilias últimamente.
 
-[Aquí](./listas_productos.md) está explicado cómo configurar los filtros de búsqueda asociados a la compra de productos.
-
 ### Parámetros de campañas de captación
 
 En caso de elegir la campaña de captación, accederemos a la configuración de parámetros de captación.
@@ -45,13 +43,10 @@ En caso de elegir la campaña de captación, accederemos a la configuración de 
 
 Aquí deberemos configurar el tipo de captación (Leads o Venta Directa). Así como el umbral de recomendación (parámetro calculado por una Inteligencia Artificial que indica el nivel de recomendación, a más alto, más recomendado).
 
-[Aquí](./listas_productos.md) está explicado cómo configurar los filtros de búsqueda asociados a la compra de productos.
-
 ### Parámetros de campañas de medición
 
 En caso de elegir la campaña de medición, accederemos a la configuración de parámetros de medición. Aquí deberemos configurar el rango de medición del impacto de la campaña.
 
-[Aquí](./listas_productos.md) está explicado cómo configurar los filtros de búsqueda asociados a la compra de productos.
 
 ### Parámetros de campañas de venta cruzada
 

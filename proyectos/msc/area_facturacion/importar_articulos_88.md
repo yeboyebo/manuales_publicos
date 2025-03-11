@@ -29,9 +29,6 @@ si abrimos el fichero creado con un procesador de textos podemos comprobar que e
 
 ![ejemplo_csv](./img/ejemplo_csv.png)
 
-### Usando Microsoft Office
-
-
 ## Carga de archivo
 
 Para carga el archivo vamos al formulario de artículos desde el menú **Area de Facturación/Almacen/Artículos** y clicamos en el botón de la barra superior, situado en la parte derecha **Importar artículos de cadena 88** con el icono de *CSV*.

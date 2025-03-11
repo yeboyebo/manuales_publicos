@@ -25,7 +25,7 @@ Una vez que solo tenemos los datos de artículos guardamos el archivo en formato
 
 ![guardar como](./img/g_como.png)
 
-Seleccionando el **delimitador de campos** como una *|* y el **delimitador de cadena** vacío. 
+Seleccionando el **delimitador de campos** como una barra y el **delimitador de cadena** vacío. 
 
 ![delimitador](./img/delimitador.png)
 

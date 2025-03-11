@@ -13,19 +13,23 @@ Vamos a cargar un fichero *.csv* con las filas de los artículos. El sistema esp
 - Tarifa ms2: 18,
 
 
-## Formatear archivo excel
+## Formatear archivo xls
 
 ### Usando LibreOffice
 
-Si estamos usando un archivo de tipo excel debemos realizar unos pasos previos antes de poder cargarlo en el ERP.
+Si estamos usando un archivo de tipo xls debemos realizar unos pasos previos antes de poder cargarlo en el ERP.
 
 Debemos eliminar todas las filas que no se correspondan con artículos, por ejemplo, una primera fila con la cabecera. Seleccionamos las filas a eliminar, hacemos clic derecho sobre la selección y clicamos la opción **eliminar filas**.
 
-Una vez que solo tenemos los datos de artículos guardamos el archivo en formato *.csv*, seleccionando el **delimitador de campos** como una *|* y el **delimitador de cadena** vacío. 
+Una vez que solo tenemos los datos de artículos guardamos el archivo en formato *.csv*
+
+![guardar como](./img/g_como.png)
+
+Seleccionando el **delimitador de campos** como una *|* y el **delimitador de cadena** vacío. 
 
 ![delimitador](./img/delimitador.png)
 
-si abrimos el fichero creado con un procesador de textos podemos comprobar que el contenido es similar en su estructura a este: 
+Si abrimos el fichero creado con un procesador de textos podemos comprobar que el contenido es similar en su estructura a este: 
 
 ![ejemplo_csv](./img/ejemplo_csv.png)
 

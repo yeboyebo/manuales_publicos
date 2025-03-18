@@ -11,7 +11,10 @@ Nacho
 ## Eventos
 
 ### CRUD de Productos (Kraken)
+Referencia
+Descripción
 
+### CRUD de Eventos (proyectos)
 Zona *Rentabilidad*
 + € Ingresos: Importe económico
 + € Gastos. Importe económico
@@ -40,7 +43,6 @@ Zona *Evento*:
 
 + Impresión de hoja de ruta
 
-### CRUD de Eventos (proyectos)
 
 ### Gestión documental en Eventos
 

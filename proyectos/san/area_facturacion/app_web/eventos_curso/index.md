@@ -15,6 +15,10 @@ Dentro los usuarios de Marketing y los superusuarios podran ver toda informacion
 
 Una vez creada la campaña, no importara si se añaden o elimian contactos del evento, los tratos no se veran afectados.
 
+## Contacto de cursos
+
+El agente conectado solo verá los contactos que esten asociados a este agente con la excepción de los superusuarios o los agentes pertenecientes a los grupos 'MKT' o "Responsable de marketing".
+
 ## Añadir contacto
 
 Posibilidad de asociar un contacto al evento y actualiza los datos del contacto, tambien se puede crear un contacto nuevo desde la pantalla de añadir.

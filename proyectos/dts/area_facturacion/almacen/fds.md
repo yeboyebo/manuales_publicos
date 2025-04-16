@@ -4,7 +4,7 @@ El objetivo de este proyecto es controlar el envío a clientes de fichas de dato
 
 ## Estructura
 
-### Tabla de versiones FDS
+### Tabla de versiones FDS (Almacén / Más / Almacén / FDS)
 La tabla permite incluir referencias y su versión. Para cada registro, se puede obtener una lista de clientes / contactos que han comprado el producto (según facturas emitidas) durante el año anterior a la fecha de la nueva versión.
 
 Esta lista es exportable a csv para realizar el envío de notificación de la nueva versión

@@ -38,3 +38,5 @@ Veremos una tabla ordenada por fecha de alta en la cola, en la que podremos ver,
 * Si un registro se ha intentado sincronizar pero ha habido algún problema tendrá infomados los datos de fecha y hora de sincronización pero la columna 'Sincronizado' aparecerá como 'No'. Al editar ese registro podemos ver en la tabla de Errores un registro con el error obtenido en el campo 'Datos Salida'.
 
 ![Error de Sincronización de cliente](./img/errorSincroCliente.png)
+
+En este caso ha fallado la sincro de este cliente porque ya existía uno con el mismo email.

@@ -31,11 +31,10 @@ Los pasos son:
 
 ![Cola de Sincronización](./img/sincroClientes.png)
 
-Veremos una tabla ordenada por fecha de alta en la cola, en la que podremos ver, entre otros datos, sus fechas y horas de alta y sincronización, el objeto a sincronizar, el tipo de sincro (en este caso 'Enviar Clientes') y si ha sido o no sincronizado. 
+Veremos una tabla ordenada por fecha de alta en la cola, en la que podremos ver, entre otros datos, sus fechas y horas de alta y sincronización, el objeto a sincronizar, el tipo de sincro (en este caso 'Enviar Clientes') y si ha sido o no sincronizado.
 
-
-    - Un registro que está pendiente de sincronizar cuando tiene los valores de fecha y hora de sincronización vacíos y la columna 'Sincronizado' a 'No'
-    - Si un registro se ha sincronizado correctamente aparecerán informadas la fecha y hora de sincronización y el valor de 'Sincronizado' a Si.
-    - Si un registro se ha intentado sincronizar pero ha habido algún problema tendrá infomados los datos de fecha y hora de sincronización pero la columna 'Sincronizado' aparecerá como 'No'. Al editar ese registro podemos ver en la tabla de Errores un registro con el error obtenido en el campo 'Datos Salida'.
+* Un registro que está pendiente de sincronizar cuando tiene los valores de fecha y hora de sincronización vacíos y la columna 'Sincronizado' a 'No'
+* Si un registro se ha sincronizado correctamente aparecerán informadas la fecha y hora de sincronización y el valor de 'Sincronizado' a Si.
+* Si un registro se ha intentado sincronizar pero ha habido algún problema tendrá infomados los datos de fecha y hora de sincronización pero la columna 'Sincronizado' aparecerá como 'No'. Al editar ese registro podemos ver en la tabla de Errores un registro con el error obtenido en el campo 'Datos Salida'.
 
 ![Error de Sincronización de cliente](./img/errorSincroCliente.png)

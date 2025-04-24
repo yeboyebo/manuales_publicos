@@ -8,6 +8,7 @@
   - [Aviso de que algunos de los artículos a cargar en un inventario son por lotes](./area_facturacion/almacen/cargarinventario.md)
   - [Nuevo informe ADR](./area_facturacion/informes/informe_adr.md)
   - [Trazabilidad interna y producción](./area_facturacion/almacen/trazabilidadinterna.md)
+  - [Control FDS](./area_facturacion/almacen/fds.md)
   - [Informe de inventario valorado](./area_facturacion/informes/inventarioval.md)
   - [Informe etiquetas](./area_facturacion/informes/informeEtiquetas.md)
   - [Reglas control de acceso](./sistema/control_acceso/index.md)

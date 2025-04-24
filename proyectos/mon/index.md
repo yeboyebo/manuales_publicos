@@ -10,6 +10,8 @@
 
 [Aprobar/ validar pedido](./tienda_online/aprobarpedidos/index.md)
 
+[Como generar autofactura de servicios de agencias de transporte](./area_facturacion/facturacion/autofactura_transporte.md)
+
 # Tienda online
 
 - [Catálogo](./tienda_online/catalogo/index.md)

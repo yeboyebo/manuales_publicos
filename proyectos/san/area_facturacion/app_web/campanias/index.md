@@ -29,7 +29,7 @@ Al terminar, pulsaremos siguiente.
 
 ### Parámetros de campañas de repetición
 
-En caso de que hayamos elegido una campaña de repetición, accederemos a la configuración de parámetros de repetición.
+En caso de que hayamos elegido una campaña de repetición, accederemos a la configuración de [parámetros de repetición](./param_lanzar.md).
 
 ![repeticion](./img/repeticion.png)
 
@@ -37,7 +37,7 @@ En este caso, tendremos que configurar los días desde la última compra. Este p
 
 ### Parámetros de campañas de captación
 
-En caso de elegir la campaña de captación, accederemos a la configuración de parámetros de captación.
+En caso de elegir la campaña de captación, accederemos a la configuración de [parámetros de captación](./param_lanzar.md).
 
 ![captacion](./img/captacion.png)
 
@@ -114,9 +114,9 @@ Podemos setear unos valores para que cuando al lanzar una campaña que genera au
 
 ## Lanzamiento de campaña
 
-Para lanzar la campaña, primero deberemos calcular los clientes a los que va a ir dirigida, para ello, pulsamos en el botón "Calcular clientes". En caso de que haya clientes que se correspondan con los parámetros indicados, se activará el botón de "Lanzar campaña para X clientes", indicando el número correspondiente.
+Para lanzar la campaña, primero deberemos calcular los clientes a los que va a ir dirigida, para ello, pulsamos en el botón "Calcular clientes". En caso de que haya clientes que se correspondan con los [parámetros](./param_lanzar.md) indicados, se activará el botón de "Lanzar campaña para X clientes", indicando el número correspondiente.
 
-En caso de no tener el número adecuado de clientes, podemos modificar los parámetros y repetir la operación.
+En caso de no tener el número adecuado de clientes, podemos modificar los [parámetros](./param_lanzar.md) y repetir la operación.
 
 Al pulsar en lanzar campaña, se creará una lista en ActiveCampaign con los emails de los clientes implicados.
 

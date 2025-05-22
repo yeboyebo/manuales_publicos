@@ -25,3 +25,4 @@
 - [Contabilidad Inversión de Sujeto Pasivo](./contauto_isp/index.md)
 - [Importación de asientos](./import_asientos/index.md)
 - [Recibos de cliente en norma SEPA 34 (remesas de pago)](./remesa_devol_cli/index.md)
+- [Anticipos en pedidos de cliente](./anticipos_cli/index.md)

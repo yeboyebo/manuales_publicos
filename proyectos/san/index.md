@@ -43,6 +43,7 @@
 
 - [Campañas](./area_facturacion/app_web/campanias/index.md)
 - [Clientes](./area_facturacion/app_web/clientes/index.md)
+- [Contactos](./area_facturacion/app_web/contactos/index.md)
 - [Cursos(eventos)](./area_facturacion/app_web/eventos_curso/index.md)
 - [Farma](./area_facturacion/app_web/farma/index.md)
 - [Incidencias](./area_facturacion/app_web/incidencias/index.md)

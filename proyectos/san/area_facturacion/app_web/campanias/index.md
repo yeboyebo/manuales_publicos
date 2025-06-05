@@ -56,6 +56,8 @@ En este caso, tendremos que configurar los días desde la última compra. Este p
 
 [Aquí](./listas_productos.md) está explicado cómo configurar los filtros de búsqueda asociados a la compra de productos.
 
+Podemos establecer un intervalo de facturación mínima y máxima a aplicar durante el cálculo autómatico de tratos a clientes.  
+
 Establecer productos a ofertar en la campaña, indicando la cantidad y el precio al que deben ser ofertados.
 
 ![ventacruzada](./img/ventacruzada.png)

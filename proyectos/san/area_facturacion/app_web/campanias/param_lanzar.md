@@ -1,5 +1,12 @@
 # Parámetros para cálculo de clientes
 
+## Campañas de venta cruzada
+ - **Rango de última compra**
+
+ - **Listas de productos**: [Ver aquí](./listas_productos.md)
+
+ - **Facturado por cliente**: Se aplicará el intervalo si lo hubiera a los clientes que durante el periodo de compra establecido hayan comprado o no los productos según los establecido en las listas productos.
+
 ## Campañas de repetición
  - **Artículos**: Dependiendo de la campaña, que esten en la lista establecida o pertenezcan a la subfamilia.
 

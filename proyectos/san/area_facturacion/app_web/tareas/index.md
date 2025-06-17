@@ -28,14 +28,20 @@ En la ficha de la tarea podemos ver una serie de cajas con la información de la
   - Trato al que pertenece(clicable para navegación)
   - Contacto o cliente(clicable para navegación)
 - Tipo de tarea (*editable*)
-- Fecha y hora (*editable*)
+- Fecha y hora (*editable si no está completada*)
 - Acciones (*hacer llamada, abrir el servidor de correo electrónica, mandar un mensaje de whatsapp*)
 - Estado (*editable*)
 - Nota (*editable*)
 
 ### Completar tarea
 
- Al completar tarea se nos ofrecerá la opción de crear una siguiente tarea seleccionado el tipo.
+ Para poder completar la tarea el usuario debe haber concedido permisos de ubicación.
+
+ Al completar tarea debemos indicar la fecha y la hora de finalización de la misma.
+
+ ![Fecha y hora de finalización](./img/fyhfin.png)
+
+ Se nos ofrecerá la opción de crear una siguiente tarea seleccionado el tipo.
 
  ![Siguiente tarea](./img/next_tarea.png)
 

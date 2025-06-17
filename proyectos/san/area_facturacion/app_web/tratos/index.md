@@ -13,7 +13,7 @@ En el trato podemos ver una serie de cajas con la información del mismo.
 - Valor (*editable*)
 - Contacto (*editable*) y/o cliente (*no editable*) asociado
 - Tipo de trato (*editable*)
-- Fecha (*editable*)
+- Fecha y hora(*no editable*)
 - Tareas (*editable*)
 - Estado (*editable*)
 - Borrar (*editable*)
@@ -70,7 +70,7 @@ Al confirmar se ganará el trato, se asociará el pedido al trato y si el trato 
 En el formulario de creación de trato introduciremos la información del nuevo trato. Existen algunos campos obligatorios para poder confirmar la creación del mismo, si estos campos no tienen valor el botón 'Confirmar' no se podrá pulsar. Los campos obligatorios son: 
 
 - Título
-- Fecha(por defecto el día actual)
+- Fecha y hora, por defecto la actual. No se podrá establecer un registro anterior a 24h antes del momento de la creación.
 - Cliente o contacto
 - Tipo
 - Notas(solo si el tipo seleccionado es el configurado para '*Colaboración*' desde el ERP, en el formulario **Area de Facturación/Facturación/Configuración**)

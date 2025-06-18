@@ -23,7 +23,7 @@ Los pasos son:
         * *CIF / VAT*
         * *Teléfono*
         * *Direcciones*
-        * *Contraseña*: Por defecto será siempre el 'sc_' mas CIF del cliente, luego podemos entrar en Magento y cambiarla de forma manual, o pedir al cliente que lo haga.
+        * *Contraseña*: Por defecto será siempre 'Guanabana-25', luego podemos entrar en Magento y cambiarla de forma manual, o pedir al cliente que lo haga.
     * El programa ejecuta automaticamente los registros de las sincronizaciónes cada minuto.
     * Cuando se ha creado el cliente en la tienda online, se guarda el Id del cliente creado en el nuevo campo *Id. Magento*.
 

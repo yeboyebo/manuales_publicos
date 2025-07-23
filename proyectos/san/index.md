@@ -27,6 +27,7 @@
 - [Seleccionar referencia en línea de pedido desde histórico](./area_facturacion/facturacion/productosdesdehistorico/index.md)
 - [Agrupaciones de pedidos a Canarias](./area_facturacion/facturacion/agrupacionesCanarias/index.md)
 - [Pedidos de clientes](./area_facturacion/facturacion/pedidoscli/index.md)
+- [Asociar albaranes en facturas de clientes](./area_facturacion/facturacion/asociaralbaranesenfacturas/index.md)
 
 ### Almacén
 

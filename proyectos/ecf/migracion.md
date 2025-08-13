@@ -17,14 +17,14 @@ Crear una BD con Eneboo cargando fun_ecofricalia y generando los datos por defec
 
 ## Migración de ventas
 
-Activar flags de ventas del script Facturación/Principal/scripts/plus_sys_mig_ventas.py:
+Activar flags de ventas del script ...
 
 ```py
     _flag1 = True
     ...
 ```
 
-Activar conexión con ventas en función 'inicializar_conexiones(self)':
+Activar conexión con ventas en función 'inicializar_conexiones(self)' del script ... 
 
 ```py
      
@@ -36,7 +36,7 @@ Lanzar el proceso python: ....
 
 ## Migración de compras
 
-Activar flags de compras del script Facturación/Principal/scripts/plus_sys_mig_stock.py:
+Activar flags de compras en la clase Ecofricalia del script Sistema/Mantenimiento/restapi/mt_procesos_api.py:
 
 ```py  
     _procesar_proveedores = True
@@ -47,7 +47,7 @@ Activar flags de compras del script Facturación/Principal/scripts/plus_sys_mig_
 
 ```
 
-Activar conexión con compras en función 'inicializar_conexiones(self)':
+Activar conexión con compras en función 'inicializar_conexiones(self)' del script Sistema/Mantenimiento/restapi/mt_procesos_api.py:
 
 ```py
 
@@ -83,6 +83,6 @@ Activar conexión con compras en función 'inicializar_conexiones(self)':
 ```
 
 Lanzar el proceso python: 
-/usr/local/bin/pineboo-core -s "user:pass:PostgreSQL (PSYCOPG2)@localhost:5432/nombrebbdd" -c "plus_sys_mig_stock.main" -x
+/usr/local/bin/pineboo-core -s "user:pass:PostgreSQL (PSYCOPG2)@localhost:5432/nombrebbdd" -c "formmt_procesos_api.migrar_compras" -x
 
 

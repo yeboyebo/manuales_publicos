@@ -27,6 +27,11 @@ Crear una BD con Eneboo cargando fun_ecofricalia y generando los datos por defec
     ...
 ```
 
+- especificar en:
+```py
+    - _cod_cliente_simplificada: codcliente de factura simplificada al importar facturas simplificadas.
+    - _id_dir_simplificada: id_direccion de facturas simplificadas.
+```
 - Activar conexión con ventas en función 'inicializar_conexiones(self)' del script ... 
 
 ```py

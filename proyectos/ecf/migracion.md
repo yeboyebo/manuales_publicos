@@ -74,18 +74,14 @@ Crear una BD con Eneboo cargando fun_ecofricalia y generando los datos por defec
 
 ## Migración de compras
 
-- Activar flags de compras en la clase Ecofricalia del script Sistema/Mantenimiento/restapi/mt_procesos_api.py:
+- Activar flags de compras en el script renombrado plus_sys.py:
 
 ```py  
-    _procesar_proveedores = True
-    _procesar_articulos_almacen = True
-    _procesar_articulosprov = True
-    _procesar_pedidosprov = True
-    _set_generar_albaranes_prov = True
+    _flag1 = True
 
 ```
 
-- Activar conexión con compras en función 'inicializar_conexiones(self)' del script Sistema/Mantenimiento/restapi/mt_procesos_api.py:
+- Activar conexión con compras en en el script renombrado plus_sys.py
 
 ```py
 
@@ -94,7 +90,7 @@ Crear una BD con Eneboo cargando fun_ecofricalia y generando los datos por defec
         driver_mysql_name = "FLMYSQL_INNODB" # MySQL InnoDB (MYSQLDB)
         qsa.sys.addDatabase(
             driver_mysql_name,
-            "nombrebbdd",
+           "nombrebbdd",
             "usuariobbdd",
             "password",
             "iporigen",
@@ -121,6 +117,8 @@ Crear una BD con Eneboo cargando fun_ecofricalia y generando los datos por defec
 ```
 
 - Lanzar el proceso python: 
-/usr/local/bin/pineboo-core -s "user:pass:PostgreSQL (PSYCOPG2)@localhost:5432/nombrebbdd" -c "formmt_procesos_api.migrar_compras" -x
+  /usr/local/bin/pineboo-core -s "user:pass:PostgreSQL (PSYCOPG2)@localhost:5432/nombrebbdd" -c "/path/codebase/extensiones_2.5.0/fun_ecofricalia/build/final" -x
+
+- borrar fichero plus_sys.py de la la BD.  
 
 

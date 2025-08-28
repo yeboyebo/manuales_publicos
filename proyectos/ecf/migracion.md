@@ -1,19 +1,20 @@
 # MIGRACIÓN ECOFRICALIA
 
-## PASOS PREVIOS ANTES DE MIGRACION
+### PASOS PREVIOS ANTES DE MIGRACION
 
-1. Crear una BBDD vacía en postgresq que se llame ecofricalia
+1. Crear una BBDD vacía en postgresq que se llame **ecofricalia**
 
 2. Cargar todos los módulos (primero sistema y luego lo demás)
 
 3. Entrar a todos los módulos
 
-4. Restaurar las BDs de crm y stock en mysql
+4. Restaurar las BDs de **crm** y **stock** en mysql
 
-5. En la funcionalidad de fun_ecofricalia, hay que configurar las cadenas de conexión en la función "inicializar_conexiones(self)" en los sritps:
+5. En la funcionalidad de **fun_ecofricalia**, hay que configurar las cadenas de conexión en la función **inicializar_conexiones(self)** de los sritps:
 
-	- Facturación/Principal/scripts/plus_sys_mig_ventas.py (CRM-VENTAS) 
-	- Facturación/Principal/scripts/plus_sys_mig_stock.py (STOCK-COMPRAS)	
+	- Facturación/Principal/scripts/plus_sys_mig_ventas.py (La parte origen de mysql con los datos de la base de datos **crm**, la parte destino de postgresql con los datos de la bbdd **ecofricalia**)
+
+	- Facturación/Principal/scripts/plus_sys_mig_stock.py (La parte origen de mysql con los datos de la base de datos **stock**, la parte destino de postgresql con los datos de la bbdd **ecofricalia**)	
 	
 
 ```py
@@ -50,7 +51,7 @@
 
 ### MIGRACION CRM-VENTAS
 
-1. Crear vista en mysql en BBDD BBDD crm
+1. Crear vista **crm_tarjetas** en mysql en la BBDD de **crm**
 
     ```
         CREATE VIEW crm_tarjetas AS
@@ -91,7 +92,7 @@
         FROM leads l WHERE l.account_id = '' or account_id is null))
     ```
 
-2. Dentro de fun_ecofricalia, vamos a final y el fichero Facturación/Principal/scripts/plus_sys_mig_ventas.py lo vamos a renombrar a plus_sys.py
+2. Dentro de fun_ecofricalia, vamos a final y el fichero **Facturación/Principal/scripts/plus_sys_mig_ventas.py** lo vamos a renombrar a **plus_sys.py**
 
 3. Cargaremos final de fun_ecofricalia en nuestra bbdd de postgresql.
 
@@ -119,11 +120,12 @@
 		/usr/local/bin/pineboo-core -s "user:pass:PostgreSQL (PSYCOPG2)@localhost:5432/nombrebbdd" -c "/path/codebase/extensiones_2.5.0/fun_ecofricalia/build/final" -x
 	```
 
-	4.2. Después de la primear pasada, abriremos eneboo y crearemos un clientes a mano que será "Cliente factura simplificada" con una dirección.
+	4.2. Después de la primear pasada, abriremos eneboo y crearemos un clientes a mano que será **Cliente factura simplificada** con una dirección.
 	
 	4.3. Segunda pasada, desactivamos los flags que hemos activado en la primera pasada y activamos el resto de flags que no hemos activado en la primera pasada e informamos el codcliente simplificado que hemos creado y el id de la dirección que hemos creado en sus respectivos flags. 
 	
-    ```	_procesar_clientes = False
+    ```
+    	_procesar_clientes = False
 	    _procesar_tarjetas = False
 	    _procesar_articulos = False
 	    _procesar_grupos_articulos = False
@@ -145,17 +147,17 @@
 		
 ### DESPUÉS DE MIGRACIÓN CRM-VENTAS
 
-1. Al cliente simplificado asignarle la serie 5 que es la de facturas simplificada.
+1. Al cliente simplificado asignarle la serie **5** que es la de facturas simplificada.
 
-2. Borrar fichero plus_sys.py de la la BD (vamos a modulos desde eneboo, en flfactppal lo buscamos y eliminamos).
+2. Borrar fichero **plus_sys.py** de la la BD (vamos a modulos desde eneboo, en flfactppal lo buscamos y eliminamos).
 
-3. Renombrar de fun_ecofricalia de final el fichero plus_sys.py a plus_sys_mig_ventas.py
+3. Renombrar de fun_ecofricalia de final el fichero **plus_sys.py** a **plus_sys_mig_ventas.py**
 
 
 
 ### MIGRACIÓN STOCKS-COMPRAS
 
-1. Dentro de fun_ecofricalia, vamos a final y el fichero Facturación/Principal/scripts/plus_sys_mig_stock.py lo vamos a renombrar a plus_sys.py
+1. Dentro de fun_ecofricalia, vamos a final y el fichero **Facturación/Principal/scripts/plus_sys_mig_stock.py** lo vamos a renombrar a **plus_sys.py**
 
 2. Cargaremos final de fun_ecofricalia en nuestra bbdd de postgresql.
 
@@ -171,7 +173,9 @@
 
 4. Para lanzar la migración utilizaremos una llamada a pineboo-core
 
-/usr/local/bin/pineboo-core -s "user:pass:PostgreSQL (PSYCOPG2)@localhost:5432/nombrebbdd" -c "/path/codebase/extensiones_2.5.0/fun_ecofricalia/build/final" -x
+```
+    /usr/local/bin/pineboo-core -s "user:pass:PostgreSQL (PSYCOPG2)@localhost:5432/nombrebbdd" -c "/path/codebase/extensiones_2.5.0/fun_ecofricalia/build/final" -x
+```
 
 ### DESPUÉS DE MIGRACIÓN STOCK-COMPRAS
 
@@ -183,7 +187,7 @@
 
 2. Entrar en gestión documental y configurarla.
 
-3. Borrar fichero plus_sys.py de la la BD (vamos a modulos desde eneboo, en flfactppal lo buscamos y eliminamos).
+3. Borrar fichero **plus_sys.py** de la la BD (vamos a modulos desde eneboo, en flfactppal lo buscamos y eliminamos).
 
-4. Renombrar de fun_ecofricalia de final el fichero plus_sys.py a plus_sys_mig_stock.py
+4. Renombrar de fun_ecofricalia de final el fichero **plus_sys.py** a **plus_sys_mig_stock.py**
 

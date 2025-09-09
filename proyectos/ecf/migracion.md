@@ -191,3 +191,6 @@
 
 4. Renombrar de fun_ecofricalia de final el fichero **plus_sys.py** a **plus_sys_mig_stock.py**
 
+5. Cargar jasper
+
+    https://docs.google.com/spreadsheets/d/1vIYxWm98oGfa3fv_WXyJtVJxkjkqo_dFba6ywHsInoY/edit?gid=0#gid=0

@@ -26,4 +26,4 @@ En el caso de que haya varios equipos con revisiones pendientes, saldrá un mens
 
 
 
-[Volver al Índice](../../index.md)
+[Volver al Índice](../index.md)

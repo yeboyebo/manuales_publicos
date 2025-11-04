@@ -27,3 +27,6 @@
 - [Recibos de cliente en norma SEPA 34 (remesas de pago)](./remesa_devol_cli/index.md)
 - [Anticipos en pedidos de cliente](./anticipos_cli/index.md)
 - [Informe servicio de notificación de impagados](./inf_notif_impagados/index.md)
+- [Informe servicio de notificación de impagados](./inf_notif_impagados/index.md)
+- [Manual instalación y configuración Fiskaly-Veri*Factu para colaboradores](./fiskaly/instconfverifactu.md)
+- [Manual usuario Fiskaly-Veri*Factu](./fiskaly/manualusuarioverifactu.md)

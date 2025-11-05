@@ -7,6 +7,11 @@
 
 - El proceso de creación de facturas es el estandard del ERP pero hasta que la factura no se emite a Fiskaly y queda firmada no estará en firme.
 
+- Si se crea una factura de tipo rectificativa, la serie que se utilice tiene que ser de tipo **Rectificativa**, para ello habrá que marcar el check en la serie correspondiente:
+
+![Series](img/fiskaly_verifactu48.png)
+
+
 - Al crear la factura, no tiene un código estándard, nos da un código de borrador y el estado será **Borrador**
 
 - En este estado podemos:

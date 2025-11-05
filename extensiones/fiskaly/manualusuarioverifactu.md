@@ -115,3 +115,20 @@
 ### 5. Estado PRE_Verifactu
 
 - Todas las facturas que están creadas antes de la implantación de Fiskaly/Veri*Factu, serán marcadas con el estado **PRE_Verifactu**, este estado permite modificar y borrar las facturas pero no presentarlas.
+
+### 6. Cliente Simplificado
+
+Se pueden enviar facturas simplificadas siempre que la factura cumpla lo siguiente:
+
+- El importe de la factura con iva sea menor de 400 € (o menos de 3000 € si está acogida a la venta al por menor). Para marcar que la empresa está acogida a CNAE venta por menor hay que marcar el check habilitado para ello en la pestaña de **Valores por defecto** del formulario de **Empresa**
+
+![Simplificado](img/fiskaly_verifactu49.png)
+
+
+- La factura no sea una factura de servicios, es decir, la factura no tenga marcado el check de **Servicios**, esto lo podemos ver en la pestaña de **Observaciones** de la factura.
+
+![Simplificado](img/fiskaly_verifactu50.png)
+
+- El cliente esté marcado para usarlo en una factura simplificada, para ello hay que marcar en la ficha del cliente que se vaya a usar como cliente simplificado el check habilitado para ello en la pestaña **Comercial** del formulario de **Clientes**.
+
+![Simplificado](img/fiskaly_verifactu51.png)

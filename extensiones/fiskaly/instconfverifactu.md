@@ -187,6 +187,12 @@ Para el cumplimiento de TicketBAI, un certificado de dispositivo se asigna autom
     4. Versión SIF
 
     5. Descargar, Firmar y Subir acuerdo de Fiskaly
+
+    6. Serie rectificativa
+
+    7. Cliente simplificado    
+
+    8. Marcar facturas anteriores a Verifactu con el estado firma "PRE_Verifactu"
  
 #### 8.1. Configuración de los datos obtenidos en Fiskaly
 
@@ -333,6 +339,41 @@ En el **Área de Facturación -> Facturación -> Más -> Principal -> Garante Si
 
 
 2. Subir acuerdo: habrá que pulsar sobre el botón de **Subir acuerdo**, este botón nos pedirá que seleccionemos el acuerdo ya firmado y lo subirá a Fiskaly.
+
+
+#### 8.6. Serie rectificativa
+
+Hay que distinguir las series "normales" de las series rectificativas, la serie que se utilice como serie rectificativa tiene que ser de tipo **Rectificativa**, para ello habrá que marcar el check en la serie correspondiente:
+
+![Series](img/fiskaly_verifactu48.png)
+
+
+#### 8.7. Cliente simplificado
+
+Se pueden enviar facturas simplificadas siempre que la factura cumpla lo siguiente:
+
+- El importe de la factura con iva sea menor de 400 € (o menos de 3000 € si está acogida a la venta al por menor). Para marcar que la empresa está acogida a CNAE venta por menor hay que marcar el check habilitado para ello en la pestaña de **Valores por defecto** del formulario de **Empresa**
+
+![Simplificado](img/fiskaly_verifactu49.png)
+
+
+- La factura no sea una factura de servicios, es decir, la factura no tenga marcado el check de **Servicios**, esto lo podemos ver en la pestaña de **Observaciones** de la factura.
+
+![Simplificado](img/fiskaly_verifactu50.png)
+
+- El cliente esté marcado para usarlo en una factura simplificada, para ello hay que marcar en la ficha del cliente que se vaya a usar como cliente simplificado el check habilitado para ello en la pestaña **Comercial** del formulario de **Clientes**.
+
+![Simplificado](img/fiskaly_verifactu51.png)
+
+
+#### 8.9. Marcar facturas anteriores a Verifactu con el estado firma "PRE_Verifactu"
+
+Hay que marcar las facturas anteriores a la puesta en marcha de Verifactu con el estado firma "PRE_Verifactu", para ello realizaremos un update en la base de datos:
+
+``` sql
+
+    UPDATE facturascli SET estado_firma = 'PRE_Verifactu'
+```
 
 ### 9. Impresión de facturas
 

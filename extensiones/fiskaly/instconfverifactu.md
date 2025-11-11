@@ -211,9 +211,6 @@ Para el cumplimiento de TicketBAI, un certificado de dispositivo se asigna autom
     * API Secret --> Informamos el valor obtenido en el punto 4 clave **API secret**.
 
     * URL --> Valor fijo: ![Dashboard10](img/fiskaly_verifactu20.png)
-
-   
-    https://\{\{entorno\}\}.es.sign.fisklay.com/api/v1/
     
 
     * Id.Cliente --> Valor obtenido en el punto 7 en el campo **id**.

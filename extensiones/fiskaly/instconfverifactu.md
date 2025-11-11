@@ -196,17 +196,28 @@ Para el cumplimiento de TicketBAI, un certificado de dispositivo se asigna autom
  
 #### 8.1. Configuración de los datos obtenidos en Fiskaly
 
+- En la pestaña de Valores por defecto del formulario de empresa, seleccionaremos como tipo de suministro a la AEAT **Verif*FActu**  
+
+    ![empresa](img/fiskaly_verifactu52.png)
+
 - En la pestaña VERI*FACTU del formulario de empresa informaremos los siguientes campos:
 
-* API Identificador --> Informamos el valor obtenido en el punto 4 **clave API**.
+    * Entorno --> Seleccionaremos **Test** o **Live** según el entorno en el que estemos.
 
-* API Secret --> Informamos el valor obtenido en el punto 4 clave **API secret**.
+    * API Identificador --> Informamos el valor obtenido en el punto 4 **clave API**.
 
-* URL --> Valor fijo: ![Dashboard10](img/fiskaly_verifactu20.png)
+    * API Secret --> Informamos el valor obtenido en el punto 4 clave **API secret**.
 
-* Id.Cliente --> Valor obtenido en el punto 7 en el campo **id**.
+    * URL --> Valor fijo: ![Dashboard10](img/fiskaly_verifactu20.png)
 
-![Dashboard10](img/fiskaly_verifactu19.png)
+    ``` url
+        https://{{entorno}}.es.sign.fisklay.com/api/v1/
+    ```
+
+    * Id.Cliente --> Valor obtenido en el punto 7 en el campo **id**.
+
+
+    ![Dashboard10](img/fiskaly_verifactu19.png)
 
 #### 8.2. Claves que son específicas de Veri*factu.
 
@@ -227,7 +238,7 @@ En el **Área de Facturación -> Principal -> Más -> Fiscalidad -> Causas Excep
 
 ![Dashboard10](img/fiskaly_verifactu24.png)
 
-#### 8.2.3. Actualizar paises
+#### 8.2.3. Actualizar países
 
 - Todos los países deben de tener el codigo ISO informado
 - Es necesario poder saber si un país es Europeo o no por lo que hay que marcar el check de Pertenece a U.E. en los paises que corresponda

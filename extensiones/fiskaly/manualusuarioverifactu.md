@@ -132,3 +132,11 @@ Se pueden enviar facturas simplificadas siempre que la factura cumpla lo siguien
 - El cliente esté marcado para usarlo en una factura simplificada, para ello hay que marcar en la ficha del cliente que se vaya a usar como cliente simplificado el check habilitado para ello en la pestaña **Comercial** del formulario de **Clientes**.
 
 ![Simplificado](img/fiskaly_verifactu51.png)
+
+### 7. Tipo Suministro a la AEAT
+
+- En la pestaña de Valores por defecto del formulario de empresa, seleccionaremos como tipo de suministro a la AEAT **Verif*Factu**  
+
+    ![empresa](img/fiskaly_verifactu52.png)
+
+- Puede ocurrir que tengamos varias empresas en nuestro sistema y que unas empresas funcionen con **Veri*Factu** y otras empresas funcionen con **SII**, para cada empresa habrá que seleccionar el tipo de suministro que utiliza.

@@ -196,9 +196,11 @@ Para el cumplimiento de TicketBAI, un certificado de dispositivo se asigna autom
  
 #### 8.1. Configuración de los datos obtenidos en Fiskaly
 
-- En la pestaña de Valores por defecto del formulario de empresa, seleccionaremos como tipo de suministro a la AEAT **Verif*FActu**  
+- En la pestaña de Valores por defecto del formulario de empresa, seleccionaremos como tipo de suministro a la AEAT **Verif*Factu**  
 
     ![empresa](img/fiskaly_verifactu52.png)
+
+- Puede ocurrir que tengamos varias empresas en nuestro sistema y que unas empresas funcionen con **Veri*Factu** y otras empresas funcionen con **SII**, para cada empresa habrá que seleccionar el tipo de suministro que utiliza.
 
 - En la pestaña VERI*FACTU del formulario de empresa informaremos los siguientes campos:
 
@@ -211,7 +213,7 @@ Para el cumplimiento de TicketBAI, un certificado de dispositivo se asigna autom
     * URL --> Valor fijo: ![Dashboard10](img/fiskaly_verifactu20.png)
 
     ``` url
-        https://{{entorno}}.es.sign.fisklay.com/api/v1/
+        https://\{\{entorno\}\}.es.sign.fisklay.com/api/v1/
     ```
 
     * Id.Cliente --> Valor obtenido en el punto 7 en el campo **id**.

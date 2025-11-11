@@ -212,9 +212,9 @@ Para el cumplimiento de TicketBAI, un certificado de dispositivo se asigna autom
 
     * URL --> Valor fijo: ![Dashboard10](img/fiskaly_verifactu20.png)
 
-    ``` url
-        https://\{\{entorno\}\}.es.sign.fisklay.com/api/v1/
-    ```
+   
+    https://\{\{entorno\}\}.es.sign.fisklay.com/api/v1/
+    
 
     * Id.Cliente --> Valor obtenido en el punto 7 en el campo **id**.
 

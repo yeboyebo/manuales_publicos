@@ -4,69 +4,86 @@ Las previsiones por agente permiten establecer unos objetivos de venta por cada 
 
 ## Crear una nueva previsión
 
-* Abrimos el formulario de **Previsiones** en **Area de Facturación/Principal/Previsiones** y pulsamos *Insertar*.
+- Abrimos el formulario de **Previsiones** en **Area de Facturación/Principal/Previsiones** y pulsamos _Insertar_.
 
-* Indicamos el agente, el período de ventas.
+- Indicamos el agente, el período de ventas.
 
-* Indicamos el objetivo de ventas y rellenamos las pestañas de comisiones, bonificaciones, familias y subfamilias.
+- Indicamos el objetivo de ventas y rellenamos las pestañas de comisiones, bonificaciones, familias y subfamilias.
 
-* Pulsamos el botón *Calcular datos*. Esto asociará las facturas del agente a la previsión y calculará los datos de la cabecera y tablas del formulario.
+- Pulsamos el botón _Calcular datos_. Esto asociará las facturas del agente a la previsión y calculará los datos de la cabecera y tablas del formulario.
 
 ## Datos de cabecera
 
 ### Ventas comisionables
-Sumatorio del campo *PVP Total* de las líneas de factura asociadas a la previsión, que cumplan los siguientes criterios:
 
-* Que su familia tenga activado el check *Incluir en previsiones*.
-* Que su cliente *NO* esté asociado a un grupo de compras.
-* Que su cliente *NO* tenga marcado el check *Comisión especial* o que tenga marcado el check *Incluir en ventas comisionables*.
+Sumatorio del campo _PVP Total_ de las líneas de factura asociadas a la previsión, que cumplan los siguientes criterios:
+
+- Que su familia tenga activado el check _Incluir en previsiones_.
+- Que su cliente _NO_ esté asociado a un grupo de compras.
+- Que su cliente _NO_ tenga marcado el check _Comisión especial_ o que tenga marcado el check _Incluir en ventas comisionables_.
 
 ### Ventas alcanzadas
-Sumatorio del campo *PVP Total* de las líneas de factura asociadas a la previsión, exceptuando aquellas que pertenezcan a clientes asociados a un grupo de compras.
+
+Sumatorio del campo _PVP Total_ de las líneas de factura asociadas a la previsión, exceptuando aquellas que pertenezcan a clientes asociados a un grupo de compras.
 
 ### Ventas comisión especial
-Sumatorio de la columna *Total ventas* de la tabla *Comisiones especiales*.
+
+Sumatorio de la columna _Total ventas_ de la tabla _Comisiones especiales_.
 
 ### Ventas alcanzadas G.C.
-Sumatorio de la columna *Ventas* de la tabla *Bonificaciones* para aquellos registros asociados a un grupo de compras.
+
+Sumatorio de la columna _Ventas_ de la tabla _Bonificaciones_ para aquellos registros asociados a un grupo de compras.
 
 ### Total
+
 Suma de:
-* *Comisión*
-* *Comisión por Subfamilia*
-* *Comisión especial*
-* *Comisión G.C.*
-* Si está activado el campo **, *Bonificación*
+
+- _Comisión_
+- _Comisión por Subfamilia_
+- _Comisión especial_
+- _Comisión G.C._
+- Si está activado el campo \**, *Bonificación\*
 
 ### % Comisión
-Porcentaje de comisión a aplicar. Obtenido, si no se establece de forma manual, del tramo más alto de la tabla *Comisiones* cuya columna *Mínimo de ventas* sea menor a la suma de *Ventas alcanzadas* + *Ventas alcanzadas G.C.*
+
+Porcentaje de comisión a aplicar. Obtenido, si no se establece de forma manual, del tramo más alto de la tabla _Comisiones_ cuya columna _Mínimo de ventas_ sea menor a la suma de _Ventas alcanzadas_ + _Ventas alcanzadas G.C._
 
 ### Comisión
-Producto de *Ventas comisionables* x *% Comisión*.
+
+Producto de _Ventas comisionables_ x _% Comisión_.
 
 ### Comisión por Subfamilia
-Suma de la columna *Cantidad Comisión* de la tabla *Subfamilias*.
+
+Suma de la columna _Cantidad Comisión_ de la tabla _Subfamilias_.
 
 ### Comisión especial
-Suma de la columna *Total Comisión* de la tabla *Comisiones especiales*.
+
+Suma de la columna _Total Comisión_ de la tabla _Comisiones especiales_.
 
 ### Comisión G.C.
-~~Producto de *Ventas alcanzadas G.C.* x *% Comisión*.~~
-Suma de la columna *Bonificación* de la pestaña *Grupos de compras*.
+
+~~Producto de _Ventas alcanzadas G.C._ x _% Comisión_.~~
+Suma de la columna _Bonificación_ de la pestaña _Grupos de compras_.
 
 ### Bonificación
-Suma de la columna *Bonificación* de la tabla *Bonificaciones*.
+
+Suma de la columna _Bonificación_ de la tabla _Bonificaciones_.
 
 ## Tablas
+
 ### Comisiones
+
 Taba manual para incluir los tramos de comisión.
 
 ### Facturas
+
 Facturas asociadas a la previsión. Son las facturas que cumplen:
-* Pertenecen al agente y al tramo de fechas especificado
-* Su serie no está en la lista de *Series excluias de cálculo de previsiones* que se configura en *Área Facturación - Principal - Configuración - Datos generales*
+
+- Pertenecen al agente y al tramo de fechas especificado
+- Su serie no está en la lista de _Series excluias de cálculo de previsiones_ que se configura en _Área Facturación - Principal - Configuración - Datos generales_
 
 ### Bonificaciones
+
 Bonificaciones aplicables.
 
 **Bonificaciones por referencia**
@@ -77,72 +94,104 @@ Las bonificaciones automáticas se calculan de la siguiente forma:
 
 **Bonificaciones por subfamilia**
 
-Registros de bonificación automáticos para los artículos que pertenecen a una subfamilia de la tabla *Familias* y quehan tenido ventas en facturas asociadas a la previsión, cumpliendo que:
+Registros de bonificación automáticos para los artículos que pertenecen a una subfamilia de la tabla _Familias_ y quehan tenido ventas en facturas asociadas a la previsión, cumpliendo que:
 
-* En las líneas de la factura no se ha activado el check *Excluir de bonificaciones*
-* Su cliente no está en un grupo de compras
-* Su cliente *NO* tenga marcado el check *Comisión especial*
-* El *% Descuento equivalente* de la factura a la que pertenece la línea es inferior al *% Umbral de descuento* de la subfamilia.
-    * El *% Descuento equivalente* se define como el resultado de:
+- En las líneas de la factura no se ha activado el check _Excluir de bonificaciones_
+- Su cliente no está en un grupo de compras
+- Su cliente _NO_ tenga marcado el check _Comisión especial_
+- El _% Descuento equivalente_ de la factura a la que pertenece la línea es inferior al _% Umbral de descuento_ de la subfamilia.
 
-        100 - (100 * NetoFactura / NetoTeorico)
-        
-        donde:
-        * *NetoFactura* es el Neto de la factura
-        * *NetoTeorico* es la suma de los productos de *Cantidad* de la línea x *PVP* de la ficha de artículo de cada una de las líneas de la factura.
+  - El _% Descuento equivalente_ se define como el resultado de:
 
-        Ejemplo: NetoFactura = 194, NetoTeorico = 200
+    100 - (100 \* NetoFactura / NetoTeorico)
 
-        % Descuento equivalente = 100 - (100 * 194 / 200) = 3 (3%)
+    donde:
 
-        Hay que notar que al obtenerse el neto teórico del valor **actual** del campo *PVP* de la lista de artículos, la ejecución del cálculo en distintos momentos, con distintos precios de ciertos artículos, puede dar lugar a distintos cálculos de bonificación aún sin modificar las condiciones de la previsión.
+    - _NetoFactura_ es el Neto de la factura
+    - _NetoTeorico_ es la suma de los productos de _Cantidad_ de la línea x _PVP_ de la ficha de artículo de cada una de las líneas de la factura.
 
-    * Si el umbral es nulo, se entiende que no hay umbral y que todas las líneas entran en la bonificación.
+    Ejemplo: NetoFactura = 194, NetoTeorico = 200
 
+    % Descuento equivalente = 100 - (100 \* 194 / 200) = 3 (3%)
+
+    Hay que notar que al obtenerse el neto teórico del valor **actual** del campo _PVP_ de la lista de artículos, la ejecución del cálculo en distintos momentos, con distintos precios de ciertos artículos, puede dar lugar a distintos cálculos de bonificación aún sin modificar las condiciones de la previsión.
+
+  - Si el umbral es nulo, se entiende que no hay umbral y que todas las líneas entran en la bonificación.
 
 El porcentaje de bonificación aplicado será el indicado en la subfamilia.
 
 **Bonificaciones por familia**
 
-Mismo comportamiento que en *Bonificaciones por subfamilia*.
+Mismo comportamiento que en _Bonificaciones por subfamilia_.
 
 **Prioridad de aplicación**
 
 El orden de aplicación de bonificaciones (el tipo de bonificación que se aplica para una referencia) es:
 
-* Bonificación manual por referencia
-* Bonificación por subfamilia
-* Bonificación por familia
+- Bonificación manual por referencia
+- Bonificación por subfamilia
+- Bonificación por familia
 
 ### Grupos de compra
-Esta tabla tiene la misma estructura que la de *Bonificaciones*, y se aplica únicamente a clientes asociados a un grupo de compras.
+
+Esta tabla tiene la misma estructura que la de _Bonificaciones_, y se aplica únicamente a clientes asociados a un grupo de compras.
 
 Columnas:
-* **Ventas** es la suma del campo *PVP Total* de las líneas de las facturas asociadas al grupo de compras y a la previsión
-* **% Bonificación** es el campo *% Bonificación* del grupo de compras
-* **Bonificación** se calcula como el producto de las columnas *Ventas* x *% Bonificación*
+
+- **Ventas** es la suma del campo _PVP Total_ de las líneas de las facturas asociadas al grupo de compras y a la previsión
+- **% Bonificación** es el campo _% Bonificación_ del grupo de compras
+- **Bonificación** se calcula como el producto de las columnas _Ventas_ x _% Bonificación_
 
 ### Subfamilias
+
 Esta tabla permite indicar manualmente las subfamilias que tendrán una bonificación especial.
 
 Cuando se realiza el cálculo de la previsión, la tabla informa sus columnas:
-* **Cantidad facturada**: es la suma del campo *PVP Total* de las líneas de las facturas asociadas a la subfamilia y a la previsión que:
-    * No pertenecen a clientes en grupo de compras
-* **% Comisión**: es el porcentaje de comisión que corresponde aplicar según la tabla de *Objetivos por subfamilia* que puede editarse en cada registro de la tabla *Subfamilias*
-* **% Comisión**: calculado como el producto de *Cantidad facturada* x *% Comisión*
-* **% Umbral de descuento**: D(2, 2). Indica el descuento equivalente máximo para que la factura entre en la bonificación.
+
+- **Cantidad facturada**: es la suma del campo _PVP Total_ de las líneas de las facturas asociadas a la subfamilia y a la previsión que:
+  - No pertenecen a clientes en grupo de compras
+- **% Comisión**: es el porcentaje de comisión que corresponde aplicar según la tabla de _Objetivos por subfamilia_ que puede editarse en cada registro de la tabla _Subfamilias_
+- **% Comisión**: calculado como el producto de _Cantidad facturada_ x _% Comisión_
+- **% Umbral de descuento**: D(2, 2). Indica el descuento equivalente máximo para que la factura entre en la bonificación.
 
 ### Subfamilias
+
 Esta tabla permite indicar manualmente las familias que tendrán una bonificación especial.
 
 ### Comisiones especiales
+
 Esta tabla muestra las comisiones especiales por cliente. Las principales columnas son:
-* **Total ventas**: es la suma del campo *PVP Total* de las líneas de las facturas asociadas al cliente y a la previsión, que:
-    * Pertenezcan a familias familias con el check *Incluir en previsiones* activado
-    * No pertenezcan a clientes en grupo de compras
-    * Pertenezcan a clientes con el check *Comisión especial* activado
-* **% Comisión**: Campo *% Comisión* de la ficha de cliente
-* **Total comisión**: Producto de *Total ventas* x *% Comisión*
-* **Es comisionable**: Campo *Incluir en ventas comisionables* del cliente
+
+- **Total ventas**: es la suma del campo _PVP Total_ de las líneas de las facturas asociadas al cliente y a la previsión, que:
+  - Pertenezcan a familias familias con el check _Incluir en previsiones_ activado
+  - No pertenezcan a clientes en grupo de compras
+  - Pertenezcan a clientes con el check _Comisión especial_ activado
+- **% Comisión**: Campo _% Comisión_ de la ficha de cliente
+- **Total comisión**: Producto de _Total ventas_ x _% Comisión_
+- **Es comisionable**: Campo _Incluir en ventas comisionables_ del cliente
+
+### KPI Nuevos clientes
+
+Esta tabla muestra el rendimiento en la facturación a nuevos clientes según determinado grupo de artículos por familia y opcionalmente subfamilia. Las principales columnas son:
+
+- **Familia**: por la que agrupar los articulos facturados a monitorear.
+- **Subfamilia**: asociada a la familia por la que agrupar los articulos facturados.
+- **Cantidad objetivo**: de nuevos clientes.
+- **Cantidad alcanzada**: de nuevos clientes.
+
+Todos las columnas con editables menos la columna _cantidad alcanzada_ que se cálcula autmáticamente clicando el botón general del formulario _Calcular datos_ o en el botón _recargar datos_ dentro de la sección.
+
+![accesofarma](./img/kpi_nuevoscli.png)
+
+### KPI cantidad de unidades
+
+Esta tabla muestra el rendimiento en la facturación sobre artículos concretos. Las principales columnas son:
+
+- **Referencia**: del artículo a monitorear.
+- **Descripción**: del artículo a monitorear.
+- **Cantidad objetivo**: de artículos facturados.
+- **Cantidad alcanzada**: de artículos facturados.
+
+Todos las columnas con editables menos la columna _cantidad alcanzada_ que se cálcula autmáticamente clicando el botón general del formulario _Calcular datos_ o en el botón _recargar datos_ dentro de la sección.
 
 [Volver al Índice](../../../index.md)

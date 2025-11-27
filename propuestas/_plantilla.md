@@ -131,6 +131,9 @@ No es necesario manual
 ## Asistencia a puesta en marcha
 No es necesaria.
 
+## Puntos destacados 
+(a incluir en cuerpo de correo de propuesta)
+
 ## Presupuesto
 * H___ Análisis
 * H___ Desarrollo e instalación

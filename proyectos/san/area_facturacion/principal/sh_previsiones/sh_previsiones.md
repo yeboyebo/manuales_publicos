@@ -170,28 +170,4 @@ Esta tabla muestra las comisiones especiales por cliente. Las principales column
 - **Total comisión**: Producto de _Total ventas_ x _% Comisión_
 - **Es comisionable**: Campo _Incluir en ventas comisionables_ del cliente
 
-### KPI Nuevos clientes
-
-Esta tabla muestra el rendimiento en la facturación a nuevos clientes según determinado grupo de artículos por familia y opcionalmente subfamilia. Las principales columnas son:
-
-- **Familia**: por la que agrupar los articulos facturados a monitorear.
-- **Subfamilia**: asociada a la familia por la que agrupar los articulos facturados.
-- **Cantidad objetivo**: de nuevos clientes.
-- **Cantidad alcanzada**: de nuevos clientes.
-
-Todos las columnas con editables menos la columna _cantidad alcanzada_ que se cálcula autmáticamente clicando el botón general del formulario _Calcular datos_ o en el botón _recargar datos_ dentro de la sección.
-
-![accesofarma](./img/kpi_nuevoscli.png)
-
-### KPI cantidad de unidades
-
-Esta tabla muestra el rendimiento en la facturación sobre artículos concretos. Las principales columnas son:
-
-- **Referencia**: del artículo a monitorear.
-- **Descripción**: del artículo a monitorear.
-- **Cantidad objetivo**: de artículos facturados.
-- **Cantidad alcanzada**: de artículos facturados.
-
-Todos las columnas con editables menos la columna _cantidad alcanzada_ que se cálcula autmáticamente clicando el botón general del formulario _Calcular datos_ o en el botón _recargar datos_ dentro de la sección.
-
 [Volver al Índice](../../../index.md)

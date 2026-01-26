@@ -1,6 +1,7 @@
 # #H____ Descripción del proyecto
 
 Los objetivos de este proyecto son:
+
 + 
 
 ## Propuesta realizada a petición de:
@@ -10,6 +11,7 @@ Los objetivos de este proyecto son:
 
 ### Pantalla / Zona 1
 Añadiremos a la pantalla los siguientes controles:
+
 + Campo. Descripción.
 
 ## Precondiciones
@@ -117,6 +119,7 @@ UI:
 
 
 ## Tareas
+
 * H___ ...
 (mismas que puntos de estructura)
 
@@ -135,6 +138,7 @@ No es necesaria.
 (a incluir en cuerpo de correo de propuesta)
 
 ## Presupuesto
+
 * H___ Análisis
 * H___ Desarrollo e instalación
 * H___ Documentación

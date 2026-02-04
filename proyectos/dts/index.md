@@ -13,3 +13,4 @@
   - [Informe etiquetas](./area_facturacion/informes/informeEtiquetas.md)
   - [Reglas control de acceso](./sistema/control_acceso/index.md)
   - [Inclusión de datos relativos a gestión de residuos en informe de factura de venta](./area_facturacion/almacen/calculo_coste_envases_factura.md)
+  - [Control de vencimientos de pagos a proveedores](./area_facturacion/tesoreria/vencimientos_pagos_proveedores.md)

@@ -95,6 +95,28 @@ Tanto para *Stock de seguridad* como para *Cantidad a comprar*, se busca de la f
 * En la ficha del proveedor.
 * En la fórmula genérica de cada tipo.
 
+## Cálculo de stock a pedir
+El stock a pedir se obtiene según el siguiente proceso:
+
++ En la primera pasada, se calcula el stock según la fórmula.
++ Si el artículo requiere embalajes (columna R/E) se redondea la cantidad a un múltiplo de las unidades por embalaje (columna U/E).
+
+Una vez realizada la primera pasada, para los artículos de un mismo proveedor:
+
++ Si el proveedor no tiene un pedido mínimo, la previsión se queda como está.
+
++ Si el proveedor tiene un pedido mínimo y la suma de importes a pedir no llega esta cantidad iteramos cambiando el número de días de servicio para ajustar los días tratando de llegar al pedido mínimo:
+
+    + Cambiamos el campo de días de servicio (ejemplo 10) aumentando el valor de configuración de máximo de días / 2 (ejemplo: 30/2). Ejemplo días de servicio = 10 + (30/2) = 25.
+    + Recalculamos la cantidad a pedir de los artículos del proveedor
+        + Si llegamos al pedido mínimo, restamos de los días la mitad de la cifra aplicada anterior (30/2/2) = 7.5 = 8. Días = 10 + 15 + 8 = 32
+        + Si no llegamos al pedido mínimo, sumamos a los días la mitad de la cifra aplicada anterior (30/2/2) = 7.5 = 8. Días = 10 + 15 - 8 = 15
+    + Repetimos esta iteración hasta que los días sumados sean 1
+
+    De esta forma ajustamos al mínimo número de días necesarios para que el pedido llegue al mínimo (si esto es posible).
+
+Podemos cambiar el máximo de días en la configuración de Facturación / Almacén.
+
 ## Generar una previsión de compras
 * Vamos a *Facturación > Almacén > Más > Previsión de compras > Previsión*.
 

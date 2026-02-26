@@ -17,7 +17,7 @@
 - [Recuperaqcion de IVA](./area_facturacion/facturacion/importaciongastos/recuperacioniva.md)
 - [Importación Clientes GESDEN](./area_facturacion/facturacion/importaciongesden/importacionclientes.md)
 - [Importación Facturas GESDEN](./area_facturacion/facturacion/importaciongesden/importacionfacturas.md)
-- [Importación asistencia a Eventos](./area_facturacion/facturacion/importacioneventos/index.md)
+- [Eventos](./area_facturacion/facturacion/importacioneventos/index.md)
 - [Creación de eventos recurrentes](./area_facturacion/facturacion/eventosrecurrentes/index.md)
 - [Adjuntar documento a factura bloqueada](./area_facturacion/facturacion/gestiondocumental/index.md)
 - [Asignar lote desde lineas de pedidos de compra en la app web de preparaciones](./aqnext/sanhigia_pedidos/pedidosprov/asignarlote.md)
@@ -34,11 +34,9 @@
 - [Sincronización con tienda online](./area_facturacion/almacen/sincronizacion/sincronizacion.md)
 - [Carga de datos de previsiones IA](./area_facturacion/almacen/prev_compras_ia.md)
 
-
 ### Informes
 
 - [Clientes activos por código postal](./area_facturacion/informes/clientescodpostal.md)
-
 
 ### Aplicación web
 
@@ -67,4 +65,3 @@
 ### Avisos por email de altas y bajas productos web
 
 - [Avisos por email de altas y bajas productos web](./area_facturacion/almacen/avisos_por_email_de_altas_y_bajas_productos_web/avisos_por_email_de_altas_y_bajas_productos_web.md)
-

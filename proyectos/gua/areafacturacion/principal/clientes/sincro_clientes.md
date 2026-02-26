@@ -43,3 +43,7 @@ Veremos una tabla ordenada por fecha de alta en la cola, en la que podremos ver,
 ![Error de Sincronización de cliente](./img/errorSincroCliente.png)
 
 En este caso ha fallado la sincro de este cliente porque ya existía uno con el mismo email.
+
+### Sincronización de pedidos de magento
+
+A la hora de sincronizar un pedido de magento con eneboo, si existe en eneboo un cliente para el email con el que se creó el pedido de magento se asignará al pedido el cliente que corresponda. Si el email corresponde a un contacto también se buscará el cliente correspondiente a ese contacto.

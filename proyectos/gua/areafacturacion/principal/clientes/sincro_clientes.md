@@ -1,15 +1,18 @@
-# Sincronización de clientes mayoristas
+# Sincronización de clientes/contactos mayoristas
 
-El objetivo de este proyecto es crear un botón desde el formulario de clientes para crear los clientes de forma automática en la tienda privada.
+El objetivo de este proyecto es crear un botón desde el formulario de clientes para crear los clientes o sus contactos asociados de forma automática en la tienda privada.
 
-### Creación automática de clientes en la tienda online
+### Creación automática de clientes y contactaos en la tienda online
 Los pasos son:
 * Vamos a *Facturación - Principal - Clientes* y seleccionamos el cliente a crear.
+* Sin el lugar del cliente queremos sincronizar un contacto vamos a *Facturación - Principal - Clientes - Pestaña Agenda* y seleccionamos el contacto a crear. (El contacto debe de tener informado el email)
 * Pulsamos el botón *Crear cliente en tienda online*.
-    * Si el cliente ya está creado (tiene informado el campo *Id. Magento*), el botón esta deshabilitado.
+    * Si el cliente/contacto ya está creado (tiene informado el campo *Id. Magento*), el botón esta deshabilitado.
 
 
 ![Botón Sincronizar Cliente](./img/botonSincroClientes.png)
+![Botón Sincronizar Contactos](./img/botonSincroContactos.png)
+
 
 * Aparece un mensaje en el que se nos pregunta en qué Store view queremos crear el cliente, las opciones serán:
     * USD / Inglés
@@ -40,3 +43,7 @@ Veremos una tabla ordenada por fecha de alta en la cola, en la que podremos ver,
 ![Error de Sincronización de cliente](./img/errorSincroCliente.png)
 
 En este caso ha fallado la sincro de este cliente porque ya existía uno con el mismo email.
+
+### Sincronización de pedidos de magento
+
+A la hora de sincronizar un pedido de magento con eneboo, si existe en eneboo un cliente para el email con el que se creó el pedido de magento se asignará al pedido el cliente que corresponda. Si el email corresponde a un contacto también se buscará el cliente correspondiente a ese contacto.

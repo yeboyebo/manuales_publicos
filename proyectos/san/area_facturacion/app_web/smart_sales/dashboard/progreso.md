@@ -5,11 +5,9 @@
 Aquí podemos ver una serie de valores para saber cuál es el progreso de las ventas para el agente conectado, para el cálculo de estos valores, vamos a utilizar unas fórmula matématicas que usarán los siguientes conceptos.
 
 - Ventas en el periodo seleccionado(**Vendido**):
-
   - Es la suma de los totales de las facturas correspondientes al agente conectado y con fecha incluida en el periodo seleccionado.
 
 - Ventas del año anterior en el periodo seleccionado(**Vendido año anterior**):
-
   - Es la suma de los totales de las facturas correspondientes al agente conectado y con fecha incluida en el periodo seleccionado del año anterior.
 
 - Objetivo de ventas(**Objetivo**):
@@ -82,6 +80,10 @@ Referencia y nombre del producto (x / X) donde:
 - x Es el total de productos alcanzado
 - X Es el total de productos objetivo.
 
-![accesofarma](./img/kpi_ud.png)
+![kpi_ud](./img/kpi_ud.png)
+
+# Selección de agente
+
+Si somos un agente **superusuario**, por defecto veremos lo datos acumulados de todos los agentes y disponemos de un botón **'Cambiar agente'** para seleccionar un agente en concreto al revisar. En el modo **todos los agentes** la sección de KPIs no será visible ya que estos cálculos son para un único agente, y en el modo **agente seleccionado** solo se verá la sección **'Progreso'** del dashboard con los datos del agente seleccionado.
 
 [Volver al Índice](./index.md)

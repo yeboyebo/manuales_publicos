@@ -1,4 +1,4 @@
-# Creación de asientos de compra
+# Crear asientos de facturas de compra
 
 ## Crear un nuevo asiento
 

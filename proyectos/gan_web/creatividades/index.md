@@ -26,9 +26,9 @@ Después de marcarlo, debemos configurar la imagen que queremos. En este caso no
 
 Este es el código de la imagen para pegarlo directamente en el admin, se debe cambiar el src con la url de la imagen que queremos.
 
-```txt
-<img src="https://www.elganso.com/media/catalog/product/c/r/Creatividad2_papa26.jpg" />
-```
+    ```txt
+    <img src="https://www.elganso.com/media/catalog/product/c/r/Creatividad2_papa26.jpg" />
+    ```
 
 Así nos debería de quedar nuestra creatividad.
 
@@ -65,10 +65,11 @@ En este caso vamos a configurar 2 imagenes ya que nuestro separador va a tener u
 Hemos creado las clases **isDesktop (visible en escritorio)** y **is Mobile (visible en movil/app)**, con ellas diferenciamos que imagen mostramos en movil y cual en escritorio.
 
 Podeis copiar el siguiente codigo y modificar la url de las imagenes:
-```txt
-<img class="isDesktop" style="display: block; margin-left: auto; margin-right: auto;" src="https://www.elganso.com/media/creatividades/separador-1.jpg"/>
-<img class="isMobile" style="display: block; margin-left: auto; margin-right: auto;" src="https://www.elganso.com/media/creatividades/separador-2.jpg"/>
-```
+
+    ```txt
+    <img class="isDesktop" style="display: block; margin-left: auto; margin-right: auto;" src="https://www.elganso.com/media/creatividades/separador-1.jpg"/>
+    <img class="isMobile" style="display: block; margin-left: auto; margin-right: auto;" src="https://www.elganso.com/media/creatividades/separador-2.jpg"/>
+    ```
 
 Con esto configurado deberíamos de ver nuestro separador de imagen de la siguiente forma:
 

@@ -6,7 +6,7 @@ Para ver la pantalla de clientes, hay que habilitar para el grupo el permiso de 
 
 ![icono](./img/permisoClientes.png)
 
-Desde la pantalla de clientes podemos informacion del agente al que pertenece y gestionar sus contactos.
+Desde la pantalla de clientes podemos informacion del agente al que pertenece y gestionar sus contactos y sus tratos, tareas y presupuestos pendientes.
 
 ![acciones](./img/pantallaClientes.png)
 

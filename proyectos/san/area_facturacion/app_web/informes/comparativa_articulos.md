@@ -111,18 +111,15 @@ El botón **Limpiar** restablece todos los filtros y vacía la tabla de resultad
 
 ## Reglas de negocio
 
-- La fórmula de variación aplicada es:
+- La variación porcentual se calcula según estos casos:
 
-$$
-\text{Variación \%} =
-\begin{cases}
-0 & \text{si } \text{Total}_1 = 0 \text{ y } \text{Total}_2 = 0 \\
-100 & \text{si } \text{Total}_1 = 0 \text{ y } \text{Total}_2 \neq 0 \\
-\dfrac{(\text{Total}_2 - \text{Total}_1) \times 100}{\text{Total}_1} & \text{en el resto de casos}
-\end{cases}
-$$
+  | Situación                 | Resultado                             |
+  | ------------------------- | ------------------------------------- |
+  | Total 1 = 0 y Total 2 = 0 | 0 %                                   |
+  | Total 1 = 0 y Total 2 > 0 | 100 %                                 |
+  | Total 1 > 0               | `(Total 2 - Total 1) × 100 / Total 1` |
 
-El resultado se redondea a 2 decimales.
+  El resultado se redondea a 2 decimales.
 
 - Solo se muestran clientes asignados a los agentes permitidos **(el agente y sus subordinados)** del usuario que está conectado.
 - Solo aparecen clientes con al menos un total distinto de cero (en cualquiera de los dos períodos).

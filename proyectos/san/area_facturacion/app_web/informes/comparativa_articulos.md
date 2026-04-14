@@ -143,3 +143,5 @@ Sí. Si seleccionas el mismo año en _Año 1_ y _Año 2_ la variación será sie
 
 **¿El trimestre afecta a los dos años por igual?**  
 Sí. El filtro de trimestre se aplica al mismo rango de meses en ambos años.
+
+[Volver al Índice](./index.md)

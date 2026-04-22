@@ -9,4 +9,4 @@
 - [FAQ](./faq.md)
 - [Sincronización de contactos con ActiveCampaign](./sincro_activecampaign.md)
 
-[Volver al Índice](../../index.md)
+[Volver al Índice](../../../index.md)

@@ -46,6 +46,7 @@
 - [Cursos(eventos)](./area_facturacion/app_web/eventos_curso/index.md)
 - [Farma](./area_facturacion/app_web/farma/index.md)
 - [Incidencias](./area_facturacion/app_web/incidencias/index.md)
+- [Informes](./area_facturacion/app_web/informes/index.md)
 - [Inventarios](./area_facturacion/app_web/inventarios/index.md)
 - [Pedidos](./area_facturacion/app_web/pedidos/index.md)
 - [Perdidas de trato](./area_facturacion/app_web/perdidastrato/index.md)

@@ -1,6 +1,9 @@
-# 3.- Seccion stocks.
+# 3.- Gestión stocks.
 
 Esta sección muestra las funcionalidades relativas a la gestión de almacén. Está adaptada para visualizarse en dispositivos móviles.
+
+
+![gestion_stocks](./imagenes/35_stock_0.png)
 
 ## 3.1.- Inventarios.
 
@@ -93,7 +96,7 @@ Se pueden editar y eliminar las líneas y se muestra un total de la cantidad de 
 
 El inventario aparecerá en el listado como con modificaciones y pendiente de sincronizar.
 
-## 3.2.- Recepciones de mercancía.
+## 3.2.- Recepciones de mercancia.
 
 En esta página se muestran los viajes de recepción de mercancía de la tienda, se muestra un listado de todas las recepciones de mercancía de la tienda, en la cabecera consta de un selector de años (filtra los años de las recepciones) un buscador de recepciones y el botón de actualizar.
 
@@ -129,7 +132,7 @@ Para ello pulsar el botón de sincronizar recepción en el listado de recepcione
 
 ![stocks_23](./imagenes/57_stock_23.png)
 
-## 3.3.- Envíos de mercancía.
+## 3.3.- Envios de mercancia.
 
 En esta página se muestran los viajes de envío de mercancía de la tienda, el funcionamiento es análogo al de las recepciones de mercancía del apartado anterior, se muestra un listado de todos los envíos de mercancía de la tienda, en la cabecera consta de un selector de años (filtra los años de los envíos) un buscador de envíos y el botón de actualizar.
 
@@ -187,7 +190,7 @@ Mostrando el stock para todas las tallas:
 
 ![stocks_37](./imagenes/71_stock_37.png)
 
-## 3.5.- Cambiar año.
+## 3.5.- Cambiar ejercicio.
 
 En esta sección se podrá cambiar el año utilizado para inventarios y envíos/recepciones de mercancía.
 

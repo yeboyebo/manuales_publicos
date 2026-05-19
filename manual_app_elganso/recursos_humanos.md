@@ -20,7 +20,7 @@ Al crear un nuevo tramo se crea con el horario por defecto (9:30-17:30).
 
 Si se añaden más tramos horarios el nuevo tramo añadido empieza media hora después del fin del último tramo.
 
-## 4.2.- Planificador semanal.
+## 4.2.- Resumen planificador.
 
 Está pagina muestra el control de la planificación semanal para una tienda, solo estará disponible para los administradores de recursos humanos. Y está específicamente diseñada para visualizarse en escritorio.
 

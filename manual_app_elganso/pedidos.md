@@ -1,6 +1,6 @@
 # 5.- Pedidos.
 
-## 5.1.- Preparación pedidos web.
+## 5.1.- Preparacion pedidos web.
 
 En esta página las tiendas podrán gestionar la preparación de pedidos hechos desde web que tengan que enviar.
 

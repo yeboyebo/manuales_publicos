@@ -31,3 +31,4 @@
 - [Manual instalación y configuración Fiskaly-Veri*Factu para colaboradores](./fiskaly/instconfverifactu.md)
 - [Manual usuario Fiskaly-Veri*Factu](./fiskaly/manualusuarioverifactu.md)
 - [Manual instalación y configuración TPV con Fiskaly-Veri*Factu](./fiskaly/instconfverifactuTPV.md)
+- [Transferencias de stock usando albaranes](./trans_stock_albclipr/index.md)

@@ -1,6 +1,6 @@
 # Manual de Uso App El Ganso
 
-## Indice
+## Índice
 
 * [1.- Login](login.md)
 * [2.- Pantalla de inicio](inicio.md)
@@ -16,5 +16,5 @@
     * [4.3.- Resumen agente](recursos_humanos.md#43--resumen-agente)
     * [4.4.- Control horario](recursos_humanos.md#44--control-horario)
 * [5.- Pedidos](pedidos.md)
-    * [5.1.- Preparación pedidos webl](pedidos.md#51--preparacion-pedidos-web)
+    * [5.1.- Preparación pedidos web](pedidos.md#51--preparacion-pedidos-web)
 

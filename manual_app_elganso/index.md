@@ -2,7 +2,10 @@
 
 ## Índice
 
-* [1.- Login](login.md)
+* [1.- Usuario](usuario.md)
+    * [1.1.- Alta Nuevo Usuario](usuario.md#11--alta-nuevo-usuario)
+    * [1.2.- Incio de Sesión](usuario.md#12--inicio-de-sesion)
+    * [1.3.- Cambio de Contraseña](usuario.md#13--cambio-clave-de-acceso)
 * [2.- Pantalla de inicio](inicio.md)
 * [3.- Gestion de stocks](inventario.md)
     * [3.1.- Inventarios](inventario.md#31--inventarios)

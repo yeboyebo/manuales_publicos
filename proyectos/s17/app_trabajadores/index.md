@@ -10,6 +10,10 @@ También se pueden informar mas campos de su ficha como 'Oficio' por ejemplo.
 * Para que un usuario/trabajador ya no tiene acceso a la app web de partes se puede cambiar su contraseña de su ficha o simplemente elimiar el email de su ficha.
 * No se puede eliminar un Usuario/Trabajador que ya tiene partes de trabajo creadas.
 
+## Importante
+* El usaurio debe crearse con los mismos datos en las dos base de datos:
+ studio17 y studio17_partes
+
 
 ## Configuraciones previas en el ERP
 

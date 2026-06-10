@@ -1,5 +1,20 @@
 # App Trabajadores
 
+## Crear nuevo usuario/trabajador en el ERP
+* Para crear un nuevo usuario para el uso de la App web de partes se hace desde **Area de Facturación/Principal/Usuarios** 
+* Hay que seguir los pasos como se ve en la captura
+![Partes](./img/crear-usuario_pasos.png)
+También se pueden informar mas campos de su ficha como 'Oficio' por ejemplo.
+
+## Suspender un usuario creado
+* Para que un usuario/trabajador ya no tiene acceso a la app web de partes se puede cambiar su contraseña de su ficha o simplemente elimiar el email de su ficha.
+* No se puede eliminar un Usuario/Trabajador que ya tiene partes de trabajo creadas.
+
+## Importante
+* El usaurio debe crearse con los mismos datos en las dos base de datos:
+ studio17 y studio17_partes
+
+
 ## Configuraciones previas en el ERP
 
 * Para establecer la cantidad de **horas objetivo** que el trabajador debe introducir en un parte diario, debemos ir al formulario **Area de Facturación/Facturación/Configuración** y rellenar los campos *Horas partes* y *Horas partes viernes* en formato *hora:minutos:segundos*.

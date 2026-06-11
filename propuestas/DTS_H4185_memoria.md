@@ -140,10 +140,13 @@ El problema que resuelve este módulo se conoce en el ámbito de la optimizació
 
 La solución técnica se construye sobre el ecosistema Python de optimización y se integra con el ERP mediante una API de servicio interno:
 
-- **Algoritmo base de empaquetado geométrico** (librería `py3dbinpacking`): resuelve la distribución volumétrica pura para un pedido concreto, iterando sobre los formatos de caja del catálogo y devolviendo la combinación con menor volumen sobrante.
-- **Optimización matemática** (Google OR-Tools): cuando intervienen restricciones adicionales —peso máximo soportado por caja, incompatibilidades de producto, número máximo de bultos por expedición— se aplica un solver de programación lineal entera que minimiza una función de coste que combina el coste de los materiales, el peso total del envío y las penalizaciones por restricciones incumplidas.
+- **Algoritmo base de empaquetado geométrico** (ejemplo de herramienta: librería `py3dbinpacking`): resuelve la distribución volumétrica pura para un pedido concreto, iterando sobre los formatos de caja del catálogo y devolviendo la combinación con menor volumen sobrante.
+- **Optimización matemática** (ejemplo de herramienta: Google OR-Tools): cuando intervienen restricciones adicionales —peso máximo soportado por caja, incompatibilidades de producto, número máximo de bultos por expedición— se aplica un solver de programación lineal entera que minimiza una función de coste que combina el coste de los materiales, el peso total del envío y las penalizaciones por restricciones incumplidas.
 - **Restricciones de compatibilidad química**: el maestro de artículos del SGA incluye ya atributos de compatibilidad entre productos (normativa APQ, incompatibilidades entre familias químicas). Estas restricciones se traducen en reglas del modelo de optimización, de forma que el motor nunca proponga colocar en la misma caja artículos que no deban estar en contacto o proximidad.
 - **Clasificación por fragilidad y reserva de espacio para amortiguación**: cada artículo lleva una etiqueta de fragilidad (frágil, normal, robusto). Los artículos frágiles amplían virtualmente su volumen en el modelo para reservar el espacio necesario para el material de amortiguación, garantizando que la propuesta sea físicamente realizable.
+
+Ampliación de aprendizaje adaptativo con datos propios:
+
 - **Capa de predicción por aprendizaje automático**: a partir del histórico de pedidos preparados y almacenado en el SGA, se entrena un modelo de clasificación que anticipa el tipo de embalaje más probable antes de ejecutar el algoritmo completo, acelerando el tiempo de respuesta para los pedidos con patrones recurrentes.
 - **Evolución hacia aprendizaje por refuerzo**: en una fase posterior, el motor puede evolucionar hacia un agente de Aprendizaje por Refuerzo (Reinforcement Learning) que aprende de forma continua a partir de la retroalimentación real de los operarios, ajustando las recomendaciones en función de las correcciones manuales y los resultados logísticos observados.
 

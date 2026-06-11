@@ -34,7 +34,7 @@ La empresa se encuentra en un proceso de ampliación de sus instalaciones de alm
 
 **Eficiencia en la preparación de pedidos.** La ausencia de un sistema guiado de picking implica tiempos de preparación más elevados de lo necesario, mayor tasa de error y dificultad para gestionar picos de demanda o consolidar varios pedidos en un mismo recorrido de almacén.
 
-**Impacto ambiental no medido.** DTS Oabe fabrica y comercializa productos químicos en distintos formatos de envase. En la actualidad no existe un mecanismo sistemático para evaluar el impacto ambiental de las decisiones de formulación, envasado o gestión operativa del almacén. La ausencia de datos estructurados sobre movimientos, consumos de materiales y composición de envases impide abordar proyectos de mejora ambiental basados en evidencia, tanto en el ámbito del ecodiseño de producto como en la reducción del consumo energético asociado a la operativa logística.
+**Impacto ambiental no medido.** DTS Oabe fabrica y comercializa productos químicos en distintos formatos de envase. En la actualidad no existe un mecanismo sistemático para evaluar el impacto ambiental de las decisiones de formulación, envasado o gestión operativa del almacén. La ausencia de datos estructurados sobre movimientos, consumos de materiales y composición de envases impide abordar proyectos de mejora ambiental basados en evidencia, tanto en el ámbito del ecodiseño de producto como en la optimización del embalaje de expedición.
 
 ### Objetivos del proyecto
 
@@ -52,7 +52,7 @@ El proyecto tiene como finalidad dotar a DTS Oabe de un Sistema de Gestión de A
 
 - **Base de datos para análisis e IA.** Generar un registro estructurado de todos los movimientos y condiciones de almacén que permita, en una fase posterior, aplicar herramientas de inteligencia artificial para la optimización de ubicaciones, análisis de rotaciones ABC y propuesta de reubicaciones.
 
-- **Sostenibilidad y reducción del impacto ambiental.** Aprovechar los datos acumulados por el SGA —movimientos de mercancías, consumos de materiales y listas de materiales (BOM) del ERP— para iniciar un proyecto de ecodiseño orientado a versionar los productos actuales hacia alternativas con menor impacto ambiental. Paralelamente, la mejora en la eficiencia de la operativa de almacén contribuirá directamente a la reducción del consumo energético asociado a la logística interna.
+- **Sostenibilidad y reducción del impacto ambiental.** Aprovechar los datos acumulados por el SGA —movimientos de mercancías, consumos de materiales y listas de materiales (BOM) del ERP— para iniciar un proyecto de ecodiseño orientado a versionar los productos actuales hacia alternativas con menor impacto ambiental.
 
 - **Optimización del embalaje asistida por IA.** Desarrollar un motor de cálculo que, en el momento de preparar cada pedido, determine automáticamente el tipo y tamaño de embalaje más adecuado en función del volumen, peso y fragilidad de los artículos incluidos. La solución se apoyará en algoritmos de empaquetado tridimensional (3D Bin Packing Problem) y técnicas de optimización matemática, reduciendo el consumo de materiales de embalaje, el peso de los envíos y la huella ambiental de cada expedición. Las restricciones de compatibilidad química propias del catálogo de DTS Oabe se incorporarán como reglas adicionales en el modelo.
 
@@ -130,11 +130,9 @@ Cada operación queda registrada con datos de artículo, lote, caducidad, ubicac
 
 **Sostenibilidad y reducción del impacto ambiental**
 
-El sistema abre dos vías de mejora ambiental que se refuerzan mutuamente: la optimización operativa del almacén y el ecodiseño de producto.
+El sistema abre dos vías de mejora ambiental que se refuerzan mutuamente: el ecodiseño de producto y la optimización del embalaje de expedición.
 
 *Ecodiseño basado en datos.* El ERP de DTS Oabe ya gestiona las listas de materiales (BOM) de los productos fabricados, incluyendo la composición de los envases y el carácter reciclado o no de cada material. El SGA añadirá el histórico detallado de todos los movimientos de materias primas y producto terminado. La combinación de ambas fuentes —BOM con atributos ambientales y datos reales de consumos— constituye la base necesaria para un proyecto de ecodiseño en el que analizar alternativas de formulación, composición y envasado con menor huella ambiental. Este análisis puede abordar, entre otros, la sustitución de materiales no reciclados en envases, la reducción del peso o volumen de embalaje por unidad de producto, y la evaluación del ciclo de vida de las distintas versiones de un mismo artículo.
-
-*Eficiencia energética en la operativa del almacén.* La gestión guiada de picking reduce la distancia recorrida por los operarios y, con ello, la necesidad de utilizar medios mecánicos de manutención como carretillas eléctricas. Rutas de picking más cortas y consolidadas implican un menor número de ciclos de carga y descarga de baterías y un consumo energético global inferior. Se recomienda complementar esta mejora con la instalación de iluminación LED con detectores de presencia en las distintas zonas del almacén, de forma que únicamente se iluminen los pasillos en los que haya actividad real en cada momento, maximizando así el ahorro energético derivado de la mayor eficiencia operativa.
 
 *Optimización del embalaje en la preparación de pedidos mediante IA.* El sistema de picking incorporará un motor de recomendación de embalaje basado en algoritmos de inteligencia artificial que va más allá de la simple sugerencia de formato. En lugar de utilizar una caja estándar para cualquier expedición, el módulo calcula en tiempo real la distribución tridimensional óptima de los artículos del pedido dentro del conjunto de formatos de embalaje disponibles.
 

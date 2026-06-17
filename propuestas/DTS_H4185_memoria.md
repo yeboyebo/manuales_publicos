@@ -30,7 +30,7 @@ La empresa se encuentra en un proceso de ampliación de sus instalaciones de alm
 
 **Recopilación de datos para optimización.** Existe una necesidad estratégica de capturar información detallada sobre los movimientos internos y externos del almacén: condiciones de almacenamiento requeridas por artículo (temperatura, compatibilidad química, almacenamiento en zona APQ), operador que realiza cada operación, lote, caducidad y ubicación en cada momento. Esta información, una vez estructurada, constituirá la base para aplicar herramientas de inteligencia artificial orientadas a la optimización de rutas de picking, propuesta de ubicaciones y análisis de rotaciones.
 
-**Cumplimiento normativo.** DTS Oabe maneja productos químicos que pueden estar sujetos a regulación específica en materia de almacenamiento, etiquetado y trazabilidad. La normativa en este ámbito está en evolución, y la empresa necesita disponer de una infraestructura de gestión capaz de adaptarse a futuros requisitos legales relacionados con el almacenaje de sustancias peligrosas, bases, ácidos y biocidas, incluyendo la gestión documental de Fichas de Datos de Seguridad (FDS) y el control de condiciones de proximidad entre artículos.
+**Cumplimiento normativo.** DTS Oabe maneja productos químicos que pueden estar sujetos a regulación específica en materia de almacenamiento, etiquetado y trazabilidad. La normativa en este ámbito está en evolución, y la empresa necesita disponer de una infraestructura de gestión capaz de adaptarse a futuros requisitos legales relacionados con el almacenaje de sustancias peligrosas, bases, ácidos y biocidas, incluyendo la gestión documental de Fichas de Datos de Seguridad (FDS) y el control de condiciones de proximidad entre artículos. En este marco, el SGA establecerá zonas especiales dentro del almacén: una zona de cuarentena para los productos que requieran validación antes de su incorporación al stock disponible, y una zona de producto rechazado para aislar aquellas referencias que no superen los controles de calidad o presenten incidencias, garantizando en todo momento la trazabilidad y el cumplimiento de los protocolos de seguridad aplicables.
 
 **Eficiencia en la preparación de pedidos.** La ausencia de un sistema guiado de picking implica tiempos de preparación más elevados de lo necesario, mayor tasa de error y dificultad para gestionar picos de demanda o consolidar varios pedidos en un mismo recorrido de almacén.
 
@@ -46,7 +46,7 @@ El proyecto tiene como finalidad dotar a DTS Oabe de un Sistema de Gestión de A
 
 - **Optimización del picking.** Reducir los tiempos de preparación de pedidos mediante órdenes de trabajo guiadas, consolidación de varios pedidos en un mismo recorrido (pick & pack) y sistemas de reposición automática de zonas de picking desde zonas de masivo.
 
-- **Trazabilidad completa.** Registrar por cada movimiento: artículo, lote, fecha de caducidad, ubicación de origen y destino, operador y fecha/hora. Garantizar el seguimiento del producto desde su recepción hasta su expedición.
+- **Trazabilidad completa.** Registrar por cada movimiento: artículo, lote, fecha de caducidad, ubicación de origen y destino, operador y fecha/hora. Garantizar el seguimiento de cada materia prima, envase, embalaje, máquina y tiempo de máquina, producto terminado o comercializado, operario y tiempo de cada operario durante todo el recorrido interno: desde la recepción hasta la expedición directa o hasta su transformación en producto final a través del proceso de fabricación.
 
 - **Seguridad y compatibilidad de almacenamiento.** Definir condiciones de almacenamiento por artículo y por ubicación (APQ, temperatura, compatibilidad química), y controlar el flujo de productos a través de zonas de cuarentena antes de su incorporación al stock disponible.
 
@@ -123,6 +123,10 @@ El módulo SGA extiende el ERP con los siguientes bloques funcionales:
 **Tecnología de hardware**
 
 Los terminales de mano son dispositivos industriales con lector integrado de código de barras 1D/2D (QR), pantalla táctil y conectividad WiFi. La comunicación con el ERP se realiza mediante interfaz web ligera o protocolo directo, permitiendo operar en tiempo real. Las impresoras de etiquetas son de tecnología térmica directa o transferencia térmica, con soporte para distintos formatos de etiqueta (artículo individual, caja, palet). El panel PC fijo en almacén permite a los responsables supervisar el estado de las órdenes de trabajo en curso y reasignar tareas.
+
+**Integración con la app para agentes comerciales**
+
+El SGA se integrará con la aplicación móvil de agentes comerciales ya disponible, extendiendo su funcionalidad con acceso en tiempo real a la información de stock del almacén. A través de esta integración, los agentes podrán consultar la disponibilidad actualizada de cualquier referencia antes de comprometerse con un cliente, y registrar pedidos desde la propia app de forma que el stock correspondiente quede inmediatamente reservado en el SGA. Esta reserva bloquea las unidades comprometidas para el resto de operaciones del almacén, evitando sobreventas y garantizando que la preparación del pedido pueda iniciarse en cuanto el agente lo confirme.
 
 **Orientación a datos e IA**
 

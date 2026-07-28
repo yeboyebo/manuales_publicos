@@ -1,48 +1,92 @@
-# INCIDENCIAS
+# Incidencias
 
-## Configuración inicial
+Gestión de incidencias de **producto** y de **transporte** desde la aplicación web. Cada incidencia queda asociada a un cliente, una factura y, según el tipo, a un artículo (producto) o a un transportista.
 
-Abrimos el formulario **Area de Facturación/Facturación/Configuración** y en la pestaña **Datos generales**, informamos el campo *Serie de incidencias* y pulsamos el botón de confirmación.
+Accedemos desde el menú principal **SmartSales → Incidencias**.
 
-### Permisos incidencias
+<!-- ![icono](./img/icono.png) -->
 
-Todos los usuarios tiene acceso a la pantalla. Aquellos grupos de usuarios que tengan el siguiente permiso concedido podrán ver y editar las incidencias de todos y si no lo tienen solo podrán ver y editar las suyas.
+## Configuración en el ERP
 
-![regla_acceso](./img/regla_acceso.png)
+Antes de usar la pantalla hay que completar dos configuraciones en el ERP.
 
-## Pantalla incidencias
+### Notificación por email
 
-### Listado
+En el formulario **Área de CRM / Principal / Configuración**, pestaña **Notificaciones incidencia**, se indican los correos electrónicos (separados por `;`) que recibirán un aviso cada vez que se cree una nueva incidencia.
 
-Veremos el listado de incidencias ordenado de más antigua a más reciente. El item de incidencia constará de un avatar indicando el estado(*Nueva, Pendiente de Datos, Pendiente, Asignada, Rechazada y Cerrada*), la descripción, el nombre del cliente y la fecha.
+<!-- ![config_notificaciones](./img/config_notificaciones.png) -->
 
-![estados_incidencia](./img/estados_incidencia.png)
+### Proveedor por agencia de transporte
 
-### Filtro
+En las incidencias de tipo Transporte, el transportista causante se obtiene del proveedor asociado a la agencia de transporte del albarán de la factura indicada. Esta asociación se configura en el formulario **Área de Facturación / Principal / Más / Transporte / Agencias de transporte**, indicando el proveedor correspondiente a cada agencia.
 
-Podremos filtrar el listado por el estado de las incidencias. 
+<!-- ![config_agencias_transporte](./img/config_agencias_transporte.png) -->
+
+En las incidencias de tipo Producto, el proveedor causante es el proveedor por defecto del artículo elegido; no requiere configuración adicional.
+
+## Tipos de incidencia
+
+Una incidencia es siempre de uno de estos dos tipos, determinado automáticamente por la **categoría** elegida al crearla:
+
+- **Producto**: la categoría tiene como tipo causante _Proveedor_. Lleva asociado un artículo y, opcionalmente, el campo _En garantía_ que se calcula en el momento de la creación de la incidencia. Será **Sí** cuando la fecha de la incidencia es menor a la fecha de la factura + número de meses de garantía del artículo.
+- **Transporte**: la categoría tiene como tipo causante _Transportista_.
+
+## Listado de incidencias
+
+![listado](./img/listado.png)
+
+El listado se puede ver en dos formatos, alternables con el botón de cambio de modo situado sobre la lista:
+
+- **Tarjetas** (vista por defecto): cada tarjeta muestra la descripción, la fecha, el causante (proveedor o transportista) y una etiqueta indicando si es _Transporte_ o _Producto_. El avatar de la izquierda indica el estado mediante un icono y un color distintivo:
+
+  | Estado             | Icono       |
+  | ------------------ | ----------- |
+  | Nueva              | Estrella    |
+  | Pendiente          | Reloj       |
+  | Pendiente de datos | Información |
+  | Asignada           | Usuario     |
+  | Rechazada          | Cerrar      |
+  | Cerrada            | Check       |
+
+- **Tabla**: columnas _Descripción_ _Causante_ y _Fecha_, ordenable por columna.
+
+Por defecto **no se muestran las incidencias en estado Cerrada**; para verlas hay que seleccionarlo explícitamente en el filtro de estado.
+
+### Filtros
 
 ![filtrado](./img/filtrado.png)
 
+- **Descripción**: filtro por texto de descripción.
+- **Fecha**: filtro por rango de fechas.
+- **Causante**: busca por el nombre del proveedor o transportista.
+- **Estado**: cualquiera de los seis estados. Si se deja vacío, se aplica el filtro por defecto (no cerradas).
+- **Prioridad**: Alta, Media o Baja.
+- **Tipo**: Producto o Transporte.
 
-## Ficha incidencia
+## Crear incidencia
 
-En la ficha de incidencia todos los campos(*estado, cliente, artículo, familia, observaciones, crear presupuesto y tareas*) son editables.
+Pulsamos el botón **Nueva** sobre el listado. Se abre un formulario con los siguientes campos, en este orden:
 
-![filtrado](./img/ficha_incidencia_1.png)
+![crear_incidencia](./img/crear_incidencia.png)
 
-### Crear presupuesto
+1. **Descripción** _(obligatorio)_.
+2. **Cliente** _(obligatorio)_: buscador de clientes. Al cambiarlo se vacía la factura si había alguna seleccionada.
+3. **Categoría** _(obligatorio)_: solo se ofrecen categorías cuyo tipo causante sea Proveedor o Transportista. Al elegirla, la incidencia queda marcada automáticamente como de tipo **Producto** o **Transporte**; si deja de ser de tipo Producto se vacía el artículo si lo hubiera.
+4. **Subcategoría**: depende de la categoría elegida; se vacía cada vez que se cambia la categoría.
+5. **Factura** _(obligatorio)_: requiere haber seleccionado antes un cliente; busca solo entre las facturas de ese cliente.
+6. **Artículo** _(obligatorio solo si la incidencia es de tipo Producto)_: no aparece en incidencias de transporte.
+7. **Observaciones** _(obligatorio)_.
 
-Al clicar el botón se creará automáticamente un presupuesto asociado a la incidencia y al cliente de la misma. Puede ser que el cliente tenga más de una dirección, entonces se nos pedirá que seleccionemos cuál queremos utilizar para la creación del presupuesto. Si la dirección(*seleccionada manual o automáticamente*) es de Canarias tendremos que elegir el '*Origen de salida*' a utilizar en el presupuesto.
+El proveedor o transportista causante **no se indica manualmente**: se calcula a partir de la factura/artículo elegidos y se muestra después en la ficha de la incidencia, en el campo _Causante_.
 
-Al crear el presupuesto, navegaremos automáticamente a la ficha del mismo.
+Al guardar, la incidencia se crea con prioridad _Media_, estado _Nueva_ y la fecha del día.
 
-Si una incidencia tiene asociado un presupuesto podremos ir a la ficha del mismo clicando sobre el código del mismo.
+## Ficha de incidencia
 
-### Tareas
+Al pulsar sobre una incidencia del listado accedemos a su [ficha](./ficha.md), donde se puede editar, adjuntar documentos, añadir notas, gestionar tareas asociadas, generar un presupuesto o borrarla.
 
-Veremos un listado de las tareas asociadas a la incidencia, así como el tipo y el estado de las mismas. También podemos añadir nuevas tareas clicando en el botón.
+## Informe de incidencias
 
-Podemos ir a la ficha de la tarea clicando sobre ella.
+Desde el menú **Informes → Incidencias** se puede generar y descargar un informe de incidencias en hoja de cálculo. Ver [Informe de incidencias](./informe.md).
 
-![filtrado](./img/ficha_incidencia_2.png)
+[Volver al Índice](../../../index.md)

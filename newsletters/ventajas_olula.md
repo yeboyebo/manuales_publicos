@@ -17,9 +17,8 @@
 ### Nuevas líneas funcionales disponibles
 
 - Portal de agentes comerciales
-- Gestión de almacén
 - Área de clientes
-- Tienda online
+- Gestión de almacén con multiubicación (SGA)
 
 ---
 

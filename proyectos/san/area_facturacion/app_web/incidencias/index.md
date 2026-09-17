@@ -12,9 +12,13 @@ Antes de usar la pantalla hay que completar dos configuraciones en el ERP.
 
 ### Notificación por email
 
-En el formulario **Área de CRM / Principal / Configuración**, pestaña **Notificaciones incidencia**, se indican los correos electrónicos (separados por `;`) que recibirán un aviso cada vez que se cree una nueva incidencia.
+En el formulario **Área de CRM / Principal / Configuración**, pestaña **Incidencia**, se indican los correos electrónicos (separados por `;`) que recibirán un aviso cada vez que se cree una nueva incidencia.
 
-<!-- ![config_notificaciones](./img/config_notificaciones.png) -->
+### Borrado automático de documentos asociados
+
+En el formulario **Área de CRM / Principal / Configuración**, pestaña **Incidencia**, se configura tanto el _número de días desde la fecha de creación de la incidencia que se toman como mínimo para borrar documentos asociados_ como _el tamaño (Mb) mínimo para eliminar los documentos_. Diariamente se eliminarán los documentos asociados a incidencias en estado cerrada o rechazada que cumplan esteos requisítos.
+
+![config_notificaciones](./img/config_notificaciones.png)
 
 ### Proveedor por agencia de transporte
 

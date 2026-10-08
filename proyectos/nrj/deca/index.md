@@ -88,7 +88,9 @@ En el recuadro **Datos del Transporte**:
 - **Origen** y **Destino** del transporte.
 - **Naturaleza de la Mercancía**.
 
-Al abrir la ficha (o al cambiar el albarán), si **Origen**, **Destino** o **Naturaleza** están vacíos se proponen automáticamente (ver [Direcciones de almacén y albarán](#direcciones-de-almacén-y-albarán) y [Naturaleza de la mercancía por defecto](#naturaleza-de-la-mercancía-por-defecto)). Se pueden cambiar; los que ya tienen valor no se tocan.
+Al abrir la ficha, si **Origen**, **Destino** o **Naturaleza** están vacíos se proponen automáticamente (ver [Direcciones de almacén y albarán](#direcciones-de-almacén-y-albarán) y [Naturaleza de la mercancía por defecto](#naturaleza-de-la-mercancía-por-defecto)). Se pueden cambiar; los que ya tienen valor no se tocan.
+
+Cuando la salida genera un **albarán nuevo**, el **Origen** y el **Destino** se vuelven a calcular a partir de ese albarán **aunque ya tuvieran valor**, para que correspondan siempre al albarán vigente de la salida (ver [Si cambia el albarán de la salida](#si-cambia-el-albarán-de-la-salida)). La **Naturaleza** no se modifica si ya está informada.
 
 <!-- ![Datos del Transporte](./img/deca_salida_transporte.png) -->
 
@@ -114,6 +116,17 @@ Guardaremos la salida antes de imprimir el DeCA: el DeCA se genera con los datos
 | Peso de la mercancía                       | Salida, Peso Bruto (palets asignados)                           |
 
 Son opcionales: dirección y número de autorización del transportista, matrícula semirremolque y autorización especial.
+
+### Si cambia el albarán de la salida
+
+El DeCA va asociado al **albarán**, no a la salida. Según cómo se modifique la salida:
+
+- **Regenerar el albarán** (se modifican los palets y, al pulsar **Imprimir albarán**, se responde **Sí** a regenerarlo): la salida conserva el **mismo albarán**. El origen y el destino no se tocan, por lo que se mantienen los cambios hechos a mano. Al volver a pulsar **Imprimir DeCA** se **actualiza** el mismo DeCA con los datos nuevos (por ejemplo, el peso).
+- **Desvincular la salida** del albarán y volver a pulsar **Imprimir albarán**: se crea un **albarán nuevo**. El **Origen** y el **Destino** se recalculan con la dirección del almacén y del albarán nuevo, sustituyendo los valores anteriores. Al pulsar **Imprimir DeCA** se **crea un DeCA nuevo** con el número del albarán nuevo.
+
+En el segundo caso, si el albarán nuevo (o su almacén) no tiene dirección, el campo correspondiente queda vacío y habrá que rellenarlo a mano antes de imprimir el DeCA. El DeCA del albarán anterior no se modifica ni se anula.
+
+Si después de generar el albarán nuevo se quiere un origen o destino distinto, se puede cambiar a mano en la salida y guardar antes de imprimir el DeCA.
 
 ## Imprimir el DeCA
 
@@ -145,6 +158,7 @@ Son opcionales: dirección y número de autorización del transportista, matríc
 | _No se puede imprimir el DeCA. Faltan los siguientes datos del albarán_                                          | Completar los datos indicados en la salida, guardar y volver a imprimir.                                                                                       |
 | Falta el nombre o el NIF del transportista aunque la ficha del transportista los tiene                           | Volver a elegir el transportista en la salida para que se copien sus datos, y guardar.                                                                         |
 | Falta el origen o el destino                                                                                     | Rellenarlos a mano en la salida, o completar la dirección del almacén o del albarán para que se propongan.                                                     |
+| Tras desvincular y generar un albarán nuevo, han cambiado el origen o el destino                                 | Es lo esperado (ver [Si cambia el albarán de la salida](#si-cambia-el-albarán-de-la-salida)). Si hace falta, cambiarlos a mano y guardar.                      |
 | Falta el peso de la mercancía                                                                                    | Asignar los palets a la salida para que se calcule el Peso Bruto.                                                                                              |
 | _No se han podido completar los datos del DeCA en la salida de almacén_                                          | No se pudo guardar la salida con los valores por defecto. Abrir la salida, revisar los datos, guardar y volver a imprimir.                                     |
 | _Error al acceder a la API: No se ha podido conectar con el servidor_                                            | Revisar la **URL API Olula** en la configuración y que el servidor de Olula esté accesible.                                                                    |

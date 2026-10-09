@@ -14,14 +14,28 @@ Añadiremos a la pantalla los siguientes controles:
 
 + Campo. Descripción.
 
-## Precondiciones
+Crearemos un caso de uso *nombre_caso_uso*
++ Entrada:
+    + Param 1
+    + Param 2
 
-## Dinámica
++ Condiciones
+    + Primera condición
+    + Segunda condición
 
-### Hacer X
++ Acción:
+    + Primer paso
+    + Segundo paso
 
-Para hacer x:
-+ Vamos a ...
++ Eventos:
+    + ... se genera un evento _contexto.modulo.evento_ que incluye:
+        + Id Linea
+        + Id UP
+    
++ Suscripciones:
+    + _contexto.modulo.evento1_ > Nuevo caso de uso en *contexto/modulo/caso_de_uso1* que hace...
+    + _contexto.modulo.evento2_ > Caso de uso *contexto/modulo/caso_de_uso1*  que hace...
+
 
 ## Notas de desarrollo
 No hay notas de desarrollo

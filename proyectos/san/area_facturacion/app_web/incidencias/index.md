@@ -16,7 +16,7 @@ En el formulario **Área de CRM / Principal / Configuración**, pestaña **Incid
 
 ### Borrado automático de documentos asociados
 
-En el formulario **Área de CRM / Principal / Configuración**, pestaña **Incidencia**, se configura tanto el _número de días desde la fecha de creación de la incidencia que se toman como mínimo para borrar documentos asociados_ como _el tamaño (Mb) mínimo para eliminar los documentos_. Diariamente se eliminarán los documentos asociados a incidencias en estado cerrada o rechazada que cumplan esteos requisítos.
+En el formulario **Área de CRM / Principal / Configuración**, pestaña **Incidencia**, se configura tanto el _número de días desde la fecha de creación de la incidencia que se toman como mínimo para borrar documentos asociados_ como _el tamaño (Mb) mínimo para eliminar los documentos_. Diariamente se eliminarán los documentos asociados a incidencias en estado cerrada o rechazada que cumplan estos requisitos.
 
 ![config_notificaciones](./img/config_notificaciones.png)
 

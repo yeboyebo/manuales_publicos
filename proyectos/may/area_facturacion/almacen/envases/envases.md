@@ -30,13 +30,15 @@ En el formulario de edición de artículos, si abrimos la pestaña **Prendas** e
 
 ## Cálculo de coste e informe de factura
 
-Al crear una factura de cliente (tanto de forma manual como desde un albarán) y crear líneas para artículos que tengan envases asociadas se calculará un nuevo valor Coste Envases en la cabecera de la factura.
+En la cabecera de factura se ha incluido un nuevo valor **Coste Envases**. 
+
+Este valor se calcula al crear una factura de cliente (tanto de forma manual como desde un albarán) cuyas líneas correspondan a artículos que tengan envases asociadas
 
 Ese valor se calcula como la suma del cosste de los envases de todas sus líneas multiplicado por la cantdidad de cada línea.
 
-Para cada línea el coste de envases será la suma de los costes de cada un ode los envases que el artículo tenga asociado calculado de la siguiente forma:
+Para cada línea el coste de envases será la suma de los costes de cada uno de los envases que el artículo tenga asociado.
 
-     Coste Envase la suma del coste Kg del material dividido entre 1000 multiplicado por el peso en gramos del envase multiplicado por el porcentaje del material en el envase.
+El coste de cada envase será la suma del coste por Kg del material dividido entre 1000 multiplicado por el peso en gramos del envase multiplicado por el porcentaje del material en el envase.
 
 
 ![Facturas de cliente](./img/facturascli.png)

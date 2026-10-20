@@ -28,14 +28,26 @@ Crearemos un caso de uso *nombre_caso_uso*
     + Segundo paso
 
 + Eventos:
-    + ... se genera un evento _contexto.modulo.evento_ que incluye:
+    + ... se genera un evento *contexto.modulo.evento* que incluye:
         + Id Linea
         + Id UP
     
 + Suscripciones:
-    + _contexto.modulo.evento1_ > Nuevo caso de uso en *contexto/modulo/caso_de_uso1* que hace...
-    + _contexto.modulo.evento2_ > Caso de uso *contexto/modulo/caso_de_uso1*  que hace...
+    + *contexto.modulo.evento1* > Nuevo caso de uso en *contexto/modulo/caso_de_uso1* que hace...
+    + *contexto.modulo.evento2* > Caso de uso *contexto/modulo/caso_de_uso1*  que hace...
 
+Vista app:
+
+Estados:
++ Consulta:
+    + Descripción: El usuario filtra y consulta módulos
+    + Eventos:
+        + El usuario selecciona uno o más módulos y pulsa _Hacer acción_ > Haciendo acción
++ Haciendo acción
+    + Descripción: Vista con datos para hacer acción
+    + Eventos:
+        + El usuario cancela > Consulta
+        + El usuario introduce los datos y acepta: Se hace la acción > Consulta
 
 ## Notas de desarrollo
 No hay notas de desarrollo

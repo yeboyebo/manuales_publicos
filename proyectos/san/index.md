@@ -28,6 +28,8 @@
 - [Agrupaciones de pedidos a Canarias](./area_facturacion/facturacion/agrupacionesCanarias/index.md)
 - [Pedidos de clientes](./area_facturacion/facturacion/pedidoscli/index.md)
 - [Asociar albaranes en facturas de clientes](./area_facturacion/facturacion/asociaralbaranesenfacturas/index.md)
+- [Envío de documentos por e-mail](../../extensiones/envio_mail/index.md)
+- [Envío masivo de facturas por e-mail](./area_facturacion/facturacion/envio_masivo_facturas/index.md)
 
 ### Almacén
 

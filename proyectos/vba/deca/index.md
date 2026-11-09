@@ -2,7 +2,7 @@
 
 El **DeCA** es el documento de control que acompaña a la mercancía durante el transporte. Desde el ERP se genera e imprime a partir de un albarán de venta.
 
-Antes de imprimir el primer DeCA hay que hacer la [configuración](#configuración) una sola vez. Después, para cada albarán basta con [rellenar sus datos de transporte](#datos-de-transporte-del-albarán) e [imprimir el DeCA](#imprimir-el-deca).
+Antes de imprimir el primer DeCA hay que hacer la [configuración](#configuración) una sola vez. Después, para cada albarán basta con [rellenar sus datos de transporte](#datos-de-transporte-del-albarán) e [imprimir el DeCA](#imprimir-el-deca). Al imprimir se muestra un [formulario para revisar los datos](#revisar-los-datos-del-deca), que también permite corregirlos en **albaranes ya facturados**.
 
 ## Configuración
 
@@ -77,7 +77,7 @@ El DeCA se abre con la aplicación que el equipo tenga asignada para los fichero
 Iremos a **Área de Facturación -> Facturación -> Albaranes de venta** y editaremos el albarán.
 
 - **Transportista**: elegiremos el transportista. Al hacerlo se rellenan automáticamente, su nombre, C.I.F./N.I.F., dirección principal y número de autorización. Estos datos se pueden modificar directamente.
-- En el cuadro de la deracha se construye la secuancia que ya se usaba en el albarán y no es editable directamente.
+- En el cuadro de la derecha se construye el texto del transportista que ya se usaba en el albarán y no es editable directamente.
 - **Vehículo**: **Matrícula tractora** (obligatoria), **Matrícula semirremolque** y **Autorización especial** (opcionales).
 - **Conductor**: **Nombre** y **DNI** del conductor (obligatorios).
 
@@ -95,7 +95,9 @@ Iremos a **Área de Facturación -> Facturación -> Albaranes de venta** y edita
 
 <!-- CAPTURA: albarán, pestaña CMR, con los campos Origen, Destino, Naturaleza y Peso rellenos. -->
 
-Guardaremos el albarán antes de imprimir el DeCA: el DeCA se genera con los datos **guardados**.
+Guardaremos el albarán antes de imprimir el DeCA: el formulario de revisión se rellena con los datos **guardados**.
+
+Si el albarán ya está **facturado** no se puede editar, pero sus datos de transporte se pueden corregir igualmente desde el [formulario de revisión del DeCA](#revisar-los-datos-del-deca).
 
 ### Datos obligatorios
 
@@ -111,30 +113,60 @@ Son opcionales: matrícula semirremolque, autorización especial y número de au
 
 ## Imprimir el DeCA
 
-- En **Área de Facturación -> Facturación -> Albaranes de venta**, seleccionaremos el albarán en la lista.
-- Pulsaremos el botón **Imprimir DeCA** de la barra de botones.
+- En **Área de Facturación -> Facturación -> Albaranes de venta**, seleccionaremos el albarán en la lista. Puede estar pendiente de facturar o ya facturado.
+- Pulsaremos el botón **DeCA** ![Botón DeCA](./img/deca_boton_icono.png) de la barra de botones, situado entre los botones **Refrescar** y **Modificar**. Al pasar el ratón por encima muestra _Generar o actualizar e imprimir el DeCA del albarán_.
 
-<!-- ![Botón Imprimir DeCA](./img/deca_boton_imprimir.png) -->
+<!-- ![Botón DeCA](./img/deca_boton_imprimir.png) -->
 
-<!-- CAPTURA: listado de albaranes de venta con un albarán seleccionado, señalando el botón "Imprimir DeCA" en la barra de botones. -->
+<!-- CAPTURA: listado de albaranes de venta con un albarán seleccionado, señalando el botón DeCA (icono con el texto "DeCA" sobre fondo azul) en la barra de botones. -->
 
-- La primera vez que se imprime el DeCA de un albarán, se **crea** el documento en Olula. Las siguientes veces se **actualiza** con los datos que hayan cambiado en el albarán. En ambos casos se abre el PDF, desde el que podremos imprimirlo.
+- Se abrirá el formulario **Datos del DeCA** con los datos del albarán. Lo revisaremos y pulsaremos **Aceptar** (ver [Revisar los datos del DeCA](#revisar-los-datos-del-deca)).
+- La primera vez que se imprime el DeCA de un albarán, se **crea** el documento en Olula. Las siguientes veces se **actualiza** con los datos del formulario. En ambos casos se abre el PDF, desde el que podremos imprimirlo.
 
 <!-- ![DeCA en PDF](./img/deca_pdf.png) -->
 
 <!-- CAPTURA: el PDF del DeCA abierto en el lector de PDF. -->
 
-- Si falta algún dato obligatorio, no se envía nada a Olula y se muestra un mensaje con **todos** los datos que faltan. Los completaremos en el albarán (o en la ficha del transportista), guardaremos y volveremos a pulsar el botón.
+### Revisar los datos del DeCA
+
+Antes de generar el DeCA se muestra el formulario **Datos del DeCA - Albarán _código_** con los datos obligatorios, ya rellenos con los del albarán. Todos se pueden modificar:
+
+| Dato                        | Valor que propone                                                                                                                              |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| Fecha del transporte        | La fecha de transporte del albarán. Si no tiene, la fecha del albarán.                                                                          |
+| Nombre del transportista    | El del albarán (pestaña Transportista).                                                                                                         |
+| N.I.F. del transportista    | El del albarán (pestaña Transportista).                                                                                                         |
+| Matrícula tractora          | La del albarán (recuadro Vehículo).                                                                                                             |
+| Nombre del conductor        | El del albarán (recuadro Conductor).                                                                                                            |
+| D.N.I. del conductor        | El del albarán (recuadro Conductor).                                                                                                            |
+| Origen                      | El del albarán (pestaña CMR).                                                                                                                   |
+| Destino                     | El del albarán (pestaña CMR).                                                                                                                   |
+| Naturaleza de la mercancía  | La del albarán (pestaña CMR).                                                                                                                   |
+| Peso de la mercancía (kg)   | El **peso calculado** del albarán: los kilos de la pestaña CMR o, si no están informados, el peso que corresponde al importe del albarán.        |
+
+![Formulario Datos del DeCA](./img/deca_formulario_datos.png)
+
+- Al pulsar **Aceptar** se comprueba que todos los datos estén informados y que el peso sea mayor que 0.
+  - Si falta alguno, se muestra un mensaje con **todos** los que faltan y el formulario se vuelve a abrir con lo que habíamos escrito, para completarlo.
+  - Si están todos, los datos se **guardan en el albarán**, aunque esté facturado, y se genera el DeCA. También se actualizan en el albarán el texto del transportista y el peso.
+- Al pulsar **Cancelar** no se genera el DeCA y el albarán no se modifica.
 
 <!-- ![Datos que faltan](./img/deca_error_datos.png) -->
 
 <!-- CAPTURA: mensaje "No se puede imprimir el DeCA. Faltan los siguientes datos del albarán:" con la lista de datos. -->
 
+Como los datos quedan guardados en el albarán, la próxima vez que se imprima su DeCA el formulario saldrá con lo último que se puso.
+
+El código del albarán y el almacén no aparecen en el formulario porque siempre están informados. Los datos opcionales (matrícula semirremolque, autorización especial y número de autorización del transportista) se toman del albarán y se modifican en él.
+
 ## Problemas frecuentes
 
 | Mensaje o situación                                                                                              | Solución                                                                                                                                                       |
 | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| _No se puede imprimir el DeCA. Faltan los siguientes datos del albarán_                                          | Completar los datos indicados en el albarán o en la ficha del transportista, guardar y volver a imprimir.                                                      |
+| _No se puede imprimir el DeCA. Faltan los siguientes datos del albarán_                                          | Completar los datos indicados en el formulario **Datos del DeCA**, que se vuelve a abrir, y pulsar **Aceptar**.                                                |
+| Hay que corregir un dato del DeCA de un albarán ya facturado                                                     | Imprimir de nuevo el DeCA y corregir el dato en el formulario **Datos del DeCA**: se guarda en el albarán y se actualiza el DeCA en Olula.                     |
+| _El dato '...' no puede tener más de ... caracteres_                                                             | Acortar el texto indicado en el formulario **Datos del DeCA** y volver a pulsar **Aceptar**.                                                                  |
+| El peso propuesto no es el correcto                                                                              | Escribir el peso correcto en el formulario. Para que se proponga bien la próxima vez, informar los **kilos** en la pestaña CMR del albarán.                    |
 | Faltan nombre, NIF o dirección del transportista aunque la ficha del proveedor los tiene                         | Volver a elegir el transportista en el albarán para que se copien sus datos, y guardar.                                                                        |
 | Falta la dirección del transportista                                                                             | Dar de alta una dirección **principal** en la pestaña Direcciones del proveedor y volver a elegir el transportista en el albarán.                              |
 | _Error al acceder a la API: No se ha podido conectar con el servidor_                                            | Revisar la **URL API Olula** en la configuración y que el servidor de Olula esté accesible.                                                                    |

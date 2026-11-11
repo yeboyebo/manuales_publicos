@@ -11,7 +11,7 @@ Debemos tener acceso al menú *Ventas > Cliente* para crear clientes y al menú 
 * Se abre el formulario *Nuevo Cliente*. Rellenamos los campos, que son todos obligatorios:
     * *Nombre*: nombre o razón social del cliente.
     * *Tipo Id Fiscal*: seleccionamos *N.I.F.* para clientes españoles, *V.A.T.* para clientes intracomunitarios u *OTRO* para el resto.
-    * *ID Fiscal*: número de identificación fiscal del cliente. Se recomienda introducir un nif válido de acuredo al Tipo Id Fiscal establecido
+    * *ID Fiscal*: número de identificación fiscal del cliente. Se recomienda introducir un nif válido de acuerdo al Tipo Id Fiscal establecido
     ![Nuevo cliente](./img/nuevoCliente.png)
 
 * Pulsamos *Guardar*.

@@ -61,7 +61,6 @@ Solo se puede cambiar el cliente mientras la venta está abierta, es decir, mien
 
 * Pulsamos *Guardar*.
     * La venta se actualiza con el nuevo cliente y su dirección.
-    ![Cliente cambiado](./img/clienteCambiado.png)
     * La serie de facturación de la venta cambia automáticamente: con cliente registrado se usa la serie de facturas nominativas y sin cliente la serie de facturas simplificadas. Por lo tanto es importante que el CIF/NIF del cliente sea correcto.
 
 * Una vez cambiado el cliente, podemos continuar con el cobro de la venta.

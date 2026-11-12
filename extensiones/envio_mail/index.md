@@ -184,7 +184,15 @@ Con el tipo de cliente de correo **Python**, al pulsar el botón de envío se ge
 
 ### Plantillas con formato
 
-* Si el *Cuerpo* de la plantilla empieza por `<html>`, el correo se envía con formato. Por ejemplo:
+El formulario de la plantilla tiene tres pestañas que trabajan sobre el mismo texto del correo:
+
+| Pestaña | Para qué sirve |
+| --- | --- |
+| **HTML** | Aquí se escribe o se pega el **código HTML** del texto del correo |
+| **Cuerpo** | Muestra ese mismo texto ya con formato, para comprobar cómo quedará |
+| **Ayuda** | Lista de etiquetas que se pueden usar (`%CLIENTE%`, `%CODIGO%`, `%FECHA%`...) |
+
+* Si el código de la pestaña **HTML** empieza por `<html>`, el correo se envía con formato (negrita, colores, tamaños de letra). Por ejemplo:
 
 ```html
 <html><body style="font-family: Arial, sans-serif; font-size: 14px;">
@@ -192,11 +200,27 @@ Con el tipo de cliente de correo **Python**, al pulsar el botón de envío se ge
 <p>Les adjuntamos la factura <b>%CODIGO%</b> con fecha %FECHA%.</p>
 <p>Para cualquier consulta sobre la misma pueden responder a este correo.</p>
 <p>Atentamente,</p>
+<p style="font-size:11px; color:#777777">Aquí el texto de protección de datos de la empresa.</p>
 </body></html>
 ```
 
+    . <b>texto</b>: pone el texto en negrita.
+    . style="color:#1f4e79": cambia el color del texto.
+    . style="font-size:11px": cambia el tamaño de letra.
+
+* Tras guardar, en la pestaña **Cuerpo** se ve el resultado. En la ventana de envío el correo aparece con ese formato y se puede modificar el texto antes de enviar, pero no hay botones para cambiar el formato: el formato fijo se define en la plantilla.
 * Si no empieza por `<html>`, el texto se envía tal cual, conservando los saltos de línea.
-* Si hay varias plantillas para el mismo tipo de documento, se usa solo una de ellas: conviene tener **una plantilla por tipo de documento**.
+* Solo puede haber **una plantilla por tipo de documento**: el formulario no deja guardar una segunda.
+
+### Firma, logo y texto de protección de datos
+
+| Qué | Dónde se configura |
+| --- | --- |
+| Firma | Ficha de cada usuario, apartado **Envío mail**, campo *Firma pie correo*. Se añade sola al final de cada correo |
+| Logo | Ficha de cada usuario, campo *Nombre (y ruta) de la imagen para firma correo*. La imagen tiene que estar en **el ordenador de cada usuario**, en esa ruta |
+| Texto de protección de datos | Al final del código de la pestaña **HTML** de cada plantilla, como en el ejemplo anterior |
+
+Con el envío directo desde Eneboo (tipo **Python**) el correo no pasa por Outlook ni Thunderbird: la firma y el texto legal que añadían esos programas hay que configurarlos aquí.
 
 
 ## Mensajes de aviso y error

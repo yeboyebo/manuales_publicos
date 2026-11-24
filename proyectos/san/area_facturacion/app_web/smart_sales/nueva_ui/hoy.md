@@ -32,14 +32,14 @@ Los avisos son siempre los del **comercial conectado**, aunque un supervisor hay
 
 ## Aviso de tareas atrasadas
 
-Si hay tareas atrasadas aparece el aviso **"Tienes N tareas atrasadas"**. Al pulsarlo se abre la lista de tareas atrasadas.
+Si hay tareas atrasadas aparece el aviso **"Tienes N tareas atrasadas"**. Al pulsarlo se abre la lista de [tareas atrasadas](./tareas_atrasadas.md).
 
 El número suma:
 
 - las tareas pendientes **de hoy** cuya hora ya ha pasado, y
 - las tareas pendientes de **días anteriores**, de los **últimos 90 días**.
 
-Una tarea de hoy sin hora no se cuenta como atrasada hasta el día siguiente. Las tareas de hace más de 90 días no se suman aquí; se pueden consultar desde la lista de tareas atrasadas.
+Una tarea de hoy sin hora no se cuenta como atrasada hasta el día siguiente. Las tareas de hace más de 90 días no se suman aquí; se pueden consultar desde la lista de [tareas atrasadas](./tareas_atrasadas.md).
 
 ![Aviso de tareas atrasadas](./img/hoy_aviso_atrasadas.png)
 

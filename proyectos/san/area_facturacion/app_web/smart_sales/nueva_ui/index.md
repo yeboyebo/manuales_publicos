@@ -7,6 +7,7 @@ La nueva versión de SmartSales es el espacio de trabajo del comercial: su día,
 ## Índice
 
 - [Primeros pasos: acceso y navegación](./navegacion.md)
+- [Hoy](./hoy.md)
 - [Rendimiento](./rendimiento.md)
 
 [Volver al Índice](../index.md)

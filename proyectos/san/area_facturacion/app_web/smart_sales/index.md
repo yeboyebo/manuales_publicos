@@ -4,6 +4,7 @@
 
 ## Índice
 
+- [SmartSales (nueva versión)](./nueva_ui/index.md)
 - [Dashboard](./dashboard/index.md)
 - [Carga de datos de IA](./carga_datos_ia.md)
 - [FAQ](./faq.md)

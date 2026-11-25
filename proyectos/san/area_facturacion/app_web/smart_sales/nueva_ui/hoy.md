@@ -70,7 +70,7 @@ Resumen de las ventas del **trimestre actual** (indicado arriba a la derecha, po
 
 <!-- CAPTURA hoy_clientes_nuevos.png: recorte de la tarjeta "Clientes nuevos por familia" con varias líneas (ivanespinosa). -->
 
-Objetivos de **captación de clientes nuevos** del comercial. Se configuran en el ERP, en los [KPIs por agente](../../sh_kpiagentes/sh_kpiagentes.md#kpi-nuevos-clientes): para cada periodo, qué **familias** (y opcionalmente qué **subfamilias**) se siguen, cuántos clientes nuevos hay que conseguir en cada una y, si se quiere, un **importe mínimo** de compra. Aquí solo aparecen esas familias o subfamilias, las del periodo de KPIs del comercial que incluye el día de hoy. El enlace **Ver todas** abre la pantalla de Objetivos.
+Objetivos de **captación de clientes nuevos** del comercial. Se configuran en el ERP, en los [KPIs por agente](../../sh_kpiagentes/sh_kpiagentes.md#kpi-nuevos-clientes): para cada periodo, qué **familias** (y opcionalmente qué **subfamilias**) se siguen, cuántos clientes nuevos hay que conseguir en cada una y, si se quiere, un **importe mínimo** de compra. Aquí solo aparecen esas familias o subfamilias, las del periodo de KPIs del comercial que incluye el día de hoy. El enlace **Ver todas** abre la pantalla de [Objetivos](./objetivos.md).
 
 Para cada familia o subfamilia:
 

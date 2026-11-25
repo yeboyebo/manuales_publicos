@@ -60,8 +60,8 @@ Algunas pantallas no están en la barra inferior y se abren desde la pantalla Ho
 
 | Pantalla             | Cómo se llega                                                   |
 | -------------------- | --------------------------------------------------------------- |
-| **Rendimiento**      | En Hoy, pulsando la cifra de ventas de "Mi progreso comercial". |
-| **Objetivos**        | En Hoy, con "Ver todas" de "Clientes nuevos por familia".       |
+| [**Rendimiento**](./rendimiento.md) | En Hoy, pulsando la cifra de ventas de "Mi progreso comercial". |
+| [**Objetivos**](./objetivos.md) | En Hoy, con "Ver todas" de "Clientes nuevos por familia".       |
 | **Tratos**           | En Hoy, con "Ver todos" de "Tratos abiertos".                   |
 | **Tareas atrasadas** | En Hoy, con el aviso "Tienes N tareas atrasadas".               |
 | [**Mapa de clientes**](./mapa.md) | En Clientes, con el botón **Mapa**.                             |

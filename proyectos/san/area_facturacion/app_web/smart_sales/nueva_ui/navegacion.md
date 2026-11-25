@@ -30,7 +30,7 @@ En la parte de abajo de la pantalla hay siempre una barra con los accesos princi
 | **Hoy**               | La pantalla de inicio: avisos, progreso del trimestre, tareas del día y tratos abiertos. |
 | **Agenda**            | Las tareas y visitas por día, semana o mes.                                              |
 | **+** (botón central) | El menú de **acciones rápidas** (ver más abajo).                                         |
-| **Clientes**          | La lista de clientes del agente y, desde ella, el mapa de clientes.                      |
+| **Clientes**          | La lista de clientes del agente y, desde ella, el [mapa de clientes](./mapa.md).                      |
 | **Campañas**          | Las campañas del agente.                                                                 |
 
 El botón de la pantalla en la que estamos aparece resaltado.
@@ -64,7 +64,7 @@ Algunas pantallas no están en la barra inferior y se abren desde la pantalla Ho
 | **Objetivos**        | En Hoy, con "Ver todas" de "Clientes nuevos por familia".       |
 | **Tratos**           | En Hoy, con "Ver todos" de "Tratos abiertos".                   |
 | **Tareas atrasadas** | En Hoy, con el aviso "Tienes N tareas atrasadas".               |
-| **Mapa de clientes** | En Clientes, con el botón **Mapa**.                             |
+| [**Mapa de clientes**](./mapa.md) | En Clientes, con el botón **Mapa**.                             |
 
 ![Accesos desde Hoy](./img/accesos_hoy.png)
 

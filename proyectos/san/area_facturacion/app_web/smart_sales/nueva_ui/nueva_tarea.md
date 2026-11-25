@@ -6,7 +6,7 @@ Pantalla para programar una visita, llamada, email o WhatsApp con un cliente. Se
 
 - el botón **+** de la barra inferior, opción **Nueva tarea o visita**;
 - **+ Añadir a la agenda** en la Agenda;
-- **+ Visita** o **+ Añadir visita** en el mapa de clientes, con el cliente ya elegido;
+- **+ Visita** o **+ Añadir visita** en el [mapa de clientes](./mapa.md), con el cliente ya elegido;
 - **+ Tarea** en la ficha de un cliente (y **+ Programar visita** en el aviso "Sin próxima acción"), con el cliente ya elegido;
 - **+ Visita** en el detalle de una campaña, con el cliente y su trato de la campaña ya elegidos;
 - **+ Tarea** en el detalle de un trato, con el cliente y el trato ya elegidos (ver también [Trato sin cliente](#trato-sin-cliente)).
@@ -18,7 +18,7 @@ Pantalla para programar una visita, llamada, email o WhatsApp con un cliente. Se
 
 | Campo | Qué es |
 | --- | --- |
-| **Cliente** | Obligatorio. Se busca por nombre; no aparecen los clientes dados de baja. |
+| **Cliente** | Obligatorio. Se busca por nombre, código o CIF/NIF; no aparecen los clientes dados de baja. |
 | **Trato** | Aparece al elegir el cliente. Por defecto es **"Sin trato: crear como tarea única"**; también se puede elegir uno de los tratos abiertos del cliente. Si la pantalla se abrió desde un trato, ese trato viene elegido. |
 | **Tipo de tarea** | Visita, Llamada, Email o Whatsapp. Por defecto, Visita. |
 | **Título** | Obligatorio, hasta 100 caracteres. Viene relleno automáticamente (ver [Título de la tarea](#título-de-la-tarea)) y se puede cambiar. |

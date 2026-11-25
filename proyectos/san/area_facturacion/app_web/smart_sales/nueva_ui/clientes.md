@@ -8,7 +8,7 @@ Desde el botón **Clientes** de la barra inferior se consultan los clientes y lo
 
 La pantalla tiene dos pestañas:
 
-- **Clientes**: los clientes del comercial (aquellos de los que es agente, o en los que figura como uno de sus agentes). Los supervisores ven también los de su equipo. Cada cliente muestra su nombre, su código, su CIF/NIF y si está **Activo** (ver [Cliente activo](#cliente-activo)). Al pulsar uno se abre su [ficha](#ficha-de-cliente). Arriba a la derecha, el botón **Mapa** abre el mapa de clientes.
+- **Clientes**: los clientes del comercial (aquellos de los que es agente, o en los que figura como uno de sus agentes). Los supervisores ven también los de su equipo. Cada cliente muestra su nombre, su código, su CIF/NIF y si está **Activo** (ver [Cliente activo](#cliente-activo)). Al pulsar uno se abre su [ficha](#ficha-de-cliente). Arriba a la derecha, el botón **Mapa** abre el [mapa de clientes](./mapa.md).
 
 ![Clientes](./img/clientes.png)
 

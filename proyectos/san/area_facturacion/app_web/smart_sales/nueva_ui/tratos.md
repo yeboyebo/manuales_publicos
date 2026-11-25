@@ -60,7 +60,8 @@ Hay que indicar **un cliente o un contacto** (o los dos). Los tratos de tipo **f
 
 ### Crear un contacto nuevo
 
-<!-- ![Crear nuevo contacto](./img/nuevo_trato_contacto.png) -->
+![Crear nuevo contacto](./img/nuevo_trato_contacto.png)
+
 <!-- CAPTURA nuevo_trato_contacto.png: en Nuevo trato, la ventana "Nuevo contacto" abierta tras pulsar "Crear nuevo contacto", con nombre y e-mail rellenos (y el mensaje "E-mail disponible"). -->
 
 Debajo del campo **Contacto**, el enlace **Crear nuevo contacto** abre la ventana **Nuevo contacto** para darlo de alta sin salir del formulario del trato:

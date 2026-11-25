@@ -23,7 +23,7 @@ Pantalla para programar una visita, llamada, email o WhatsApp con un cliente. Se
 | **Tipo de tarea** | Visita, Llamada, Email o Whatsapp. Por defecto, Visita. |
 | **Título** | Obligatorio, hasta 100 caracteres. Viene relleno automáticamente (ver [Título de la tarea](#título-de-la-tarea)) y se puede cambiar. |
 | **Fecha** y **Hora** | Obligatorias. Por defecto, hoy a la hora en punto actual. |
-| **Motivo** | Opcional. Lista de motivos que mantiene la administración (ver [Motivos de tarea](#motivos)). |
+| **Motivo** | Opcional. Lista de motivos **activos** que mantiene la administración (ver [Motivos de tarea](./motivos.md)). |
 | **Producto** | Opcional. Primero se elige el nivel (**Artículo**, **Familia** o **Subfamilia**) y después se busca por código o por descripción (sin necesidad de poner tildes). |
 | **Notas** | Opcional, hasta 1.000 caracteres. Se pueden **dictar** con el micrófono. |
 
@@ -58,9 +58,5 @@ En estas tareas no hay sugerencias de productos, porque se calculan por cliente.
 ## Guardar
 
 **Guardar** crea la tarea para el comercial conectado y abre la [Agenda](./agenda.md) (o vuelve al trato, si es un trato sin cliente). Si falta algún dato obligatorio, se indica debajo del formulario. **Cancelar** vuelve a la pantalla anterior sin guardar.
-
-## Motivos
-
-Los motivos de tarea se mantienen desde **SmartSales > Motivos de tarea** en el menú lateral. Solo los usuarios del grupo de administración pueden crearlos, cambiarlos o darlos de baja; en las tareas solo se ofrecen los motivos activos.
 
 [Volver al Índice](./index.md)

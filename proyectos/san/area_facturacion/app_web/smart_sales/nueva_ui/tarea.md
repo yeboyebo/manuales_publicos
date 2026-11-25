@@ -26,7 +26,7 @@ Se ven el título y la nota de la tarea, y estos botones:
 
 <!-- CAPTURA tarea_editar.png: el formulario de edición de una tarea pendiente. -->
 
-Mientras la tarea está pendiente (y, si es una visita, no se ha iniciado), **Editar** permite cambiar el **título**, el **tipo**, la **fecha** y la **hora**, el **motivo**, el **producto** y la **nota**. Es la forma de, por ejemplo, pasar una visita a otro día.
+Mientras la tarea está pendiente (y, si es una visita, no se ha iniciado), **Editar** permite cambiar el **título**, el **tipo**, la **fecha** y la **hora**, el **motivo**, el **producto** y la **nota**. Es la forma de, por ejemplo, pasar una visita a otro día. Si el motivo de la tarea se ha desactivado después, sigue apareciendo con la indicación "(inactivo)" para no perderlo (ver [Motivos de tarea](./motivos.md#dar-de-baja-un-motivo)).
 
 **Guardar cambios** guarda la tarea (y actualiza el evento en Google Calendar si el comercial lo tiene sincronizado). **Cancelar**, o el botón **Volver** de arriba, descarta los cambios.
 

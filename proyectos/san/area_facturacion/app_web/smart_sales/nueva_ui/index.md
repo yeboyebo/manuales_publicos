@@ -16,6 +16,7 @@ La nueva versión de SmartSales es el espacio de trabajo del comercial: su día,
 - [Clientes y contactos](./clientes.md)
 - [Mapa de clientes y prospección](./mapa.md)
 - [Campañas](./campanias.md)
+- [Motivos de tarea](./motivos.md)
 - [Rendimiento](./rendimiento.md)
 - [Objetivo de nuevos clientes](./objetivos.md)
 

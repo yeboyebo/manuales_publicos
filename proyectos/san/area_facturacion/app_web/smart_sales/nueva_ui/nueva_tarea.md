@@ -6,8 +6,8 @@ Pantalla para programar una visita, llamada, email o WhatsApp con un cliente. Se
 
 - el botón **+** de la barra inferior, opción **Nueva tarea o visita**;
 - **+ Añadir a la agenda** en la Agenda;
-- **+ Visita** o **+ Añadir visita** en el [mapa de clientes](./mapa.md), con el cliente ya elegido;
-- **+ Tarea** en la ficha de un cliente (y **+ Programar visita** en el aviso "Sin próxima acción"), con el cliente ya elegido;
+- **+ Visita** en el [mapa de clientes](./mapa.md) (en la lista y en la tarjeta del cliente seleccionado), con el cliente ya elegido;
+- **+ Tarea** en la ficha de un cliente (en sus acciones y en el aviso "Sin próxima acción"), con el cliente ya elegido;
 - **+ Visita** en el detalle de una campaña, con el cliente y su trato de la campaña ya elegidos;
 - **+ Tarea** en el detalle de un trato, con el cliente y el trato ya elegidos (ver también [Trato sin cliente](#trato-sin-cliente)).
 

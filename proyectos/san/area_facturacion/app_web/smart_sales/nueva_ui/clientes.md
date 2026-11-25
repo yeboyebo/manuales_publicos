@@ -45,7 +45,7 @@ Cinco accesos directos con icono: **Llamar** y **WhatsApp** (al teléfono del cl
 | **Última visita**   | Fecha de la última visita completada con el cliente, de cualquier comercial (también las de incidencias).                                                                                                                 |
 | **Última compra**   | Fecha del último pedido del cliente.                                                                                                                                                                                      |
 
-Si el cliente **no tiene ninguna tarea futura**, aparece el aviso **"Sin próxima acción"** con el botón **+ Programar visita**.
+Si el cliente **no tiene ninguna tarea futura**, aparece el aviso **"Sin próxima acción"** con el botón **+ Tarea**.
 
 **Oportunidades recomendadas**: las subfamilias de productos que el modelo de recomendación considera más afines al cliente, con su nivel de afinidad. El botón **Crear trato** abre el [alta de trato](./tratos.md#nuevo-trato) con el cliente y esa subfamilia ya elegidos.
 

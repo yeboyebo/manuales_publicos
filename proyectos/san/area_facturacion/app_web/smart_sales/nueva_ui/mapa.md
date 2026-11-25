@@ -49,7 +49,7 @@ Debajo del mapa aparece una tarjeta con el cliente seleccionado:
 | **Distancia**             | La distancia **en línea recta** desde donde está el comercial hasta el cliente. Si el navegador no da la ubicación, aparece "—". |
 | **Oportunidades**         | Las subfamilias de productos más afines al cliente, con su nivel de afinidad.                                                    |
 
-Los botones **Ver cliente** abren su [ficha](./clientes.md#ficha-de-cliente) y **+ Añadir visita** abre [Nueva tarea](./nueva_tarea.md) con el cliente ya elegido.
+Los botones **Ver cliente** abren su [ficha](./clientes.md#ficha-de-cliente) y **+ Visita** abre [Nueva tarea](./nueva_tarea.md) con el cliente ya elegido.
 
 Para **deseleccionar** el cliente y cerrar la tarjeta, se pulsa la **×** de su esquina superior derecha, o la **×** de la ventana de su pin en el mapa. Al pulsar otro cliente (en el mapa o en la lista), la tarjeta pasa a mostrar ese.
 

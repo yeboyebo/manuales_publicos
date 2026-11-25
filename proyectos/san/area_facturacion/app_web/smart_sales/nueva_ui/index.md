@@ -13,6 +13,7 @@ La nueva versión de SmartSales es el espacio de trabajo del comercial: su día,
 - [Nueva visita o tarea](./nueva_tarea.md)
 - [Hacer una visita o tarea](./tarea.md)
 - [Tratos](./tratos.md)
+- [Clientes y contactos](./clientes.md)
 - [Rendimiento](./rendimiento.md)
 
 [Volver al Índice](../index.md)

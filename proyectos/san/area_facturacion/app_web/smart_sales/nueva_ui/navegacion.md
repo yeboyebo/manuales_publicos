@@ -31,7 +31,7 @@ En la parte de abajo de la pantalla hay siempre una barra con los accesos princi
 | **Agenda**            | Las tareas y visitas por día, semana o mes.                                              |
 | **+** (botón central) | El menú de **acciones rápidas** (ver más abajo).                                         |
 | **Clientes**          | La lista de clientes del agente y, desde ella, el [mapa de clientes](./mapa.md).                      |
-| **Campañas**          | Las campañas del agente.                                                                 |
+| **Campañas**          | Las [campañas](./campanias.md) del agente.                                                                 |
 
 El botón de la pantalla en la que estamos aparece resaltado.
 
@@ -43,10 +43,10 @@ El botón de la pantalla en la que estamos aparece resaltado.
 
 El botón **+** del centro despliega cuatro accesos directos para crear cosas desde cualquier pantalla:
 
-- **Nuevo trato**
-- **Nueva tarea o visita**
-- **Nuevo contacto**
-- **Nueva campaña**
+- [**Nuevo trato**](./tratos.md#nuevo-trato)
+- [**Nueva tarea o visita**](./nueva_tarea.md)
+- [**Nuevo contacto**](./clientes.md#nuevo-contacto)
+- [**Nueva campaña**](./campanias.md#nueva-campaña)
 
 Para cerrar el menú sin elegir nada, pulsamos de nuevo el botón (ahora con una **X**) o en cualquier parte fuera del menú.
 
